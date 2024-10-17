@@ -1,0 +1,17 @@
+.event-create-button{
+    width:100%;
+    text-align:right;
+}
+
+.event-loading-spinner{
+    background-image: url('/assets/images/event_spinner_icon.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

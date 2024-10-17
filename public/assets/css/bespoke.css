@@ -1,0 +1,233 @@
+
+
+.bespoke-container {
+    display: flex;
+    align-items: center; /* Vertically align the items */
+    justify-content: center; /* Center the items horizontally */
+    text-align: center;
+    padding: 20px;
+}
+
+.left-content, .right-content {
+    width: 45%; /* Set width of the left and right content */
+    padding: 10px;
+}
+
+.separator {
+    font-size: 24px; /* Adjust the size of the | */
+    padding: 0 20px; /* Add space around the separator */
+    height: auto; /* Make sure the height adjusts with content */
+    align-self: stretch; /* Make the separator stretch the full height of the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    padding: 0 20px; /* Left and right spacing for the first and last image */
+    box-sizing: border-box;
+}
+
+
+
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    min-width: calc(33.33% - 20px); /* 33.33% width for 3 images + spacing */
+    margin-right: 10px; /* Spacing between images */
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+.slider-container .slide {
+    width: calc(100% / 3); /* Ensure each image takes 1/3rd of the container width */
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.slider-container img {
+    width: 100%;
+    height: auto; /* Ensure the images scale properly */
+}
+
+
+
+.slider-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Space between slider and buttons */
+}
+
+.slider-controls .prev,
+.slider-controls .next {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.slider-controls .prev img,
+.slider-controls .next img {
+    width: 50px; /* Adjust size of arrow images */
+    height: 50px;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between; /* Space buttons on either side */
+    margin-top: 10px; /* Adjust spacing above the buttons */
+}
+
+.owl-nav button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.owl-nav button img {
+    width: 30px; /* Adjust size as needed */
+}
+
+
+.bespoke-content-container {
+    width: 100%; /* Full width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add horizontal padding to the container */
+    background-image: url(/assets/images/bespoke/bg.png);
+    position: relative;
+    margin-top: -12%;
+    padding-top: 15%;
+    z-index: 1;
+    display: block;
+
+}
+
+.bespoke-row {
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center items in the row */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.bespoke-content-item {
+    flex: 0 1 20%; /* Adjust width for smaller items (5 items per row) */
+    margin: 0 10px; /* Horizontal spacing between items */
+    text-align: center; /* Center the text */
+}
+
+.bespoke-content-item img {
+    max-width: 80%; /* Make images smaller and responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure image is treated as a block element */
+    margin: 0 auto 10px; /* Center image and add margin below */
+}
+
+.bespoke-content-item h3 {
+    margin: 5px 0; /* Reduced spacing around the heading */
+    font-size: 1.2em; /* Smaller font size */
+}
+
+.bespoke-content-item p {
+    color: #555; /* Example text color */
+    font-size: 0.9em; /* Smaller font size */
+    margin: 5px 0; /* Margin for paragraph */
+}
+
+.bespoke-title {
+    text-align: center; /* Center the title text */
+    font-size: 2em; /* Adjust the font size as needed */
+    margin: 20px 0; /* Add margin above and below the title */
+    color: #333; /* Set the title color */
+    font-weight: bold; /* Make the title bold */
+}
+
+.bespoke-mobile-content-container {
+    text-align: center; /* Center the title and content */
+    background-image: url(/assets/images/bespoke/bg.png);
+    background-size: cover; /* Ensure it covers the container */
+    padding: 20px 0; /* Add some padding around */
+    margin-top:-50%;
+    padding-top:75%;
+}
+
+.bespoke-mobile-row {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 20px 0; /* Space between rows */
+}
+
+.bespoke-mobile-content-item {
+    margin: 10px 0; /* Space between content items */
+}
+
+.down-arrow {
+    margin: 10px 0; /* Space above and below the arrow */
+}
+
+/* Hide mobile content by default */
+.bespoke-mobile-content-container {
+    display: none;
+}
+@media (max-width: 768px) {
+    .bespoke-mobile-content-container {
+        display: block; /* Display mobile content on mobile screens */
+    }
+    .bespoke-content-container {
+        display: none; /* Hide desktop content on mobile screens */
+    }
+    .slider-container .slide {
+        width: 100%; /* For mobile, ensure it takes full width */
+        /* display: inline-block;
+        box-sizing: border-box; */
+    }
+
+    .slider-container img {
+        width: 100%;
+        height: auto; /* Ensure the images scale properly */
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .row.reverse {
+        flex-direction: column;
+    }
+
+    .image-container, .text-container {
+        width: 100%;
+    }
+
+    .small-image {
+        width: 190px;
+        height: 100px;
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+        column-gap: 0;
+    }
+    /* bespoke */
+
+
+
+}
+
+
+  @media (max-width: 768px) {
+    .main-list-dynamic {
+        display: block;
+      }
+	.list-side{
+        max-width: 100%;
+      }
+}

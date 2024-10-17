@@ -1,0 +1,63 @@
+
+
+<section class="banner-section">
+
+    <nav class="main-nav-one nav-left stricky" >
+        <div class="container" style="padding-left:0px;padding:right:0px">
+            <div class="inner-container">
+                <div class="logo-box">
+                    <a href="/">
+                        @stack('logo')
+                    </a>
+                </div><!-- /.logo-box -->
+
+
+            </div><!-- /.inner-container -->
+        </div><!-- /.container -->
+    </nav><!-- /.main-nav-one -->
+
+    <nav class="main-nav-one nav-right stricky" style="position: absolute;top: 20px; right: 20px; z-index: 10; /*">
+        <div class="container" style="padding-left:0px;padding:right:0px">
+            <div class="inner-container">
+                <div class="logo-box">
+
+                @stack('menu')
+
+                </div><!-- /.logo-box -->
+                <div class="main-nav__main-navigation">
+                    <ul class="main-nav__navigation-box">
+
+                   <li><a href="/home">Home</a></li>
+                   <li><a href="/about-us">About Us</a></li>
+                   <li><a href="/services">Our Services</a></li>
+                   <li><a href="/tours-by-type">Tours By Type</a></li>
+                   <li><a href="/bespoke-tour">Bespoke Tour</a></li>
+                   <li><a href="/contact-us">Contact Us</a></li>
+
+
+                    </ul><!-- /.main-nav__navigation-box -->
+
+                    <div class="mobile-only" style="margin-left: 35px;margin-top: 75px;color: white;"><p style="color: white;">Hummingbird</p>
+
+
+                        <div style="margin: 0px;display: grid;">
+                            <span style="font-weight: 100 !important;!i;!;font-family: system-ui;">Wisma Parlo, No 72, Jalan Kampong Attap</span>
+                            <span style="font-weight: 100 !important;!i;!;font-family: system-ui;">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;margin-top: 30px;display: grid;">
+                            <span style="font-weight: 100 !important;!i;!;font-family: system-ui;">Tel: +6012-3456789</span>
+                            <span style="font-weight: 100 !important;!i;!;font-family: system-ui;">enquiry@hummingbird.my</span>
+                            <span style="font-weight: 100 !important;font-family: system-ui;">KPL No.0218</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div><!-- /.inner-container -->
+        </div><!-- /.container -->
+    </nav><!-- /.main-nav-one -->
+
+
+@stack('header')
+
+</section>
