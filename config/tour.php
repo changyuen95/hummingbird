@@ -4,7 +4,7 @@ return [
 
         'Chiang Mai: On the Road with DJ Yin' => [
             'id' => 1,
-            'image' => asset('assets/images/chiangmai.png'),
+            'image' => '/assets/images/chiangmai.png',
             'description' => 'An exciting adventure.',
             'name' => 'Chiang Mai: On the Road with DJ Yin',
             'destination_to_search' => ['Thailand'],
@@ -129,7 +129,7 @@ return [
 
         'Nepal: Ghorepani Poon Hill Trek' => [
             'id' => 2,
-            'image' => asset('assets/images/almaty.png'),
+            'image' =>'/assets/images/almaty.png',
             'description' => 'An exciting adventure.',
             'name' => 'Chiang Mai: On the Road with DJ Yin',
             'destination_to_search' => ['Nepal'],
@@ -309,7 +309,7 @@ return [
 
         'Sri Lanka Dive with Baki Zainal ' => [
             'id' => 3,
-            'image' => asset('assets/images/srilanka.png'),
+            'image' =>'/assets/images/srilanka.png',
             'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
             'name' => 'Sri Lanka Dive with Baki Zainal ',
             'destination_to_search' => ['India'],
@@ -489,7 +489,7 @@ return [
 
         'Ladakh, Little Tibet: Winter New Year' => [
             'id' => 4,
-            'image' => asset('assets/images/winter.png'),
+            'image' =>'/assets/images/winter.png',
             'description' => 'An exciting adventure.',
             'name' => 'Ladakh, Little Tibet: Winter New Year',
             'destination_to_search' => ['India'],
@@ -658,7 +658,7 @@ return [
 
         'Uzbekistan: The Lost Sea' => [
             'id' => 5,
-            'image' => asset('assets/images/almaty.png'),
+            'image' =>'/assets/images/almaty.png',
             'description' => 'An exciting adventure.',
             'name' => 'Uzbekistan: The Lost Sea',
             'destination_to_search' => ['India'],
@@ -708,7 +708,7 @@ return [
 
         'Nepal: Red Panda Trek' => [
             'id' => 6,
-            'image' => asset('assets/images/almaty.png'),
+            'image' =>'/assets/images/almaty.png',
             'description' => 'An exciting adventure.',
             'name' => 'Nepal: Red Panda Trek',
             'destination_to_search' => ['Nepal'],
@@ -882,7 +882,7 @@ return [
 
         'Upper Mustang: Nepal’s Last Forbidden Kingdom' => [
             'id' => 7,
-            'image' => asset('assets/images/almaty.png'),
+            'image' =>'/assets/images/almaty.png',
             'description' => 'An exciting adventure.',
             'name' => 'Upper Mustang: Nepal’s Last Forbidden Kingdom',
             'destination_to_search' => ['Thailand'],
@@ -1110,7 +1110,7 @@ return [
 
         'Kazakhstan & Kyrgyzstan:Nomads and Lakes' => [
             'id' => 8,
-            'image' => asset('assets/images/nomads.png'),
+            'image' =>'/assets/images/nomads.png',
             'description' => 'An exciting adventure.',
             'name' => 'Kazakhstan & Kyrgyzstan:Nomads and Lakes',
             'destination_to_search' => ['India'],
@@ -1291,7 +1291,7 @@ return [
 
         'Ladakh, Little Tibet: Summer Scenic Circuit' => [
             'id' => 9,
-            'image' => asset('assets/images/almaty.png'),
+            'image' =>'/assets/images/almaty.png',
             'description' => 'An exciting adventure.',
             'name' => 'Ladakh, Little Tibet: Summer Scenic Circuit',
             'destination_to_search' => ['India'],
