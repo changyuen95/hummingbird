@@ -3,8 +3,9 @@
 @section('title', 'detail')
 
 @php
+$encoded = urldecode(request('name'));
 
-$tour = config('tour.tours.Adventure Tour');
+$tour = config('tour.tours.'.$encoded);
 @endphp
 
 
@@ -19,12 +20,7 @@ $tour = config('tour.tours.Adventure Tour');
         <div class="slide-item" >
             <div class="image-layer lazy-image" style="background-image: url('{{$tour['image']}}');"></div>
 
-            <div class="container" style="margin-top:25%">
-                <div class="content-box text-center">
-                    <h3>For Travellers, <br> By Travellers</h3>
 
-                </div>
-            </div>
         </div>
     </div>
 @endpush
@@ -255,7 +251,9 @@ $tour = config('tour.tours.Adventure Tour');
 
                                     </div>
                                     <div>
-                                        <button class="book-now-desktop">Book Now</button>
+                                        <a href="https://wa.me/15551234567?text={{$tour['name']}}" target="_blank">
+                                            <button class="book-now-desktop" >Book Now</button>
+                                        </a>
                                         <button class="custom-button">Click here to view our terms and conditions</button>
 
 
@@ -426,11 +424,10 @@ $tour = config('tour.tours.Adventure Tour');
             window.onscroll = function() {
                 var banner = document.querySelector('.sidebar__single').pageYOffset;
                 var sidebar = document.querySelector('.sidebar__single');
-                var contentPosition = document.querySelector('.detail-content-container').offsetTop;
+                var contentPosition = document.querySelector('#tourfare').offsetTop;
 
                 // Add the 'fixed-sidebar' class when scrolling past the content position
-                console.log(window.pageYOffset,banner);
-                if (window.pageYOffset >= 700) {
+                if (window.pageYOffset >= 897) {
                     sidebar.classList.add('fixed-sidebar');
                 } else {
                     sidebar.classList.remove('fixed-sidebar');

@@ -6,34 +6,57 @@
 @section('content')
 <!-- Banner Section -->
 
+@push('header')
+        <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" >
+
+            <!-- Slide Item  -->
+
+            <div class="slide-item">
+                <div class="image-layer lazy-image" style="background-image: url('assets/images/home-banner.png');background-position:center;"></div>
+
+                <div class="container bg-title-margin" >
+                    <div class="content-box text-center">
+                        <h3>For Travellers, <br> By Travellers</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+   @endpush
 
    @push('logo')
         <img style="width:247px;height:67px" src="/assets/images/humming-bird-white.png" alt="">
    @endpush
 
+   @push('menu')
+    <a href="#" style="color:white" class="side-menu__toggler"><i class="muzex-icon-menu"></i></a>
+   @endpush
+
 
    <div class="centered-section">
-        <h1>Your Heading</h1>
-        <p>Your paragraph goes here, providing a description or information.</p>
-        <p>Why choose Private Tours ?</p>
+        <p>Private Tours</p>
+        <p style="margin-bottom:30px">Wish to explore new destinations with your family and friends only? Our private tour service is for families and friends who want to create unforgettable memories together, all while enjoying a private & personalised travel experience.</p>
+
+        <p style="font-weight:500">Why choose Private Tours ?</p>
     </div>
 
     <div class="bespoke-container">
         <div class="left-content">
-            <h3>Left Heading</h3>
-            <p>This is the left paragraph with some text.</p>
+            <h5>Left Heading</h5>
+            <p>Enjoy the comfort of traveling with your inner circle. Our private tours allow you to share special moments without the presence of strangers.</p>
         </div>
 
         <div class="separator">|</div>
 
+
         <div class="right-content">
-            <h3>Right Heading</h3>
-            <p>This is the right paragraph with some text.</p>
+            <h5>Right Heading</h5>
+            <p>Customize your journey to include activities and sights that resonate with your group’s interests—whether it’s adventure, culture, or relaxation.</p>
         </div>
     </div>
 
     <div class="button-container">
-        <button class="center-button">Click Me</button>
+        <button class="center-button">Talk to us</button>
     </div>
 
 
@@ -85,22 +108,22 @@
         <div class="bespoke-row">
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/where.png')}}" alt="Image 1">
-                <h3>Heading 1</h3>
+                <h3>Where</h3>
                 <p>Small description for content 1.</p>
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/when.png')}}" alt="Image 2">
-                <h3>Heading 2</h3>
+                <h3>When</h3>
                 <p>Small description for content 2.</p>
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/duration.png')}}" alt="Image 3">
-                <h3>Heading 3</h3>
+                <h3>Duration</h3>
                 <p>Small description for content 3.</p>
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/group_size.png')}}" alt="Image 4">
-                <h3>Heading 4</h3>
+                <h3>Group  Size</h3>
                 <p>Small description for content 4.</p>
             </div>
         </div>
@@ -109,17 +132,17 @@
         <div class="bespoke-row">
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/budget.png')}}" alt="Image 5">
-                <h3>Heading 5</h3>
+                <h3>Budget</h3>
                 <p>Small description for content 5.</p>
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/age_group.png')}}" alt="Image 6">
-                <h3>Heading 6</h3>
+                <h3>Age Group</h3>
                 <p>Small description for content 6.</p>
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/interest.png')}}" alt="Image 7">
-                <h3>Heading 7</h3>
+                <h3>Interest</h3>
                 <p>Small description for content 7.</p>
             </div>
         </div>
@@ -182,24 +205,18 @@
 
     <script>
         $(document).ready(function(){
-            $('.slider-container').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true, /* Enable navigation */
-                responsive:{
-                    0:{
-                        items: 1
-                    },
-                    768:{
-                        items: 3
-                    }
-                },
+            $('.banner-carousel').owlCarousel({
+                items: 1,
+                margin: 0,
+                dots: false,
+                nav: true,
                 smartSpeed: 0, // Set to 0 for no transition speed
                 autoplay: false,
                 autoplayTimeout: 6000,
                 autoplayHoverPause: false,
                 animateIn: false, // Make sure this is false
                 animateOut: false, // Make sure this is false
+                loop: true // Optional, depending on whether you want it to loop
             });
         });
 

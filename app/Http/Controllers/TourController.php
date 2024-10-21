@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Collection;
 
+use App\Mail\Contact;
 
 
 class TourController extends Controller
@@ -62,4 +63,20 @@ class TourController extends Controller
 
     }
 
+
+    public function enquiryForm (Request $request) {
+        $mail = Mail::to('enquiry@hummingbird.my');
+
+        // Send Confirmation Mail
+        $mail->send(new contact(
+            $request->name,
+            $request->email,
+            $request->comment,
+
+        ));
+
+        return back()->with('success', 'Thank you for your enquiry. We will get back to you soon.');
+
+
+    }
 }

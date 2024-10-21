@@ -39,5 +39,11 @@ Route::get('/about-us', function () {
     return view('about-us');
 });
 
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
+
+Route::post('/enquiry-form', [TourController::class, 'enquiryForm'])->name('enquiry-form');
+
 Route::get('/get-tours', [TourController::class, 'getToursAjax'])->name('get-tour');
 

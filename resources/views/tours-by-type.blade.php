@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '最新活动 - 大马华总')
+@section('title', 'Humming bird')
 
 @section('content')
 <div class="preloader">
@@ -13,7 +13,13 @@
 <div class="page-wrapper">
 
 
+    @push('logo')
+    <img style="width: 198px;height: 50px;" src="/assets/images/humming-bird.png" alt="">
+@endpush
 
+@push('menu')
+<a href="#" style="color:black" class="side-menu__toggler"><i class="muzex-icon-menu"></i></a>
+@endpush
 
 
     <section class="event-three">
@@ -41,20 +47,18 @@
                                 <div class="filter-button types" value="All">All</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button types" value="Adventure">Adventure</div>
+                                <div class="filter-button types" id="adventure" value="Adventure">Adventure</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button types" value="Culture">Culture</div>
+                                <div class="filter-button types" id="culture" value="Culture">Culture</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button types" value="Wellness">Wellness</div>
+                                <div class="filter-button types" id="wellness" value="Wellness">Wellness</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button types" value="Art & Lifestyle">Art & Lifestyle</div>
+                                <div class="filter-button types" id="lifestyle" value="Art & Lifestyle">Art & Lifestyle</div>
                             </li>
-                            <li class="filter-item">
-                                <div class="filter-button types" value="Adventure">Adventure</div>
-                            </li>
+
                         </ul>
                     </div>
 
@@ -73,7 +77,7 @@
                                 <div class="filter-button destination" value="India">India</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button destination" value="Japan">Japan</div>
+                                <div class="filter-button destination" value="Nepal">Nepal</div>
                             </li>
                         </ul>
                     </div>
@@ -107,7 +111,7 @@
                         </div>
                         <ul class="filter-list inline">
                             <li class="filter-item">
-                                <div class="filter-button season" value="All">All</div>
+                                <div class="filter-button season " value="All">All</div>
                             </li>
                             <li class="filter-item">
                                 <div class="filter-button season" value="Spring">Spring</div>
@@ -138,7 +142,7 @@
             </div><!-- /.container -->
         </div>
 
-        <div class="private-tours-bg" style="background-image: url('/assets/images/private-tour-bg.png');">
+        {{-- <div class="private-tours-bg" style="background-image: url('/assets/images/private-tour-bg.png');">
 
                 <div class="private-box">
                     <h2 style="font-size: 2.5em; margin-bottom: 20px;">Private Tours</h2>
@@ -149,6 +153,20 @@
                     </p>
                 </div>
 
+        </div> --}}
+
+        <div class="private-tours-bg" style="background-image: url('/assets/images/private-tour-bg.png');">
+
+            <div class="private-box">
+                <h2 style="font-size: 2em;padding: 30px;">Private Tours</h2>
+                <p class="private-tour-size" style="font-size: 1em;">
+                    Wish to explore new destinations with your family and friends only?
+                    Our private tour service is for families and friends who want to create unforgettable memories together,
+                    all while enjoying a private &amp; personalised travel experience.
+                </p><div style="display:flex;column-gap:10px;place-content: center;margin-bottom: 10px;">
+            {{-- <p style="line-height:22px;font-size: 1rem;padding-top:20px;padding-bottom:20px">Private Tour</p><a href="/avout-us" style="width:32px;height:33px;margin-top:15px" class="redirect-button">→</a> --}}
+                </div>
+            </div>
         </div>
     </section><!-- /.event-three -->
 
@@ -163,22 +181,34 @@
 @push('scripts')
 
 <script>
-    function toggleFilters() {
-        var filterContent = document.getElementById("filter-content");
-        var toggleIcon = document.getElementById("toggle-icon");
+               $(document).ready(function() {
+                    var type = "{{ request('type') }}".trim();
 
-        // Toggle visibility
-        if (filterContent.style.display === "none" || filterContent.style.display === "") {
-            filterContent.style.display = "block";
-            toggleIcon.src = "/assets/images/up.png"; // Change icon to up arrow
-        } else {
-            filterContent.style.display = "none";
-            toggleIcon.src = "/assets/images/down.png"; // Change icon to down arrow
-        }
+                    console.log(type);
+
+                    if (type) {
+                        $('#' + type).click();
+                    }
+                });
 
 
 
-    }
+            function toggleFilters() {
+                var filterContent = document.getElementById("filter-content");
+                var toggleIcon = document.getElementById("toggle-icon");
+
+                // Toggle visibility
+                if (filterContent.style.display === "none" || filterContent.style.display === "") {
+                    filterContent.style.display = "block";
+                    toggleIcon.src = "/assets/images/up.png"; // Change icon to up arrow
+                } else {
+                    filterContent.style.display = "none";
+                    toggleIcon.src = "/assets/images/down.png"; // Change icon to down arrow
+                }
+
+
+
+            }
 
             function updateTours(tours) {
                 tour_html_temp = $($.parseHTML($('.tour-list')[0].outerHTML))

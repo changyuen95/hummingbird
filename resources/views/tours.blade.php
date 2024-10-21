@@ -5,7 +5,7 @@
         <div class="col-lg-4 col-md-4" onclick="redirectTour('{{$tour['name']}}')">
             <div class="event-three__single">
                 <div class="event-three__image">
-                    <img class="update-image" style="height:100%" src="{{ asset('assets/images/almaty.png') }}" alt="">
+                    <img class="update-image" style="height:100%" src="{{ $tour['image'] }}" alt="">
                     <!-- <a class="event-three__date" href="event-details.html">
                         <i class="far fa-calendar-alt"></i>
                         Oct 25, 2020
@@ -26,7 +26,7 @@
                         </ul>
                     </div>
 
-                    <div><p class="update-name" style="font-size: large;font-weight: 700;font-family: karla;">Land of the lotus-born</p>
+                    <div><p class="update-name" style="font-size: large;font-weight: 700;font-family: karla;">{{$tour['name']}}</p>
                     <span class="update-date">{{$tour['from_date'] .' - '.$tour['to_date']}}</span>
                     <span class="update-days">{{$tour['days'] . ' Days' . $tour['days'] - 1 . ' Nights'}}</span>
                     <span class="update-destination">{{$tour['destination']}}</span>

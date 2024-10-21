@@ -14,7 +14,7 @@
             <div class="slide-item">
                 <div class="image-layer lazy-image" style="background-image: url('assets/images/about-us/bg.png');background-position:center"></div>
 
-                <div class="container" style="margin-top:25%">
+                <div class="container bg-title-margin" >
                     <div class="content-box text-center">
                         <h3>For Travellers, <br> By Travellers</h3>
 
@@ -32,150 +32,92 @@
     <a href="#" style="color:white" class="side-menu__toggler"><i class="muzex-icon-menu"></i></a>
    @endpush
 
-   <div class="centered-section">
-        <h1>Your Heading</h1>
-        <p>Your paragraph goes here, providing a description or information.</p>
-        <p>Why choose Private Tours ?</p>
+   <div class="centered-section abt-us-title">
+        <p style="text-align:center;margin-bottom:0px;font-size:1.4rem" class="mobile-only">We are travelers,</p>
+        <p style="text-align:center;font-size:1.4rem" class="mobile-only">crafting and curating tours for travelers</p>
+        <p style="text-align:center;margin-bottom:0px;font-size:1.4rem" class="desktop-only">We are travelers,crafting and curating tours</p>
+        <p style="text-align:center;font-size:1.4rem" class="desktop-only">for travelers</p>
+        <p style="line-height:22px;font-size: 10px;">At Hummingbird, we believe that travel is not just about visiting new places; it's about immersing yourself in the rich tapestry of cultures, histories, and landscapes that our world has to offer. We craft and curate tours for those who see travel as a profound experience—an opportunity for personal growth, connection, and discovery.</p>
+        <p style="line-height:22px;font-size: 10px;">Calling Fellow Travelers!</p>
+        <p style="line-height:22px;font-size: 10px;">If you are a traveler seeking adventure, cultural enrichment, or simply a break from the ordinary, our thoughtfully crafted tours invite you to experience travel in its most profound form.</p>
+        <p style="line-height:22px;font-size: 10px;">Join Hummingbird on a journey of discovery and embark on a journey that promises not just sights but meaningful experiences that will stay with you long after your travels have ended. Your adventure awaits—let’s create something extraordinary together!</p>
     </div>
 
-    <div class="bespoke-container">
-        <div class="left-content">
-            <h3>Left Heading</h3>
-            <p>This is the left paragraph with some text.</p>
+
+    <div class="about-us-container">
+        <!-- First Row: Full Width Image -->
+        <div class="about-us-row">
+            <img class="about-us-full-width-image" src="/assets/images/about-us/top.png" alt="Full Width Image">
         </div>
 
-        <div class="separator">|</div>
-
-        <div class="right-content">
-            <h3>Right Heading</h3>
-            <p>This is the right paragraph with some text.</p>
-        </div>
-    </div>
-
-    <div class="button-container">
-        <button class="center-button">Click Me</button>
-    </div>
-
-
-
-    {{-- <div class="slider-container">
-        <div class="slider">
-            <div class="slide">
-                <div><img src="{{asset('assets/images/bespoke/tour1.png')}}" alt="Image 1"></div>
+        <!-- Second Row: Left Image, Right Text -->
+        <div class="about-us-row">
+            <div class="about-us-col-left">
+                <img class="about-us-image" src="/assets/images/about-us/map.png" alt="Left Image">
             </div>
-            <div class="slide">
-                <div><img src="{{asset('assets/images/bespoke/tour2.png')}}" alt="Image 2"></div>
-            </div>
-            <div class="slide">
-                <div><img src="{{asset('assets/images/bespoke/tour3.png')}}" alt="Image 3"></div>
-            </div>
-
-        </div>
-
-    </div> --}}
-
-    {{-- <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" >
-
-        <!-- Slide Item  -->
-
-        <div class="slide-item">
-        <div class="image-layer lazy-image" style="background-image: url('assets/images/home-banner.png');"></div>
-
-    </div> --}}
-
-    <div class="slider-container thm__owl-carousel owl-theme owl-carousel" style="z-index:9999">
-        <div><img src="{{asset('assets/images/bespoke/tour1.png')}}" alt="Image 1"></div>
-        <div><img src="{{asset('assets/images/bespoke/tour2.png')}}" alt="Image 2"></div>
-        <div><img src="{{asset('assets/images/bespoke/tour3.png')}}" alt="Image 3"></div>
-        <!-- Add more images here -->
-    </div>
-
-    <div class="owl-nav">
-        <button style="z-index:9999" class="owl-prev"><img src="{{asset('assets/images/bespoke/left.png')}}" alt="Previous"></button>
-        <button style="z-index:9999" class="owl-next"><img src="{{asset('assets/images/bespoke/right.png')}}" alt="Next"></button>
-    </div>
-
-
-
-    {{-- contact us  --}}
-    <div class="bespoke-content-container" style="background-image:url('/assets/images/bespoke/bg.png'); ">
-        <h2 class="bespoke-title">Your Title Here</h2>
-
-        <!-- First Row -->
-        <div class="bespoke-row">
-            <div class="bespoke-content-item">
-                <img src="{{asset('assets/images/bespoke/where.png')}}" alt="Image 1">
-                <h3>Heading 1</h3>
-                <p>Small description for content 1.</p>
-            </div>
-            <div class="bespoke-content-item">
-                <img src="{{asset('assets/images/bespoke/when.png')}}" alt="Image 2">
-                <h3>Heading 2</h3>
-                <p>Small description for content 2.</p>
-            </div>
-            <div class="bespoke-content-item">
-                <img src="{{asset('assets/images/bespoke/duration.png')}}" alt="Image 3">
-                <h3>Heading 3</h3>
-                <p>Small description for content 3.</p>
-            </div>
-            <div class="bespoke-content-item">
-                <img src="{{asset('assets/images/bespoke/group_size.png')}}" alt="Image 4">
-                <h3>Heading 4</h3>
-                <p>Small description for content 4.</p>
+            <div class="about-us-col-right">
+                <p class="abt-content-title">Our Hummingbird-in-Chief, Kae Chong</h2>
+                <p class="abt-content-word">Kae has been traveling for over 20 years. Since his backpacking journey through China in 2007, he has ventured across 5 continents, exploring diverse landscapes from the Himalayan to the Andes ranges and visiting various parts of Asia, Europe, and the Americas.</p>
+                <p class="abt-content-word">Kae’s innovative and creative spirit inspires him to combine the discovery of soul-enriching destinations with the art of travel photography.</p>
+                <p class="abt-content-word">Hummingbird is his personal project designed to share his extensive travel knowledge with others. Through Hummingbird, Kae aims to craft unforgettable experiences that go beyond typical trips, blending travel photography with deep cultural insights.</p>
             </div>
         </div>
 
-        <!-- Second Row -->
-        <div class="bespoke-row">
-            <div class="bespoke-content-item">
-                <img src="{{asset('assets/images/bespoke/budget.png')}}" alt="Image 5">
-                <h3>Heading 5</h3>
-                <p>Small description for content 5.</p>
+        <!-- Third Row: Left Text, Right Image -->
+        <div class="about-us-row">
+            <div class="about-us-col-left">
+                <p class="abt-content-title">Building Deep Connections</p>
+                <p class="abt-content-word">Traveling to forge deep connections with the places we visit and learning from the rich tapestry of cultures and religions.</p>
+
             </div>
-            <div class="bespoke-content-item">
-                <img src="{{asset('assets/images/bespoke/age_group.png')}}" alt="Image 6">
-                <h3>Heading 6</h3>
-                <p>Small description for content 6.</p>
+            <div class="about-us-col-right">
+                <img class="about-us-image" src="/assets/images/about-us/building.png" alt="Right Image">
             </div>
-            <div class="bespoke-content-item">
-                <img src="{{asset('assets/images/bespoke/interest.png')}}" alt="Image 7">
-                <h3>Heading 7</h3>
-                <p>Small description for content 7.</p>
+        </div>
+
+        <!-- Fourth Row: Left Image, Right Text -->
+        <div class="about-us-row">
+            <div class="about-us-col-left">
+                <img class="about-us-image" src="/assets/images/about-us/exploration.png" alt="Left Image">
+            </div>
+            <div class="about-us-col-right">
+                <p class="abt-content-title">Exchange and Explorotion</p>
+                <p class="abt-content-word">Traveling to engage in meaningful exchanges with people from all walks of life and exploring uncharted territories.</p>
+            </div>
+        </div>
+
+        <!-- Fifth Row: Left Text, Right Empty -->
+        <div class="about-us-row">
+            <div class="about-us-col-left">
+                <p class="abt-content-title">Broadening Horizons</p>
+                <p class="abt-content-word">Traveling to broaden horizons, embracing the unexpected, and finding beauty in the unfamiliar.</p>
+            </div>
+            <div class="about-us-col-right">
+                <!-- Empty right column -->
             </div>
         </div>
     </div>
 
 
-    <div class="bespoke-mobile-content-container">
-        <h2 class="bespoke-mobile-title">Your Mobile Title Here</h2>
-
-        <div class="bespoke-mobile-row">
-            <div class="bespoke-mobile-content-item">
-                <h3>Mobile Heading 1</h3>
-                <p>Description for the first mobile item.</p>
-                <img src="down-arrow.png" alt="Down Arrow" class="down-arrow">
-            </div>
-            <div class="bespoke-mobile-content-item">
-                <h3>Mobile Heading 2</h3>
-                <p>Description for the second mobile item.</p>
-                <img src="down-arrow.png" alt="Down Arrow" class="down-arrow">
-            </div>
-            <div class="bespoke-mobile-content-item">
-                <h3>Mobile Heading 3</h3>
-                <p>Description for the third mobile item.</p>
-                <img src="down-arrow.png" alt="Down Arrow" class="down-arrow">
-            </div>
-            <div class="bespoke-mobile-content-item">
-                <h3>Mobile Heading 4</h3>
-                <p>Description for the fourth mobile item.</p>
+    <div class="content-container">
+        <div class="background-box">
+            <h2 class="center-heading">Ready to travel?</h2>
+        <p class="center-paragraph">
+            No matter which itinerary you choose, we guarantee an enriching travel experience that goes beyond the ordinary.
+        </p>
+        <p class="center-paragraph">
+            Contact us today to learn more about our thematic, special interest, private, and collaborative tour options. Let’s embark on an unforgettable adventure together!
+        </p>
+            <div class="icon-container">
+                <div class=" icon">
+                    <img class="small-image" src="{{asset('assets/images/our-services/left-button.png')}}" alt="Icon 1">
+                </div>
+                <div class="icon">
+                    <img class="small-image" src="{{asset('assets/images/our-services/right-button.png')}}" alt="Icon 1">
+                </div>
             </div>
         </div>
     </div>
-
-
-
-
-
 
 
 

@@ -549,7 +549,7 @@ a:focus {
 .block-title-two__line {
 	width: 2px;
 	height: 110px;
-	background-color: #EB1757;
+	background-color: #000000;
 	position: absolute;
 	top: -55px;
 	left: calc(50% - 1px);
@@ -557,13 +557,11 @@ a:focus {
 
 .block-title-two p {
 	margin: 0;
-	font-size: 17px;
-	line-height: 1em;
-	font-weight: bold;
-	color: #EB1757;
-	text-transform: uppercase;
-	letter-spacing: 0.15em;
-	margin-bottom: 30px;
+	font-size: 25px;
+	line-height: 1.6em;
+	color: #000000;
+	margin-bottom: 20px;
+    text-align: -webkit-left;
 }
 
 .block-title-two h3 {
@@ -1009,7 +1007,7 @@ a:focus {
 }
 
 .stricked-menu.stricky-fixed {
-	opacity: 1;
+	opacity: 0;
 	-webkit-transform: translateY(0%);
 	transform: translateY(0%);
 }
@@ -1195,18 +1193,17 @@ a:focus {
 }
 
 .banner-carousel .content-box h3 {
-	font-family: var(--thm-font);
-	display: block;
-	font-size: 24px;
-	line-height: 1.15em;
-	color: #ffffff;
-	font-weight: 700;
-	opacity: 0;
-	margin-bottom: 35px;
-	letter-spacing: 0;
-	-webkit-transform: translateY(-100px);
-	transform: translateY(-100px);
-	text-transform: capitalize;
+    font-family: 'Alverata Lt';
+    display: block;
+    font-size: 42px;
+    line-height: 1.15em;
+    color: white;
+    font-weight: 100;
+    opacity: 1;
+    margin-bottom: 0px;
+    letter-spacing: 0;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
 }
 
 .banner-carousel .active .content-box h3 {
@@ -5526,6 +5523,10 @@ a:focus {
 # Contact Form
 --------------------------------------------------------------*/
 
+.contact-one {
+    margin-top : 12%;
+}
+
 .contact-one__box+.contact-one__box {
 	margin-top: 40px;
 }
@@ -5583,7 +5584,7 @@ a:focus {
 }
 
 .contact-one__box-social a:hover {
-	background-color: #EB1757;
+	background-color: #000000;
 	color: #fff;
 }
 
@@ -6747,7 +6748,7 @@ a:focus {
 
 .private-tours-bg {
     width: 100vw;
-    height: 375px;
+    height: 440px;
     margin-left: 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6763,7 +6764,6 @@ a:focus {
     background-color: white;
     padding: 40px;
     width: 100%;
-    min-height: 300px; /* adjust this as needed */
 }
 
 .centered-section h1 {
@@ -6778,18 +6778,20 @@ a:focus {
 }
 
 .redirect-button {
-    font-size: 2rem;
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
+    font-size: 1rem;
+    padding: 10px 12px;
+    background-color: white;
+    color: black;
     text-decoration: none;
     border-radius: 50%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 23px;
+    height: 22px;
     transition: background-color 0.3s ease;
+    border: 1px solid black;
+
 }
 
 .redirect-button:hover {
@@ -6835,11 +6837,11 @@ a:focus {
     position: relative;
     margin: 0 auto;
     background-color: white;
-    padding: 40px;
+    padding: 1px;
     max-width: 80%;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 0px;
     transform: translateY(20%);
 }
 
@@ -6917,6 +6919,7 @@ a:focus {
     margin-bottom: 20px;
     color:#fff;
 }
+
 
 .center-paragraph {
     font-size: 1.2rem;
@@ -7026,7 +7029,93 @@ a:focus {
     margin-left : 40px
 }
 
+.bg-title-margin{
+    margin-top: 25%;
+}
+
+/* General styling for the container */
+.about-us-container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Full-width image in the first row */
+.about-us-full-width-image {
+    width: 100%;
+    padding: 0 20px; /* Padding for left and right */
+    margin-bottom: 30px;
+}
+
+/* Styling for the second, third, fourth, and fifth rows */
+.about-us-row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+/* Left and right columns */
+.about-us-col-left, .about-us-col-right {
+    flex: 1;
+    padding: 15px;
+}
+
+/* Image styling */
+.about-us-image {
+    width: 100%;
+    height: auto;
+}
+
+.abt-us-title{
+    padding: 10% 25% 0px 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abt-content-title{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.abt-content-word{
+    font-size: 0.8rem;
+}
+
+.contact-form{
+    border: 1px solid #D9D9D9;
+    border-radius: 7px;
+    height: 3rem;
+}
+
+.private-tour-size {
+    padding: 0px 22%;
+}
   @media (max-width: 768px) {
+
+    .private-tours-bg{
+        width: 100vw;
+        height: 600px;
+        margin-left: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .image-row {
+        display: block;
+    }
+    .abt-us-title{
+        padding: 12% 10% 0px 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-us-row {
+        flex-direction: column; /* Stack elements vertically on mobile */
+    }
+    .about-us-col-left, .about-us-col-right {
+        width: 100%;
+        padding: 10px;
+    }
 
     .nav-left {
         position: absolute;top: 20px; left: 10px; z-index: 10;
@@ -7052,4 +7141,37 @@ a:focus {
     .mobile-only{
         display: block;
     }
+
+    .banner-carousel .content-box h3 {
+        font-family: 'Alverata Lt';
+        display: block;
+        font-size: 33px;
+        line-height: 1.15em;
+        color: white;
+        font-weight: 100;
+        opacity: 1;
+        margin-bottom: 0px;
+        letter-spacing: 0;
+        -webkit-transform: translateY(-100px);
+        transform: translateY(-100px);
+    }
+
+    .bg-title-margin{
+        margin-top: 80%;
+    }
+
+    .center-paragraph {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        padding:0px 20px;
+    }
+    .contact-one {
+        margin-top : 35%;
+    }
+
+    .private-tour-size {
+        padding: 0px 15%;
+    }
+
 }
