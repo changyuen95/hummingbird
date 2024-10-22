@@ -2,7 +2,7 @@
 
 @foreach ( config('tour.tours') as $tour)
 
-        <div class="col-lg-4 col-md-4" onclick="redirectTour('{{$tour['name']}}')">
+        <div class="all-tour col-lg-4 col-md-4" onclick="redirectTour('{{$tour['name']}}')">
             <div class="event-three__single">
                 <div class="event-three__image">
                     <img class="update-image" style="height:100%" src="{{ $tour['image'] }}" alt="">

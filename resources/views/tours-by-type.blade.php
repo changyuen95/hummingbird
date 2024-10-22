@@ -211,9 +211,8 @@
             }
 
             function updateTours(tours) {
-                tour_html_temp = $($.parseHTML($('.tour-list')[0].outerHTML))
-
-                $('.main-tour-list').html('')
+                tour_html_temp = $($.parseHTML($('.all-tour')[0].outerHTML))
+                $('.tour-list').html('')
 
                 for (let i = 0; i < tours.length; i++) {
                     tour = tours[i]
@@ -255,7 +254,7 @@
 
 
 
-                    $('.main-tour-list').append(tour_html)
+                    $('.tour-list').append(tour_html)
 
                 }
 
@@ -370,7 +369,7 @@
                         if (res.tours.length > 0) {
 
                             updateTours(res.tours)
-                            $('.tour-list').css('display','block');
+                            $('.tour-list').css('display','flex');
 
                             $('.tour-list').show() // Show all content
                             // $('#fullscreen_loader_modal__container').removeClass('show_fullscreen_loader_modal show_modal') // Remove loader
