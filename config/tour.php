@@ -131,7 +131,7 @@ return [
             'id' => 2,
             'image' =>'/assets/images/almaty.png',
             'description' => 'An exciting adventure.',
-            'name' => 'Chiang Mai: On the Road with DJ Yin',
+            'name' => 'Nepal: Ghorepani Poon Hill Trek',
             'destination_to_search' => ['Nepal'],
             'destination' => 'Nepal',
             'from_date' => '2024-11-14',

@@ -15,14 +15,11 @@
 
                     <div class="">
                         <ul class="update-tags title-list inline">
-
+                            @foreach ( $tour['tags'] as $tag )
                             <li class="title-item">
-                                <div class="title-button destination" value="China">China</div>
+                                <div class="title-button destination" value="{{$tag}}">{{$tag}}</div>
                             </li>
-                            <li class="title-item">
-                                <div class="title-button destination" value="India">India</div>
-                            </li>
-
+                            @endforeach
                         </ul>
                     </div>
 

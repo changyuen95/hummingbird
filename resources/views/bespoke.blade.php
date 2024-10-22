@@ -107,7 +107,7 @@
         <h2 class="bespoke-title">Contact Us and Let Us Know:</h2>
 
         <!-- First Row -->
-        <div class="bespoke-row">
+        <div class="bespoke-row" style="margin:6rem 0px">
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/where.png')}}" alt="Image 1">
                 <h3>Where</h3>
@@ -132,6 +132,7 @@
                 <p>How many people are there in your group?</p>
 
             </div>
+
         </div>
 
         <!-- Second Row -->
@@ -152,6 +153,10 @@
                 <p>What type of tour is your group interested in?</p>
             </div>
         </div>
+        <div style="
+    text-align-last: center;
+    padding-bottom: 2rem;
+"><button class="center-button book-now-desktop">Talk to Us</button></div>
     </div>
 
 
