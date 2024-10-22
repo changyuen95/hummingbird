@@ -175,6 +175,24 @@
 .bespoke-mobile-content-container {
     display: none;
 }
+
+.book-now-desktop {
+    background-color: #B6977A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+    width: 8rem;
+}
+
+.book-now-desktop:hover {
+    background-color: #A86A5A;      /* Darker shade on hover */
+}
+
 @media (max-width: 768px) {
     .bespoke-mobile-content-container {
         display: block; /* Display mobile content on mobile screens */

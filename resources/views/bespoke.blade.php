@@ -12,11 +12,11 @@
             <!-- Slide Item  -->
 
             <div class="slide-item">
-                <div class="image-layer lazy-image" style="background-image: url('assets/images/home-banner.png');background-position:center;"></div>
+                <div class="image-layer lazy-image" style="background-image: url('assets/images/bespoke.png');background-position:center;"></div>
 
                 <div class="container bg-title-margin" >
                     <div class="content-box text-center">
-                        <h3>For travelers, <br> By travelers</h3>
+                        <h3>Celebrate the spirit of <br> adventure and exploration</h3>
 
                     </div>
                 </div>
@@ -42,21 +42,23 @@
 
     <div class="bespoke-container">
         <div class="left-content">
-            <h5>Left Heading</h5>
+            <h5>Exclusive Experiences</h5>
             <p>Enjoy the comfort of traveling with your inner circle. Our private tours allow you to share special moments without the presence of strangers.</p>
         </div>
+
+
 
         <div class="separator">|</div>
 
 
         <div class="right-content">
-            <h5>Right Heading</h5>
+            <h5>Tailored Itineraries</h5>
             <p>Customize your journey to include activities and sights that resonate with your group’s interests—whether it’s adventure, culture, or relaxation.</p>
         </div>
     </div>
 
     <div class="button-container">
-        <button class="center-button">Talk to us</button>
+        <button class="center-button book-now-desktop">Talk to Us</button>
     </div>
 
 
@@ -102,29 +104,33 @@
 
     {{-- contact us  --}}
     <div class="bespoke-content-container" style="background-image:url('/assets/images/bespoke/bg.png'); ">
-        <h2 class="bespoke-title">Your Title Here</h2>
+        <h2 class="bespoke-title">Contact Us and Let Us Know:</h2>
 
         <!-- First Row -->
         <div class="bespoke-row">
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/where.png')}}" alt="Image 1">
                 <h3>Where</h3>
-                <p>Small description for content 1.</p>
+                <p>Where is your group planning to travel to?</p>
+
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/when.png')}}" alt="Image 2">
                 <h3>When</h3>
-                <p>Small description for content 2.</p>
+                <p>When does your group wish to travel?</p>
+
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/duration.png')}}" alt="Image 3">
                 <h3>Duration</h3>
-                <p>Small description for content 3.</p>
+                <p>How many days are you looking to travel?</p>
+
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/group_size.png')}}" alt="Image 4">
                 <h3>Group  Size</h3>
-                <p>Small description for content 4.</p>
+                <p>How many people are there in your group?</p>
+
             </div>
         </div>
 
@@ -133,46 +139,74 @@
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/budget.png')}}" alt="Image 5">
                 <h3>Budget</h3>
-                <p>Small description for content 5.</p>
+                <p>What is your group’s budget?</p>
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/age_group.png')}}" alt="Image 6">
                 <h3>Age Group</h3>
-                <p>Small description for content 6.</p>
+                <p>What is your group’s overall age?</p>
             </div>
             <div class="bespoke-content-item">
                 <img src="{{asset('assets/images/bespoke/interest.png')}}" alt="Image 7">
                 <h3>Interest</h3>
-                <p>Small description for content 7.</p>
+                <p>What type of tour is your group interested in?</p>
             </div>
         </div>
     </div>
 
 
     <div class="bespoke-mobile-content-container">
-        <h2 class="bespoke-mobile-title">Your Mobile Title Here</h2>
+        <h2 class="bespoke-mobile-title">Contact Us and Let Us Know:</h2>
 
         <div class="bespoke-mobile-row">
             <div class="bespoke-mobile-content-item">
-                <h3>Mobile Heading 1</h3>
-                <p>Description for the first mobile item.</p>
-                <img src="down-arrow.png" alt="Down Arrow" class="down-arrow">
+
+                <img src="{{asset('assets/images/bespoke/where.png')}}" alt="Image 6">
+                <h3>Where</h3>
+                <p>Where is your group planning to travel to?</p>
+                {{-- <img src="down-arrow.png" alt="Down Arrow" class="down-arrow"> --}}
             </div>
             <div class="bespoke-mobile-content-item">
-                <h3>Mobile Heading 2</h3>
-                <p>Description for the second mobile item.</p>
-                <img src="down-arrow.png" alt="Down Arrow" class="down-arrow">
+                <img src="{{asset('assets/images/bespoke/when.png')}}" alt="Image 6">
+                <h3>When</h3>
+                <p>When does your group wish to travel?</p>
+                {{-- <img src="down-arrow.png" alt="Down Arrow" class="down-arrow"> --}}
             </div>
             <div class="bespoke-mobile-content-item">
-                <h3>Mobile Heading 3</h3>
-                <p>Description for the third mobile item.</p>
-                <img src="down-arrow.png" alt="Down Arrow" class="down-arrow">
+                <img src="{{asset('assets/images/bespoke/duration.png')}}" alt="Image 6">
+                <h3>Duration</h3>
+                <p>How many days are you looking to travel?</p>
+                {{-- <img src="down-arrow.png" alt="Down Arrow" class="down-arrow"> --}}
             </div>
             <div class="bespoke-mobile-content-item">
-                <h3>Mobile Heading 4</h3>
-                <p>Description for the fourth mobile item.</p>
+                <img src="{{asset('assets/images/bespoke/group_size.png')}}" alt="Image 6">
+                <h3>Group Size</h3>
+                <p>How many people are there in your group?</p>
+                {{-- <img src="down-arrow.png" alt="Down Arrow" class="down-arrow"> --}}
+
+            </div>
+            <div class="bespoke-mobile-content-item">
+                <img src="{{asset('assets/images/bespoke/budget.png')}}" alt="Image 6">
+                <h3>Budget</h3>
+                <p>What is your group’s budget?</p>
+                {{-- <img src="down-arrow.png" alt="Down Arrow" class="down-arrow"> --}}
+
+            </div>
+            <div class="bespoke-mobile-content-item">
+                <img src="{{asset('assets/images/bespoke/age_group.png')}}" alt="Image 6">
+                <h3>Age Group</h3>
+                <p>What is your group’s overall age?</p>
+                {{-- <img src="down-arrow.png" alt="Down Arrow" class="down-arrow"> --}}
+
+            </div>
+            <div class="bespoke-mobile-content-item">
+                <img src="{{asset('assets/images/bespoke/interest.png')}}" alt="Image 6">
+                <h3>Interest</h3>
+                <p>What type of tour is your group interested in?</p>
             </div>
         </div>
+        <button class="center-button book-now-desktop">Talk to Us</button>
+
     </div>
 
 

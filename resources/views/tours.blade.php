@@ -30,7 +30,7 @@
                     <span class="update-date">{{$tour['from_date'] .' - '.$tour['to_date']}}</span>
                     <span class="update-days">{{$tour['days'] . ' Days' . $tour['days'] - 1 . ' Nights'}}</span>
                     <span class="update-destination">{{$tour['destination']}}</span>
-                    <span class="update-price" style="margin-top: 16px";>{{'From RM ',$tour['price']}}</span>
+                    <span class="update-price" style="margin-top: 16px";>{{'From RM '. $tour['price']}}</span>
 
                     </div>
 
