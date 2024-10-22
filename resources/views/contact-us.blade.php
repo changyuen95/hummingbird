@@ -20,7 +20,7 @@
 <a href="#" style="color:black" class="side-menu__toggler"><i class="muzex-icon-menu"></i></a>
 @endpush
 
-        <div class="contact-one" style="margin-top:">
+        <div class="contact-one">
             <div class="container">
 
                 <div class="row">

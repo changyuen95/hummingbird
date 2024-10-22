@@ -5525,6 +5525,7 @@ a:focus {
 
 .contact-one {
     margin-top : 12%;
+    padding-left:60px;
 }
 
 .contact-one__box+.contact-one__box {
@@ -7168,6 +7169,7 @@ a:focus {
     }
     .contact-one {
         margin-top : 35%;
+        padding-left:0px;
     }
 
     .private-tour-size {

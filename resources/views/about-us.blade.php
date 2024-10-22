@@ -99,7 +99,7 @@
     </div>
 
 
-    <div class="content-container">
+    <div class="content-container" style="background-image: url('/assets/images/abt-us.png');">
         <div class="background-box">
             <h2 class="center-heading">Ready to travel?</h2>
         <p class="center-paragraph">
