@@ -55,17 +55,17 @@
             <div class="about-us-col-left">
                 <img class="about-us-image" src="/assets/images/about-us/map.png" alt="Left Image">
             </div>
-            <div class="about-us-col-right">
+            <div class="about-us-col-right" style="align-content:center">
                 <p class="abt-content-title">Our Hummingbird-in-Chief, Kae Chong</h2>
                 <p class="abt-content-word">Kae has been traveling for over 20 years. Since his backpacking journey through China in 2007, he has ventured across 5 continents, exploring diverse landscapes from the Himalayan to the Andes ranges and visiting various parts of Asia, Europe, and the Americas.</p>
                 <p class="abt-content-word">Kae’s innovative and creative spirit inspires him to combine the discovery of soul-enriching destinations with the art of travel photography.</p>
                 <p class="abt-content-word">Hummingbird is his personal project designed to share his extensive travel knowledge with others. Through Hummingbird, Kae aims to craft unforgettable experiences that go beyond typical trips, blending travel photography with deep cultural insights.</p>
             </div>
         </div>
-
+        <div><p>Traveling with Hummingbird means:</p></div>
         <!-- Third Row: Left Text, Right Image -->
         <div class="about-us-row">
-            <div class="about-us-col-left">
+            <div class="about-us-col-left" style="align-content:center">
                 <p class="abt-content-title">Building Deep Connections</p>
                 <p class="abt-content-word">Traveling to forge deep connections with the places we visit and learning from the rich tapestry of cultures and religions.</p>
 
@@ -80,7 +80,7 @@
             <div class="about-us-col-left">
                 <img class="about-us-image" src="/assets/images/about-us/exploration.png" alt="Left Image">
             </div>
-            <div class="about-us-col-right">
+            <div class="about-us-col-right" style="align-content:center">
                 <p class="abt-content-title">Exchange and Explorotion</p>
                 <p class="abt-content-word">Traveling to engage in meaningful exchanges with people from all walks of life and exploring uncharted territories.</p>
             </div>
@@ -88,7 +88,7 @@
 
         <!-- Fifth Row: Left Text, Right Empty -->
         <div class="about-us-row">
-            <div class="about-us-col-left">
+            <div class="about-us-col-left" style="align-content:center">
                 <p class="abt-content-title">Broadening Horizons</p>
                 <p class="abt-content-word">Traveling to broaden horizons, embracing the unexpected, and finding beauty in the unfamiliar.</p>
             </div>
