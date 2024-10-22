@@ -481,7 +481,7 @@ return [
             ],
 
 
-            'price' => 100,
+            'price' => 6300,
             'types' => ['Adventure'],
             'season' => ['Winter'],
 
@@ -498,7 +498,7 @@ return [
             'to_date' => '2025-01-10',
             'days' => 10,
             'nights' => 8,
-            'minimum_pax' => 13,
+            'minimum_pax' => 10,
             'leader' => 1,
             'tags' => ['Culture', 'Autumn'],
             'introduction'  => ["Celebrate the vibrant Ladakhi Losar, the Tibetan New Year, amidst the stunning winter landscapes of Ladakh. This unique itinerary offers a chance to experience the region's rich cultural heritage during its most festive time. As snow blankets the high-altitude desert, locals welcome the new year with traditional dances, masked performances, and colorful ceremonies. Explore ancient monasteries where prayers and offerings set the tone for the year ahead, and witness timeless customs that reflect Ladakh’s Buddhist heritage. From breathtaking snow-capped mountains to warm local hospitality, Losar in Ladakh promises an immersive cultural journey and an unforgettable start to the new year."],
@@ -650,7 +650,7 @@ return [
                 'Personal expenses and other fees not expressly mentioned in Section B.'
             ],
 
-            'price' => 100,
+            'price' => 6250,
             'types' => ['Adventure','Culture'],
             'season' => ['Winter'],
 
@@ -661,12 +661,14 @@ return [
             'image' =>'/assets/images/almaty.png',
             'description' => 'An exciting adventure.',
             'name' => 'Uzbekistan: The Lost Sea',
-            'destination_to_search' => ['India'],
-            'destination' => 'India',
-            'from_date' => '2021-01-01',
-            'to_date' => '2021-01-10',
+            'destination_to_search' => ['Uzbekistan'],
+            'destination' => 'Uzbekistan',
+            'from_date' => '2025-04-20',
+            'to_date' => '2025-05-05',
             'days' => 10,
-            'minimum_pax' => 5,
+            'nights' => 9,
+            'minimum_pax' => 10,
+            'leader' => 1,
             'tags' => ['Culture', 'Autumn'],
             'introduction'  => ["Discover the enchanting beauty of Uzbekistan in spring, where history, culture, and nature blend seamlessly. This itinerary takes you through ancient Silk Road cities like Samarkand, Bukhara, and Tashkent, showcasing stunning architecture, vibrant bazaars, and intricate tilework. As spring awakens the landscape, you'll also explore hidden gems that reveal Central Asia’s rich heritage. A highlight is the remote Aral Sea, a stark reminder of significant environmental changes. From bustling city streets to the serene shores of the Aral Sea, this adventure offers a captivating mix of cultural exploration and natural wonder for curious travelers."],
             'itinerary' => [
@@ -700,7 +702,7 @@ return [
             'payment_terms' => ['Deposit', 'Final Payment', 'Cancellation'],
             'whats_included' => ['Accommodation', 'Meals', 'Transportation'],
             'whats_excluded' => ['Insurance', 'Visa', 'Personal Expenses'],
-            'price' => 100,
+            'price' => 10450,
             'types' => ['Adventure','Culture'],
             'season' => ['Spring'],
 
@@ -874,7 +876,7 @@ return [
                 'Voluntary tipping for red panda trackers.'
             ],
 
-            'price' => 100,
+            'price' => 4585,
             'types' => ['Adventure','Culture'],
             'season' => ['Spring'],
 
@@ -891,7 +893,7 @@ return [
             'to_date' => '2025-05-24',
             'days' => 16,
             'nights' => 14,
-            'minimum_pax' => 15,
+            'minimum_pax' => 10,
             'leader' => 1,
             'tags' => ['Culture', 'Autumn'],
             'introduction'  => ["Journey into the remote kingdom of Upper Mustang, one of Nepal’s most culturally preserved regions. This itinerary offers a unique opportunity to explore a landscape steeped in ancient Tibetan traditions, set against the high Himalayas and arid desert valleys. Trek through hidden monasteries, medieval villages, and ancient caves along the historic Silk Road. The capital, Lo Manthang, enchants with its centuries-old palaces and intricate Buddhist art. Known as the “Last Forbidden Kingdom,” Upper Mustang promises not just adventure but a spiritual journey through its unique culture and unspoiled beauty."],
@@ -1102,7 +1104,7 @@ return [
                 'Personal expenses and other fees not expressly mentioned in Section B.'
             ],
 
-            'price' => 100,
+            'price' => 12000,
             'types' => ['Adventure','Culture'],
             'season' => ['Spring'],
 
@@ -1271,7 +1273,7 @@ return [
 
             ],
             'validity' => ['The estimated tour fare above is valid for the travel period of 1 June 2025 to 15 June 2025.',
-            '·	The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 14 persons + 1 tour leader. Surcharge applies if the number of travellers falls below the minimum group size.',
+            '·	The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 14 persons + 1 tour leader. Surcharge applies if the number of travelers falls below the minimum group size.',
             '·	All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'],
             'payment_terms' => ['Bookings made more than 2 calendar months from the Scheduled Date of Departure
             50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation
@@ -1297,10 +1299,10 @@ return [
             'destination_to_search' => ['India'],
             'destination' => 'India',
             'from_date' => '2025-06-18',
-            'to_date' => '2025-07-23',
+            'to_date' => '2025-07-01',
             'days' => 14,
             'nights' => 12,
-            'minimum_pax' => 14,
+            'minimum_pax' => 10,
             'leader' => 1,
             'tags' => ['Culture', 'Autumn'],
             'introduction'  => ['Embark on a breathtaking summer adventure through Ladakh, starting in Leh, the cultural heart of the region. This journey takes you through stunning landscapes and hidden gems, including the ancient Alchi Monastery, famous for its intricate Buddhist art. Continue to Padum, a serene town in the Zanskar Valley, and marvel at Gonbo Rangjon, a revered mountain with a striking silhouette. Relax by Tso Moriri, a pristine high-altitude lake surrounded by snow-capped peaks. Each stop offers unique experiences, from tranquil monasteries to rich cultural encounters. This itinerary perfectly blends adventure, spirituality, and natural beauty for an immersive Himalayan experience.'],
@@ -1491,7 +1493,7 @@ return [
                 'Personal expenses and other fees not expressly mentioned in Section B.'
             ],
 
-            'price' => 100,
+            'price' => 8700,
             'types' => ['Adventure','Culture'],
             'season' => ['Summer'],
 

@@ -16,7 +16,7 @@
 
                 <div class="container bg-title-margin" >
                     <div class="content-box text-center">
-                        <h3>For Travellers, <br> By Travellers</h3>
+                        <h3>For travelers, <br> By travelers</h3>
 
                     </div>
                 </div>

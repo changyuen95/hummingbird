@@ -62,6 +62,7 @@ $tour = config('tour.tours.'.$encoded);
                             <li><a href="#included" class="index-link">What's Included</a></li>
                             <li><a href="#excluded" class="index-link">What's Not Included</a></li>
                             <li><a href="#tnc" class="index-link">Terms & Conditions</a></li>
+                            <li><button class="book-now-desktop">Book Now</button></li>
                         </ul>
                     </div>
                 </div>
@@ -425,7 +426,7 @@ $tour = config('tour.tours.'.$encoded);
                 var banner = document.querySelector('.sidebar__single').pageYOffset;
                 var sidebar = document.querySelector('.sidebar__single');
                 var contentPosition = document.querySelector('#tourfare').offsetTop;
-
+                console.log(window.pageYOffset);
                 // Add the 'fixed-sidebar' class when scrolling past the content position
                 if (window.pageYOffset >= 897) {
                     sidebar.classList.add('fixed-sidebar');

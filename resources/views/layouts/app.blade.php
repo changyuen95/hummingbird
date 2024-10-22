@@ -8,25 +8,16 @@
     <title>@yield('title')</title>
 
 
-    <meta name="description" content="huazong 华总">
-    <meta property="og:title" content="huazong - 大马华总"/>
-    <meta property="og:description" content="全新的“大马华总”网站，包括了华总的网址、脸书账号、Instagram账号及一系列的邮箱账号等。" />
-    <meta property="og:url" content="https://dama-huazong.com/" />
+    <meta name="description" content="hummingbird">
+    <meta property="og:title" content="hummingbird"/>
+    <meta property="og:description" content="hummingbird" />
+    <meta property="og:url" content="https://hummingbird.my/" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="大马华总" />
+    <meta property="og:site_name" content="hummingbird" />
     <meta property="og:image" content="https://dama-huazong.com/assets/images/humming-bird.png" />
 
     <meta property="og:type" content="article" />
 
-    <!-- <meta name="twitter:title" content="华总" />
-    <meta name="twitter:description" content="华总" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@ODNMalaysia" />
-    <meta name="twitter:creator" content="@ODNMalaysia" />
-    <meta name="twitter:image" content="https://dama-huazong.com/assets/images/humming-bird.png" /> -->
-
-
-    <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
