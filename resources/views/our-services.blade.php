@@ -17,8 +17,8 @@
 
 
     <div class="centered-section abt-us-title" style="margin-top:90px;">
-        <p style="text-align:center;font-size:1.4rem" >Explore Our Unique Travel Experiences</p>
-        <p style="line-height:22px;font-size: 0.6rem;">At Hummingbird, we offer a variety of thoughtfully designed itineraries to cater to every type of traveler. Whether you’re seeking a thematic journey, a special interest adventure, or a personalized private tour, we have something for everyone.</p>
+        <p style="text-align:center;font-size:32px" >Explore Our Unique Travel Experiences</p>
+        <p style="line-height:22px;font-size: 14px;">At Hummingbird, we offer a variety of thoughtfully designed itineraries to cater to every type of traveler. Whether you’re seeking a thematic journey, a special interest adventure, or a personalized private tour, we have something for everyone.</p>
          </div>
 
     <div class="row-section">
@@ -28,8 +28,8 @@
                 <img src="{{asset('assets/images/our-services/01.png')}}" alt="Image 1">
             </div>
             <div class="text-container">
-                <h2>01</h2>
-                <h2>Thematic Itineraries</h2>
+                <h2 class="number-title">01</h2>
+                <h2 class="non-number-title">Thematic Itineraries</h2>
                 <p>Our thematic itineraries are crafted around specific themes that resonate with your passions and interests. Dive deep into the essence of a destination through curated experiences, such as:</p>
                 <ul>
                     <li>Cultural Explorations</li>
@@ -46,8 +46,8 @@
         <!-- Second Row: Text on the Left, Image on the Right -->
         <div class="our-row" style="margin:0px;padding:0px">
             <div class="text-container">
-                <h2>02</h2>
-                <h2>Special Interest Itineraries</h2>
+                <h2 class="number-title">02</h2>
+                <h2 class="non-number-title">Special Interest Itineraries</h2>
                 <p>For those with specific interests, our special interest itineraries provide focused experiences that allow you to delve deeper into your passions. Choose from options like:
                 </p>
                 <ul>
@@ -68,8 +68,8 @@
                 <img src="{{asset('assets/images/our-services/03.png')}}" alt="Image 1">
             </div>
             <div class="text-container">
-                <h2>03</h2>
-                <h2>Private Tours</h2>
+                <h2 class="number-title">03</h2>
+                <h2 class="non-number-title">Private Tours</h2>
                 <p>Experience travel on your own terms with our exclusive private tours. Perfect for families or groups of friends, these tours offer:
                 </p>
                 <ul>
@@ -85,8 +85,8 @@
         <!-- Second Row: Text on the Left, Image on the Right -->
         <div class="our-row" style="margin:0px;padding:0px">
             <div class="text-container">
-                <h2>04</h2>
-                <h2>Collaborative Tours</h2>
+                <h2 class="number-title">04</h2>
+                <h2 class="non-number-title">Collaborative Tours</h2>
                 <p>Our collaborative tours bring together field experts, media personalities, and key opinion leaders (KOLs) to enhance your travel experience. These special interest tours offer:</p>
                 <ul>
                     <li>Expert Insights</li>
@@ -135,11 +135,19 @@
 @push('styles')
     <style>
         .text-container p{
-            font-size: 0.6rem;
+            font-size: 14px;
         }
 
         li{
-            font-size:0.6rem;
+            font-size: 14px;
+        }
+
+        .number-title{
+            font-size:48px !important;
+        }
+
+        .non-number-tile{
+            font-size:24px !important;
         }
     </style>
 
