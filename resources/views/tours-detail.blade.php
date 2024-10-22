@@ -89,7 +89,7 @@ $tour = config('tour.tours.'.$encoded);
 
                                         </li>
                                     </ul>
-                                    <h3 style="font-size:28px;font-family">{{$tour['name']}}</h3>
+                                    <h3 style="font-size:32px;font-family">{{$tour['name']}}</h3>
                                     <div class="mobile-off">
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/destination.png" style="width: 15px;height: 15px;"></div>
@@ -126,13 +126,13 @@ $tour = config('tour.tours.'.$encoded);
 
 
                                     @foreach ($tour['introduction'] as $introduction)
-                                        <p style="font-size:13px">{{$introduction}}</p><br>
+                                        <p style="font-size:14px">{{$introduction}}</p><br>
                                     @endforeach
 
                                 </p>
 
                                 <h3 style="margin-top:30px" id="itinerary" >Itinerary</h3>
-                                <p style="font-size:10px">Tour itineraries are subject to change. We will inform you of any amendments as soon as we become aware of them.</p>
+                                <p style="font-size:12px">Tour itineraries are subject to change. We will inform you of any amendments as soon as we become aware of them.</p>
 
                                     @foreach ( $tour['itinerary'] as $key => $itinerary)
 
