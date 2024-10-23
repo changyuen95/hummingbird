@@ -40,7 +40,7 @@
             "For travelers, by travelers" reflects Hummingbird’s commitment to crafting journeys that go beyond the surface,
             designed by people who understand the difference between being a tourist and being a traveler.</p>
             <div style="display:flex;column-gap:10px;margin-bottom:50px">
-        <p style="line-height:22px;font-size: 1em;">About Hummingbird</p><a href="/about-us" style="width:32px;height:33px;margin-top:15px" class="redirect-button">→</a>
+        <p style="line-height:22px;font-size: 1em;">About Hummingbird</p><a href="/about-us" style="width:32px;height:33px;margin-top:-6px" class="redirect-button">→</a>
             </div>
         <p style="text-align:center;margin-bottom:20px;font-size:1.4rem">We know what it means to dive deeper, to find authenticity, and to embrace the unexpected.</p>
         <p style="line-height:22px;font-size: 1em;">Our itineraries aren’t just about checking boxes—they’re tailored to your sense of adventure, with the same care and insight we seek for ourselves. We’re here to ensure that every moment of your journey feels as fulfilling as the one you’ve imagined, because we’ve been there too.</p>
