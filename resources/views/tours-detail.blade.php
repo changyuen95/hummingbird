@@ -25,7 +25,7 @@ $tour = config('tour.tours.'.$encoded);
     </div>
 @endpush
 @push('logo')
-        <img style="width: 198px;height: 50px;" src="/assets/images/humming-bird-white.png" alt="">
+        <img class="logo-res" src="/assets/images/humming-bird-white.png" alt="">
    @endpush
    @push('menu')
     <a href="#" style="color:white" class="side-menu__toggler"><i class="muzex-icon-menu"></i></a>
@@ -102,7 +102,7 @@ $tour = config('tour.tours.'.$encoded);
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/pax.png" style="width: 15px;height: 15px;"></div>
                                             <div class="col-11 res-padding" ><p style="font-family:sans-serif">Group Size: Minimum {{$tour['minimum_pax'] ?? 0}} pax
-                                            (Maximum {{$tourp['max_pax'] ?? 0}} pax) + {{$tour['leaders'] ?? 0}} tour leaders</p></div>
+                                            (Maximum {{$tourp['max_pax'] ?? 0}} pax)</p></div>
                                         </div>
                                     </div>
 
@@ -173,7 +173,7 @@ $tour = config('tour.tours.'.$encoded);
                                     </p>
                                     <div style="display:flex">
                                         <span class="tour_fare_desc">
-                                            Total Estimated Air Fare and Ground Fare
+                                            Ground Fare
                                         </span>
                                         <span class="tour_fare_price">
                                             From RM {{number_format($tour['tour_fare']['total']) ?? 0}}
@@ -193,7 +193,7 @@ $tour = config('tour.tours.'.$encoded);
                                     </div>
                                     <div style="display:flex;border-bottom: 1px solid black;padding-bottom:10px;margin-bottom:10px">
                                         <span class="tour_fare_desc">
-                                            International return flight fare (with onboard meals & check-in luggage)
+                                            International return flight fare (with check-in luggage)
                                         </span>
                                         <span class="tour_fare_price">
                                             From RM {{number_format($tour['tour_fare']['return']) ?? 0}}

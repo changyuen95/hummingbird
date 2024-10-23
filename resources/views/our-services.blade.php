@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
-@section('title', 'humming bird')
+@section('title', 'hummingbird')
 
 
 @section('content')
 <!-- Banner Section -->
 @push('logo')
-        <img style="width: 198px;height: 50px;" src="/assets/images/humming-bird.png" alt="">
+        <img class="logo-res" src="/assets/images/humming-bird.png" alt="">
    @endpush
 
    @push('menu')
@@ -115,10 +115,13 @@
         </p>
             <div class="icon-container">
                 <div class=" icon">
-                    <img class="small-image" src="{{asset('assets/images/our-services/left-button.png')}}" alt="Icon 1">
+                    <img class="small-image" src="{{asset('assets/images/our-services/left.png')}}" alt="Icon 1">
+                    <p >Thematic Itineraries</p>
                 </div>
                 <div class="icon">
-                    <img class="small-image" src="{{asset('assets/images/our-services/right-button.png')}}" alt="Icon 1">
+                    <img class="small-image" src="{{asset('assets/images/our-services/left.png')}}" alt="Icon 1">
+                    <p >Private Tour</p>
+
                 </div>
             </div>
         </div>

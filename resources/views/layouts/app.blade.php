@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="/assets/css/hover-min.css">
     <link rel="stylesheet" href="/assets/css/muzex-icons.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=2">
     <link rel="stylesheet" href="/assets/css/responsive.css">
     <link rel="stylesheet" href="/assets/css/customs.css">
 
@@ -82,7 +82,7 @@
         </div><!-- /.side-content__block-overlay -->
         <div class="side-content__block-inner ">
             <a href="/">
-                <img src="/assets/images/logo-1-1.png" alt="" width="180">
+                <img src="/assets/images/logo-1-1.png" >
             </a>
             <div class="side-content__block-about">
                 <h3 class="side-content__block__title">About Us</h3><!-- /.side-content__block__title -->
@@ -127,7 +127,7 @@
 
         <div class="side-menu__block-inner " style="width:100%">
 
-            <a href="/" class="side-menu__logo"><img src="/assets/images/humming-bird-white.png" alt="" width="180"></a>
+            <a href="/" class="side-menu__logo "><img class="logo-res" src="/assets/images/humming-bird-white.png" alt=""></a>
 
             <div style="display:flex;column-gap:15%">
                 <div class="menu-res">

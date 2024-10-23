@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Humming bird')
+@section('title', 'hummingbird')
 
 @section('content')
 <div class="preloader">
@@ -14,7 +14,7 @@
 
 
     @push('logo')
-    <img style="width: 198px;height: 50px;" src="/assets/images/humming-bird.png" alt="">
+    <img class="logo-res" src="/assets/images/humming-bird.png" alt="">
 @endpush
 
 @push('menu')
@@ -64,20 +64,32 @@
 
                     <div class="filter-box">
                         <div class="filter-head">
-                            <span class="filter-title">Popular Destination</span>
+                            <span class="filter-title">Region</span>
                         </div>
                         <ul class="filter-list inline">
                             <li class="filter-item">
                                 <div class="filter-button destination" value="All">All</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button destination" value="China">China</div>
+                                <div class="filter-button destination" value="South America">South America</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button destination" value="India">India</div>
+                                <div class="filter-button destination" value="Central America">Central America</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button destination" value="Nepal">Nepal</div>
+                                <div class="filter-button destination" value="Scandinavia">Scandinavia</div>
+                            </li>
+                            <li class="filter-item">
+                                <div class="filter-button destination" value="Central Asia">Central Asia</div>
+                            </li>
+                            <li class="filter-item">
+                                <div class="filter-button destination" value="East Asia">East Asia</div>
+                            </li>
+                            <li class="filter-item">
+                                <div class="filter-button destination" value="South Asia">South Asia</div>
+                            </li>
+                            <li class="filter-item">
+                                <div class="filter-button destination" value="South-East Asia">South-East Asia</div>
                             </li>
                         </ul>
                     </div>
@@ -221,9 +233,9 @@
                     tour_html.find('.popup-gallery').prop('href', tour['tour_detail_link']) // Replace link
                     tour_html.find('.update-image').prop('src', tour['image']) // Replace image
                     tour_html.find('.update-date').text((tour['from_date'] ?? null) + ' - ' + tour['to_date']) // Replace country
-                    tour_html.find('.update-days').text((tour['days'] ?? 0) + 'Days ' + (tour['days']-1) + 'Nights') // Replace country
+                    tour_html.find('.update-days').text((tour['days'] ?? 0) + ' Days ' + (tour['days']-1) + ' Nights') // Replace country
                     tour_html.find('.update-destination').text(tour['destination'] ?? null) // Replace country
-                    tour_html.find('.update-price').text('From RM '+ (tour['price'] ?? null)) // Replace country
+                    tour_html.find('.update-price').text('RM '+ (tour['price'] ?? null)) // Replace country
                     tour_html.find('.update-name').text(tour['name'] ?? null) // Replace country
 
 

@@ -44,9 +44,9 @@
                         {{-- <h3 class="footer-widget__title">华总聯絡方式</h3> --}}
                         {{-- <p>Wisma Huazong, Lot 15285, <br>
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p> --}}
-                        <p><a href="tel:601110534110">Home</a></p>
-                        <p><a href="tel:601110534110">About</a></p>
-                        <p><a href="mailto:secretariat@dama-huazong.com">Contact Us</a></p>
+                        <p><a href="/">Home</a></p>
+                        <p><a href="/about-us">About</a></p>
+                        <p><a href="contact-us">Contact Us</a></p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
                 <div class="col-lg-2 mobile-footer-col">
@@ -55,8 +55,8 @@
                         {{-- <p>Wisma Huazong, Lot 15285, <br>
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p> --}}
                         <p style="font-weight: 700">Tours</p>
-                        <p><a href="tel:601110534110">Tours by Type</a></p>
-                        <p><a href="mailto:secretariat@dama-huazong.com">Private Tours</a></p>
+                        <p><a href="/tours-by-type">Tours by Type</a></p>
+                        <p><a href="/private-tour">Private Tours</a></p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
                 <div class="col-lg-2 mobile-footer-col">
@@ -65,8 +65,8 @@
                         {{-- <p>Wisma Huazong, Lot 15285, <br>
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p> --}}
                         <p style="font-weight: 700">Legal</p>
-                        <p><a href="tel:601110534110">Terms & Conditions</a></p>
-                        <p><a href="mailto:secretariat@dama-huazong.com">Private Policy</a></p>
+                        <p><a href="/tnc">Terms & Conditions</a></p>
+                        <p><a href="/private-policy">Private Policy</a></p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
                 <div class="col-lg-3 mobile-footer-col">

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'humming bird')
+@section('title', 'hummingbird')
 
 
 @section('content')
@@ -13,7 +13,7 @@
 
 
     @push('logo')
-    <img style="width: 198px;height: 50px;" src="/assets/images/humming-bird.png" alt="">
+    <img class="logo-res" src="/assets/images/humming-bird.png" alt="">
 @endpush
 
 @push('menu')

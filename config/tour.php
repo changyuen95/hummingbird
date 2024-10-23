@@ -2,308 +2,183 @@
 return [
     'tours' => [
 
-        'Chiang Mai: On the Road with DJ Yin' => [
+        'Sri Lanka Dive with Baki Zainal ' => [
             'id' => 1,
-            'image' => '/assets/images/chiangmai.png',
-            'description' => 'An exciting adventure.',
-            'name' => 'Chiang Mai: On the Road with DJ Yin',
-            'destination_to_search' => ['Thailand'],
-            'destination' => 'Thailand',
-            'from_date' => '2024-11-09',
-            'to_date' => '2024-11-13',
-            'days' => 5,
-            'nights' => 4,
-            'minimum_pax' => 16,
-            'leader' => 2,
-            'tags' => ['Culture', 'Autumn'],
-            'introduction'  => ["Join media personality DJ Yin 盈盈 on an enriching journey through Chiang Mai, the cultural heart of Northern Thailand. This curated itinerary blends history, artistry, and local flavors for a unique experience. Start at the bustling Chiang Mai Gate Market, filled with street food aromas, and discover serene temples nestled in lush greenery. Participate in a hands-on cooking class to dive into Thai culinary traditions and explore the art of Indian block printing. Visit the creative hub, the Museum of Something, for intimate interactions with local artists. Finally, immerse yourself in the vibrant atmosphere of Warorot Market, where tradition meets modernity. Whether you're a fan of DJ Yin or eager to explore Chiang Mai, this itinerary promises an unforgettable cultural adventure."],
-            'itinerary' => [
-                [
-                    'day' => 1,
-                    'date' => '09/11/2024',
-                    'title' => 'KUALA LUMPUR to CHIANG MAI',
-                    'highlights' => [
-                        'Assemble at Kuala Lumpur International Airport at 2 PM for flight to Chiang Mai.',
-                        'Dinner (self-expense) at a popular pad thai restaurant.',
-                        'Check in at the hotel; option to explore Anusarn Night Market nearby.'
-                    ],
-                    'accommodation' => 'Chiang Mai Marriott Hotel 5* or similar',
-                    'meal' => 'Dinner (self-expense)'
-                ],
-                [
-                    'day' => 2,
-                    'date' => '10/11/2024',
-                    'title' => 'CHIANG MAI TEMPLES',
-                    'highlights' => [
-                        'Breakfast hunt at Chiang Mai Gate Market (self-expense).',
-                        'Visit Wat Phat Lat and Wat Umong.',
-                        'Lunch (self-expense) at Baan Suan Café.',
-                        'Explore Wat Phra Singh.',
-                        'Dinner at a night market (self-expense), options for local delicacies and massages.'
-                    ],
-                    'note' => 'Dress modestly for temple visits.',
-                    'accommodation' => 'Chiang Mai Marriott Hotel 5* or similar',
-                    'meal' => 'Breakfast (self-expense) / Lunch (self-expense) / Dinner (self-expense)'
-                ],
-                [
-                    'day' => 3,
-                    'date' => '11/11/2024',
-                    'title' => 'CHIANG MAI: MUSEUM OF SOMETHING',
-                    'highlights' => [
-                        'Thai cooking class at the Museum of Something (MOS) for lunch.',
-                        'Visit One Nimman for shopping and dinner (self-expense), with recommendations for excellent kao soy nearby.'
-                    ],
-                    'accommodation' => 'Chiang Mai Marriott Hotel 5* or similar',
-                    'meal' => 'Breakfast (hotel) / Lunch (MOS) / Dinner (self-expense)'
-                ],
-                [
-                    'day' => 4,
-                    'date' => '12/11/2024',
-                    'title' => 'CHIANG MAI: MUSEUM OF SOMETHING',
-                    'highlights' => [
-                        'Morning yoga session at MOS.',
-                        'Participate in an Indian wooden block printing workshop with lunch included.',
-                        'Explore MOS and create your own block-printed art.',
-                        'Enjoy a bonfire dinner with a dance performance.'
-                    ],
-                    'accommodation' => 'Chiang Mai Marriott Hotel 5* or similar',
-                    'meal' => 'Breakfast (hotel) / Lunch (MOS) / Dinner (MOS)'
-                ],
-                [
-                    'day' => 5,
-                    'date' => '13/11/2024',
-                    'title' => 'CHIANG MAI to KUALA LUMPUR',
-                    'highlights' => [
-                        'Morning visit to Warorot Market for local shopping.',
-                        'Transfer to the airport in the afternoon for flight back to Kuala Lumpur.',
-                        'Arrive in Kuala Lumpur at night. End of tour.'
-                    ],
-                    'accommodation' => 'Chiang Mai Marriott Hotel 5* or similar',
-                    'meal' => 'Breakfast (hotel)'
-                ]
-            ],
-
-            'tour_fare' => [
-
-                    'total' => 4470,
-                    'additional' => 1880,
-                    'return' => 1000,
-
-            ],
-            'validity' => [
-                'The estimated tour fare above is valid for the travel period of 9 November 2024 to 13 November 2024.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 16 persons + 2 (tour manager, DJ Yin). Surcharge applies if the number of travelers falls below the minimum group size.',
-                'No air fare is included in the tour fare above.',
-                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
-            ],
-            'payment_terms' => [
-                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
-                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
-            ],
-
-            'whats_included' => [
-                'Accompaniment by special guest, DJ Yin.',
-                '1 tour manager from Hummingbird.',
-                'Private transport for the entire duration of the tour. Does not include tuk-tuk or Grab on Days 2 and 3.',
-                'Accommodation as stated or of similar class (subject to final confirmation).',
-                'Hotel breakfasts, 2 lunches and 1 dinner at Museum of Something.',
-                'Activities as specified in the itinerary.',
-                'Sightseeing & entrance fees.'
-            ],
-
-            'whats_excluded' => [
-                'Optional activity of tote bag block-printing (1 bag per pax).',
-                'International return flight and relevant airport taxes.',
-                'Travel insurance.',
-                'Visa application fees (if applicable).',
-                'Gratuities / tips for driver.',
-                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
-                'Optional tours and activities.',
-                'Personal expenses and other fees not expressly mentioned in Section B.'
-            ],
-            'price' => 100,
-            'types' => ['Culture'],
-            'season' => ['Autumn'],
-
-        ],
-
-        'Nepal: Ghorepani Poon Hill Trek' => [
-            'id' => 2,
-            'image' =>'/assets/images/almaty.png',
-            'description' => 'An exciting adventure.',
-            'name' => 'Nepal: Ghorepani Poon Hill Trek',
-            'destination_to_search' => ['Nepal'],
-            'destination' => 'Nepal',
-            'from_date' => '2024-11-14',
-            'to_date' => '2024-11-23',
-            'days' => 11,
-            'nights' => 9,
-            'minimum_pax' => 5,
+            'image' =>'/assets/images/srilanka.png',
+            'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
+            'name' => 'Sri Lanka Dive with Baki Zainal ',
+            'destination_to_search' => ['India'],
+            'destination' => 'India',
+            'from_date' => '2024-12-01',
+            'to_date' => '2024-12-09',
+            'days' => 9,
+            'nights' => 8,
+            'minimum_pax' => 15,
             'leader' => 1,
             'tags' => ['Culture', 'Autumn'],
-            'introduction'  => ["Embark on a breathtaking 3-day trek along the Ghorepani Poon Hill trail, one of Nepal’s most scenic routes. This adventure combines cultural immersion with stunning natural beauty, starting in Kathmandu and continuing to the serene lakeside city of Pokhara. As you trek through terraced fields, rhododendron forests, and traditional Gurung villages, you'll enjoy sweeping views of the Annapurna and Dhaulagiri mountain ranges. The highlight is the sunrise from Poon Hill, where golden rays illuminate the peaks for an unforgettable panorama. Perfect for both seasoned trekkers and first-time visitors, this trek offers a rewarding introduction to Nepal’s rich landscapes and vibrant culture."],
+            'introduction'  => ["Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water."],
             'itinerary' => [
                 [
                     'day' => 1,
-                    'date' => '14/11/2024',
-                    'title' => 'Kuala Lumpur  Kathmandu',
+                    'date' => '1.12.24',
+                    'title' => 'KUALA LUMPUR to COLOMBO to HIKKADUWA',
                     'highlights' => [
-                        'Afternoon meet-up at Kuala Lumpur International Airport 1 for departure to Kathmandu, Nepal.',
-                        'Upon arrival, greet by the local representative.',
-                        'Transfer to hotel for check-in and dinner, with free time at leisure.'
+                        'Assemble at KLIA for flight to Colombo and arrive in the late morning.',
+                        'Meet-and-greet at Colombo airport with traditional dancers and transfer to Hikkaduwa (about 2 hours), with lunch on the way.',
+                        'Explore Hikkaduwa, known for its dive sites, beaches, and coral sanctuary.',
+                        'Check in at dive resort and enjoy free time to explore the area.'
                     ],
-                    'accommodation' => 'Kathmandu 3* hotel',
-                    'meal' => 'Dinner'
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Lunch'
                 ],
                 [
                     'day' => 2,
-                    'date' => '15/11/2024',
-                    'title' => 'Kathmandu to Pokhara',
+                    'date' => '2.12.24',
+                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
                     'highlights' => [
-                        'Morning transfer to Pokhara by bus, enjoying scenic landscapes.',
-                        'Check-in at hotel near Phewa Lake with free time at leisure.'
+                        'Start the day with equipment checks and briefing.',
+                        'Wreck dive: SS Conch at 20-22 meters.',
+                        'Wreck dive: Earl of Shaftesbury at 12-14 meters.',
+                        'Return to the beach resort for free time in the afternoon.'
                     ],
-                    'accommodation' => 'Pokhara 3* hotel',
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
                     'meal' => 'Breakfast'
                 ],
                 [
                     'day' => 3,
-                    'date' => '16/11/2024',
-                    'title' => 'Pokhara (860m) to Ghorepani (2,874m)',
+                    'date' => '3.12.24',
+                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
                     'highlights' => [
-                        'Drive for 1.5 hours to NayaPul, then trek through villages and waterfalls.',
-                        'Lunch at Bhanthanti, followed by a 4-hour trek to Ghorepani.',
-                        'Overnight in a guesthouse with stunning mountain views.'
+                        'Begin the day with equipment checks and briefing.',
+                        'Reef dive: Kirala Gala at 21-38 meters.',
+                        'Reef dive: Tunaththa Rocks at 6-15 meters.',
+                        'Return to the beach resort for free time.'
                     ],
-                    'accommodation' => 'Ghorepani guesthouse',
-                    'meal' => 'Breakfast / Lunch / Dinner'
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Breakfast'
                 ],
                 [
                     'day' => 4,
-                    'date' => '17/11/2024',
-                    'title' => 'Ghorepani (2,874m) to Tadapani (2,700m)',
+                    'date' => '4.12.24',
+                    'title' => 'HIKKADUWA: TUK-TUK LESSON',
                     'highlights' => [
-                        'Climb to Poon Hill for sunrise and stunning views of the Himalayas.',
-                        'Return to Ghorepani for breakfast, then descend through rhododendron forests to Tadapani.'
+                        'Full-day tuk-tuk driving lesson to obtain a driving permit.'
                     ],
-                    'accommodation' => 'Tadapani guesthouse',
-                    'meal' => 'Breakfast / Lunch / Dinner'
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Breakfast'
                 ],
                 [
                     'day' => 5,
-                    'date' => '18/11/2024',
-                    'title' => 'Tadapani (2,700m) to Ghandruk (1,940m)',
+                    'date' => '5.12.24',
+                    'title' => 'HIKKADUWA to GALLE: MORNING TWO-TANK DIVE',
                     'highlights' => [
-                        'Trek downhill to Ghandruk Village, known for its beauty and cultural heritage.',
-                        'Visit the local cultural museum in Ghandruk.'
+                        'Early morning equipment checks and briefing.',
+                        'Wreck dive: SS Rangoon at 30 meters.',
+                        'Wreck dive: No Name II at 24 meters.',
+                        'Return to the beach resort for free time.'
                     ],
-                    'accommodation' => 'Ghandruk guesthouse',
-                    'meal' => 'Breakfast / Lunch / Dinner'
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Breakfast'
                 ],
                 [
                     'day' => 6,
-                    'date' => '19/11/2024',
-                    'title' => 'Ghandruk (1,940m) to Pokhara (860m)',
+                    'date' => '6.12.24',
+                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
                     'highlights' => [
-                        'Final day of trekking; drive back to Pokhara and explore the city.',
-                        'Free time at leisure after check-in.'
+                        'Morning equipment checks and briefing.',
+                        'Reef dive: Silva Point at 12-30 meters.',
+                        'Reef dive: Goda Gala at 8-26 meters.',
+                        'Return to the beach resort for free time.'
                     ],
-                    'accommodation' => 'Pokhara 3* hotel',
-                    'meal' => 'Breakfast / Lunch'
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Breakfast'
                 ],
                 [
                     'day' => 7,
-                    'date' => '20/11/2024',
-                    'title' => 'Pokhara',
+                    'date' => '7.12.24',
+                    'title' => 'HIKKADUWA to TUK-TUK SELF-DRIVING TO GALLE',
                     'highlights' => [
-                        'Visit Sarangkot for panoramic Himalayan views.',
-                        'Tour the World Peace Pagoda and enjoy boating on Phewa Lake, including a visit to Tal Barahi Temple.'
+                        'Check out and hop on tuk-tuks for a city tour in Galle.',
+                        'Explore Galle Fort, a UNESCO World Heritage Site.',
                     ],
-                    'accommodation' => 'Pokhara 3* hotel',
+                    'accommodation' => 'Radisson Blu Resort *5 stars or similar',
                     'meal' => 'Breakfast'
                 ],
                 [
                     'day' => 8,
-                    'date' => '21/11/2024',
-                    'title' => 'Pokhara to Kathmandu',
+                    'date' => '8.12.24',
+                    'title' => 'COLOMBO',
                     'highlights' => [
-                        'Transfer back to Kathmandu.',
-                        'Check-in at the hotel and enjoy free time at leisure.'
+                        'Free time in the morning before checking out.',
+                        'Lunch, then depart for a half-day city tour in Colombo.',
+                        'Dinner at Ministry of Crab (self-expense).'
                     ],
-                    'accommodation' => 'Kathmandu 3* hotel',
-                    'meal' => 'Breakfast'
+                    'accommodation' => 'Radisson Hotel Colombo *4 stars or similar',
+                    'meal' => 'Breakfast / Lunch'
                 ],
                 [
                     'day' => 9,
-                    'date' => '22/11/2024',
-                    'title' => 'Kathmandu',
+                    'date' => '9.12.24',
+                    'title' => 'COLOMBO to KUALA LUMPUR',
                     'highlights' => [
-                        'Visit Boudhanath Stupa, Patan Durbar Square, and Swayambhunath Stupa (Monkey Temple).'
-                    ],
-                    'accommodation' => 'Kathmandu 3* hotel',
-                    'meal' => 'Breakfast / Dinner'
-                ],
-                [
-                    'day' => 10,
-                    'date' => '23/11/2024',
-                    'title' => 'Kathmandu  Kuala Lumpur',
-                    'highlights' => [
-                        'Free time until transfer to Tribhuvan International Airport for departure to Kuala Lumpur.'
+                        'Check out and proceed to the airport for early morning flight back to Kuala Lumpur.',
+                        'Arrive in Kuala Lumpur in the afternoon. End of tour.'
                     ],
                     'accommodation' => null,
                     'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 11,
-                    'date' => '24/11/2024',
-                    'title' => 'Kuala Lumpur',
-                    'highlights' => [
-                        'Arrive in Kuala Lumpur in the morning. End of tour.'
-                    ],
-                    'accommodation' => null,
-                    'meal' => null
                 ]
             ],
+
             'tour_fare' => [
 
-                    'total' => 4700,
-                    'additional' => 1050,
-                    'return' => 2400,
+                    'total' => 7900,
+                    'additional' => 2460,
+                    'return' => 1820,
 
             ],
             'validity' => [
-                'The estimated tour fare above is valid for the travel period of 14 November to 24 November 2024.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 14 persons + 1 Tour Leader. Surcharge applies if the number of travelers falls below the minimum group size.',
+                'The estimated tour fare above is valid for the travel period of 1 Dec 2024 to 9 Dec 2024.',
+                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing with a minimum group size of 15 Divers + 1 Hummingbird Tour Leader. Surcharge applies if the number of travelers falls below the minimum group size.',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
             ],
 
             'payment_terms' => [
                 'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
+
                 'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
             ],
             'whats_included' => [
-                'Accommodation as stated in the itinerary or similar class.',
-                'Activities, transport, and entrance fees as stated in the itinerary.',
-                'English-speaking local guide, registered trekking guide, and local porters.',
-                'Breakfast, lunch, and dinner with hot tea or coffee during the trek on Days 3 to 5.',
-                'Other meals as stated in the itinerary including farewell dinner at a Nepalese restaurant.',
-                'All necessary paperwork and permits.',
-                'All government and local taxes.',
-                'Personalized luggage tag.'
+                    'Accompaniment of special guest and PADI Ambassador, Baki Zainal.',
+                    'Tank, weights, and boat.',
+                    'Day 1 Meals: Lunch',
+                    'Days 2 to 7 Meals: Breakfast',
+                    'Day 8 Meals: Breakfast and lunch',
+                    'Day 9 Meals: Breakfast',
+                    'Days 1 and 9 Transport: Transfers to and from Colombo Bandaranaike International Airport.',
+                    'Day 7 Transport: Tuk-tuk self-driving in Galle.',
+                    'Day 8 Transport: Full day transport.',
+                    'Days 1 to 6 Accommodation: Twin bedrooms at beach resort with sea front balcony, air conditioner, hot water, and breakfast.',
+                    'Days 7 and 8 Accommodation: Hotel accommodation.',
+                    'Days 2, 3, 5, and 6 Activities: 8 boat dives with 3 dive masters.',
+                    'Days 7 and 8 Activities: Tuk-tuk lesson, activities, and sightseeing as stated in the itinerary.',
+                    'Entire trip duration: 1 tour manager from Hummingbird.',
+                    'Days 7 and 8: 1 English-speaking local guide.',
+                    'Personalized luggage tag.',
             ],
 
             'whats_excluded' => [
-                'Mandatory tipping for local guide, porters, and driver at a minimum of USD50 per pax for the entire trip (applicable to a group of minimum 14 pax).',
-                'Travel Insurance.',
-                'Visa (Visa is required for Malaysians traveling to Nepal).',
+                'International flight tickets between Kuala Lumpur and Sri Lanka.',
+                'Travel insurance.',
+                'Visa. (30-day visas to Sri Lanka are currently free for Malaysians.)',
                 'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
-                'Optional tours and activities.',
-                'Personal expenses and other fees not expressly mentioned in Section B.'
+                'Personal expenses and other fees not expressly mentioned in Section B.',
+                'Mandatory tipping for local guide and driver. Recommended at minimum USD6 per pax for entire trip (applicable to group of minimum 15 pax).'
             ],
 
-            'price' => 100,
-            'types' => ['Adventure','Culture'],
-            'season' => ['Autumn'],
+
+            'price' => 6300,
+            'types' => ['Adventure'],
+            'season' => ['Winter'],
 
         ],
 

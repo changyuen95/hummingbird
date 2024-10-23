@@ -31,7 +31,7 @@ Route::get('/our-services', function () {
     return view('our-services');
 });
 
-Route::get('/bespoke-tour', function () {
+Route::get('/private-tour', function () {
     return view('bespoke');
 });
 

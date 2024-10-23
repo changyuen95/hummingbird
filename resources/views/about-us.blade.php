@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'humming bird')
+@section('title', 'hummingbird')
 
 
 @section('content')
@@ -25,7 +25,7 @@
    @endpush
 
    @push('logo')
-        <img style="width: 198px;height: 50px;" src="/assets/images/humming-bird-white.png" alt="">
+        <img class="logo-res" src="/assets/images/humming-bird-white.png" alt="">
    @endpush
 
    @push('menu')
@@ -37,10 +37,10 @@
         <p style="text-align:center;font-size:1.4rem" class="mobile-only">crafting and curating tours for travelers</p>
         <p style="text-align:center;margin-bottom:0px;font-size:1.4rem" class="desktop-only">We are travelers,crafting and curating tours</p>
         <p style="text-align:center;font-size:1.4rem" class="desktop-only">for travelers</p>
-        <p style="line-height:22px;font-size: 10px;">At Hummingbird, we believe that travel is not just about visiting new places; it's about immersing yourself in the rich tapestry of cultures, histories, and landscapes that our world has to offer. We craft and curate tours for those who see travel as a profound experience—an opportunity for personal growth, connection, and discovery.</p>
-        <p style="line-height:22px;font-size: 10px;">Calling Fellow Travelers!</p>
-        <p style="line-height:22px;font-size: 10px;">If you are a traveler seeking adventure, cultural enrichment, or simply a break from the ordinary, our thoughtfully crafted tours invite you to experience travel in its most profound form.</p>
-        <p style="line-height:22px;font-size: 10px;">Join Hummingbird on a journey of discovery and embark on a journey that promises not just sights but meaningful experiences that will stay with you long after your travels have ended. Your adventure awaits—let’s create something extraordinary together!</p>
+        <p style="line-height:22px;font-size: 14px;">At Hummingbird, we believe that travel is not just about visiting new places; it's about immersing yourself in the rich tapestry of cultures, histories, and landscapes that our world has to offer. We craft and curate tours for those who see travel as a profound experience—an opportunity for personal growth, connection, and discovery.</p>
+        <p style="line-height:22px;font-size: 14px;">Calling Fellow Travelers!</p>
+        <p style="line-height:22px;font-size: 14px;">If you are a traveler seeking adventure, cultural enrichment, or simply a break from the ordinary, our thoughtfully crafted tours invite you to experience travel in its most profound form.</p>
+        <p style="line-height:22px;font-size: 14px;">Join Hummingbird on a journey of discovery and embark on a journey that promises not just sights but meaningful experiences that will stay with you long after your travels have ended. Your adventure awaits—let’s create something extraordinary together!</p>
     </div>
 
 
@@ -110,10 +110,13 @@
         </p>
             <div class="icon-container">
                 <div class=" icon">
-                    <img class="small-image" src="{{asset('assets/images/our-services/left-button.png')}}" alt="Icon 1">
+                    <img class="small-image" src="{{asset('assets/images/our-services/left.png')}}" alt="Icon 1">
+                    <p >Thematic Itineraries</p>
                 </div>
                 <div class="icon">
-                    <img class="small-image" src="{{asset('assets/images/our-services/right-button.png')}}" alt="Icon 1">
+                    <img class="small-image" src="{{asset('assets/images/our-services/left.png')}}" alt="Icon 1">
+                    <p >Private Tour</p>
+
                 </div>
             </div>
         </div>
