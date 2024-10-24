@@ -43,6 +43,14 @@ Route::get('/contact-us', function () {
     return view('contact-us');
 });
 
+Route::get('/tnc', function () {
+    return view('tnc');
+});
+
+Route::get('/privacy', function () {
+    return view('privacy');
+});
+
 Route::post('/enquiry-form', [TourController::class, 'enquiryForm'])->name('enquiry-form');
 
 Route::get('/get-tours', [TourController::class, 'getToursAjax'])->name('get-tour');

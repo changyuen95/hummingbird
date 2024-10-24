@@ -58,7 +58,7 @@
     </div>
 
     <div style="margin-bottom:5rem" class="button-container">
-        <button class="center-button book-now-desktop">Talk to Us</button>
+        <a href="https://wa.me/60123019260?text={{$tour['name']}}" target="_blank"><button class="center-button book-now-desktop">Talk to Us</button></a>
     </div>
 
 

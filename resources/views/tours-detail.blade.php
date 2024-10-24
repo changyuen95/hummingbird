@@ -138,7 +138,7 @@ $tour = config('tour.tours.'.$encoded);
 
 
                                     <div class="day-section">
-                                        <div class="day-number">Day {{$key+1}} </div>
+                                        <div class="day-number">Day {{$itinerary['day']}} {{$itinerary['range'] > 0 ? ' - '. $itinerary['range'] : ''}}</div>
                                         <div class="day-title">{{$itinerary['title'] ?? ''}}</div>
                                         <div class="toggle-arrow" onclick="toggleContent('content{{$key}}')">
                                             <img style="display:block" id ="content{{$key}}_up" src="/assets/images/up.png">
@@ -252,11 +252,14 @@ $tour = config('tour.tours.'.$encoded);
 
                                     </div>
                                     <div>
-                                        <a href="https://wa.me/15551234567?text={{$tour['name']}}" target="_blank">
+                                        <a href="https://wa.me/60123019260?text={{$tour['name']}}" target="_blank">
                                             <button class="book-now-desktop" >Book Now</button>
                                         </a>
-                                        <button class="custom-button">Click here to view our terms and conditions</button>
 
+
+                                        <a  href="/tnc" target="_blank">
+                                            <button class="custom-button">Click here to view our terms and conditions</button>
+                                        </a>
 
                                     </div>
 

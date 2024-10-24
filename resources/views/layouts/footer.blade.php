@@ -66,7 +66,7 @@
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p> --}}
                         <p style="font-weight: 700">Legal</p>
                         <p><a href="/tnc">Terms & Conditions</a></p>
-                        <p><a href="/private-policy">Private Policy</a></p>
+                        <p><a href="/privacy">Private Policy</a></p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
                 <div class="col-lg-3 mobile-footer-col">
