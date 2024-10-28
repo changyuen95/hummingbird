@@ -117,7 +117,7 @@ $tour = config('tour.tours.'.$encoded);
                                         </div>
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/pax.png" style="width: 15px;height: 15px;"></div>
-                                            <div class="col-11 res-padding" ><p style="font-family:sans-serif">Minimum group size of {{$tour['minimum_pax'] ?? 0}} persons + {{$tour['leaders'] ?? 0}} tour leaders</p></div>
+                                            <div class="col-11 res-padding" ><p style="font-family:sans-serif">Minimum group size of {{$tour['minimum_pax'] ?? 0}} persons</p></div>
                                         </div>
                                     </div>
 
@@ -161,7 +161,7 @@ $tour = config('tour.tours.'.$encoded);
 
                                         <div>
                                             <p style="font-weight:700">Meal Included</p>
-                                            <p> {{$itinerary['accommodation']}} </p>
+                                            <p> {{$itinerary['meal']}} </p>
                                         </div>
 
                                     </div>

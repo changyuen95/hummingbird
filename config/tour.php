@@ -2,135 +2,391 @@
 return [
     'tours' => [
 
-        'AYURVEDIC IN SRI LANKA' => [
+        'Sri Lanka Dive with Baki Zainal' => [
             'id' => 1,
-            'image' =>'/assets/images/ayurveda.jpg',
+            'image' =>'/assets/images/srilanka.jpg',
             'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
-            'name' => 'AYURVEDIC IN SRI LANKA',
-            'destination_to_search' => ['South Asia'],
-            'destination' => 'sri lanka',
-            'from_date' => '2025-03-09',
-            'to_date' => '2025-03-16',
-            'days' => 8,
-            'nights' => 7,
-            'minimum_pax' => 2,
+            'name' => 'Sri Lanka Dive with Baki Zainal',
+            'destination_to_search' => ['east asia'],
+            'destination' => 'Sri Lanka',
+            'from_date' => '2024-12-01',
+            'to_date' => '2024-12-09',
+            'days' => 9,
+            'nights' => 8,
+            'minimum_pax' => 15,
             'leader' => 1,
-            'tags' => ['Culture', 'Autumn'],
-            'introduction'  => ["Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water."],
+            'tags' => ['East Asia', 'Winter' , 'Adventure'],
+            'introduction' => ["Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water."],
             'itinerary' => [
                 [
                     'day' => 1,
                     'range' => 0,
-                    'date' => '09TH MAR',
-                    'title' => 'KUALA LUMPUR to COLOMBO',
+                    'date' => '1.12.24',
+                    'title' => 'KUALA LUMPUR to COLOMBO to HIKKADUWA',
                     'highlights' => [
-                        'Assemble at Kuala Lumpur International Airport for flight to Colombo.',
-                        'Proceed for Colombo Free and Easy City Tour.',
-                        'Dinner at Ministry of Crab (Will arrange seating arrangement / Payment will be directly done by client).',
-                        'Transfer to Negombo for Hotel Check-in, then have a good rest.'
+                        'Assemble at KLIA for flight to Colombo and arrive in the late morning.',
+                        'Meet-and-greet at Colombo airport with traditional dancers and transfer to Hikkaduwa (about 2 hours), with lunch on the way.',
+                        'Explore Hikkaduwa, known for its dive sites, beaches, and coral sanctuary.',
+                        'Check in at dive resort and enjoy free time to explore the area.'
                     ],
-                    'accommodation' => 'Jetwing Ayurveda Pavilions 4* hotel',
-                    'meal' => '-'
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Lunch'
                 ],
                 [
                     'day' => 2,
-                    'range' => 7,
-                    'date' => '10TH MAR',
-                    'title' => 'NEGOMBO',
+                    'range' => 0,
+                    'date' => '2.12.24',
+                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
                     'highlights' => [
-                        'Enjoy a blissful 6-day treatment plan at Ayurveda Pavilion, designed for your personal needs.',
-                        'Daily consultation with Ayurveda Physicians and personalized treatment in your own villa or at the Ayurveda Centre.',
-                        'Daily morning yoga, herbal drinks, and optional sessions such as pool exercise and music therapy.'
+                        'Start the day with equipment checks and briefing.',
+                        'Wreck dive: SS Conch at 20-22 meters.',
+                        'Wreck dive: Earl of Shaftesbury at 12-14 meters.',
+                        'Return to the beach resort for free time in the afternoon.'
                     ],
-                    'accommodation' => 'Jetwing Ayurveda Pavilions 4* hotel',
-                    'meal' => 'Breakfast / Lunch / Dinner'
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Breakfast'
+                ],
+                [
+                    'day' => 3,
+                    'range' => 0,
+                    'date' => '3.12.24',
+                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
+                    'highlights' => [
+                        'Begin the day with equipment checks and briefing.',
+                        'Reef dive: Kirala Gala at 21-38 meters.',
+                        'Reef dive: Tunaththa Rocks at 6-15 meters.',
+                        'Return to the beach resort for free time.'
+                    ],
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Breakfast'
+                ],
+                [
+                    'day' => 4,
+                    'range' => 0,
+                    'date' => '4.12.24',
+                    'title' => 'HIKKADUWA: TUK-TUK LESSON',
+                    'highlights' => [
+                        'Full-day tuk-tuk driving lesson to obtain a driving permit.'
+                    ],
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Breakfast'
+                ],
+                [
+                    'day' => 5,
+                    'range' => 0,
+                    'date' => '5.12.24',
+                    'title' => 'HIKKADUWA to GALLE: MORNING TWO-TANK DIVE',
+                    'highlights' => [
+                        'Early morning equipment checks and briefing.',
+                        'Wreck dive: SS Rangoon at 30 meters.',
+                        'Wreck dive: No Name II at 24 meters.',
+                        'Return to the beach resort for free time.'
+                    ],
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Breakfast'
+                ],
+                [
+                    'day' => 6,
+                    'range' => 0,
+                    'date' => '6.12.24',
+                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
+                    'highlights' => [
+                        'Morning equipment checks and briefing.',
+                        'Reef dive: Silva Point at 12-30 meters.',
+                        'Reef dive: Goda Gala at 8-26 meters.',
+                        'Return to the beach resort for free time.'
+                    ],
+                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
+                    'meal' => 'Breakfast'
+                ],
+                [
+                    'day' => 7,
+                    'range' => 0,
+                    'date' => '7.12.24',
+                    'title' => 'HIKKADUWA to TUK-TUK SELF-DRIVING TO GALLE',
+                    'highlights' => [
+                        'Check out and hop on tuk-tuks for a city tour in Galle.',
+                        'Explore Galle Fort, a UNESCO World Heritage Site.',
+                    ],
+                    'accommodation' => 'Radisson Blu Resort *5 stars or similar',
+                    'meal' => 'Breakfast'
                 ],
                 [
                     'day' => 8,
                     'range' => 0,
-                    'date' => '16TH MAR',
+                    'date' => '8.12.24',
+                    'title' => 'COLOMBO',
+                    'highlights' => [
+                        'Free time in the morning before checking out.',
+                        'Lunch, then depart for a half-day city tour in Colombo.',
+                        'Dinner at Ministry of Crab (self-expense).'
+                    ],
+                    'accommodation' => 'Radisson Hotel Colombo *4 stars or similar',
+                    'meal' => 'Breakfast / Lunch'
+                ],
+                [
+                    'day' => 9,
+                    'range' => 0,
+                    'date' => '9.12.24',
                     'title' => 'COLOMBO to KUALA LUMPUR',
                     'highlights' => [
-                        'Proceed to Colombo Bandaranaike International Airport early morning.',
+                        'Check out and proceed to the airport for early morning flight back to Kuala Lumpur.',
                         'Arrive in Kuala Lumpur in the afternoon. End of tour.'
                     ],
                     'accommodation' => null,
-                    'meal' => '-'
+                    'meal' => 'Breakfast'
                 ]
             ],
 
             'tour_fare' => [
 
-                    'total' => 5880,
-                    'additional' => 1480,
-                    'return' => 2350,
+                    'total' => 7900,
+                    'additional' => 2460,
+                    'return' => 1820,
 
             ],
             'validity' => [
-                'The estimated tour fare is valid for the travel period of 09 Mar 2025 to 16 Mar 2025.',
-                'The Ground Fare is based on twin-sharing or triple-sharing with a minimum group size of 2 persons. Surcharge applies if the number of travelers falls below the minimum group size.',
+                'The estimated tour fare above is valid for the travel period of 1 Dec 2024 to 9 Dec 2024.',
+                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing with a minimum group size of 15 Divers + 1 Hummingbird Tour Leader. Surcharge applies if the number of travelers falls below the minimum group size.',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
             ],
 
-            // 'payment_terms' => [
-            //     'Bookings made more than 2 calendar months from the Scheduled Date of Departure' => [
-            //         '50% of the Ground Fare as Deposit is payable at the time of booking.',
-            //         'The remaining 50% balance ("Balance") shall be paid no later than 7 days from the date of Tour Confirmation ("Balance Deadline").',
-            //         'If the Balance is not paid by the Balance Deadline, you will be deemed to have withdrawn and canceled your booking on the day after the Balance Deadline.'
-            //     ],
-            //     'Bookings made 2 calendar months or less from the Scheduled Date of Departure' => [
-            //         '100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
-            //     ]
-            // ],
-
             'payment_terms' => [
-                    'Bookings made more than 2 calendar months from the Scheduled Date of Departure 50% of the Ground Fare as Deposit is payable at the time of booking.',
-                    'The remaining 50% balance ("Balance") shall be paid no later than 7 days from the date of Tour Confirmation ("Balance Deadline").',
-                    'If the Balance is not paid by the Balance Deadline, you will be deemed to have withdrawn and canceled your booking on the day after the Balance Deadline.',
-                    'Bookings made 2 calendar months or less from the Scheduled Date of Departure 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.',
-            ],
+                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
 
+                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+            ],
             'whats_included' => [
-                'All necessary paperwork, special permits, and relevant government and local tax.',
-                'Travel insurance.',
-                'Private transport for the whole duration as per the itinerary.',
-                'Accommodation as stated in the itinerary or similar class.',
-                'Meals as stated in the itinerary (Starting with Breakfast on Day 2 and ending with Breakfast on Day 8).',
-                'Activities, transport, and entrance fees as stated in the itinerary only.'
+                    'Accompaniment of special guest and PADI Ambassador, Baki Zainal.',
+                    'Tank, weights, and boat.',
+                    'Day 1 Meals: Lunch',
+                    'Days 2 to 7 Meals: Breakfast',
+                    'Day 8 Meals: Breakfast and lunch',
+                    'Day 9 Meals: Breakfast',
+                    'Days 1 and 9 Transport: Transfers to and from Colombo Bandaranaike International Airport.',
+                    'Day 7 Transport: Tuk-tuk self-driving in Galle.',
+                    'Day 8 Transport: Full day transport.',
+                    'Days 1 to 6 Accommodation: Twin bedrooms at beach resort with sea front balcony, air conditioner, hot water, and breakfast.',
+                    'Days 7 and 8 Accommodation: Hotel accommodation.',
+                    'Days 2, 3, 5, and 6 Activities: 8 boat dives with 3 dive masters.',
+                    'Days 7 and 8 Activities: Tuk-tuk lesson, activities, and sightseeing as stated in the itinerary.',
+                    'Entire trip duration: 1 tour manager from Hummingbird.',
+                    'Days 7 and 8: 1 English-speaking local guide.',
+                    'Personalized luggage tag.',
             ],
 
             'whats_excluded' => [
-                'Visa application fees if any.',
+                'International flight tickets between Kuala Lumpur and Sri Lanka.',
+                'Travel insurance.',
+                'Visa. (30-day visas to Sri Lanka are currently free for Malaysians.)',
                 'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
-                'Day 1 Dinner (Dinner at Ministry of Crab with seating arrangement, Payment will be directly done by the client).',
-                'Optional tours and activities.',
                 'Personal expenses and other fees not expressly mentioned in Section B.',
-                'Mandatory tipping for local guide and driver. Recommendation of minimum USD45 per pax for the entire trip (applicable to groups of minimum 2 pax).'
+                'Mandatory tipping for local guide and driver. Recommended at minimum USD6 per pax for entire trip (applicable to group of minimum 15 pax).'
             ],
 
 
-
-            'price' => 5880,
+            'price' => 6300,
             'types' => ['Adventure'],
             'season' => ['Winter'],
 
         ],
 
-        'Norway: TROMSØ AND SVALBARD' => [
+
+        'Ladakh, Little Tibet: Winter New Year' => [
             'id' => 2,
-            'image' =>'/assets/images/norway.jpeg',
+            'image' =>'/assets/images/winter.jpg',
+            'description' => 'An exciting adventure.',
+            'name' => 'Ladakh, Little Tibet: Winter New Year',
+            'destination_to_search' => ['east asia'],
+            'destination' => 'India',
+            'from_date' => '2025-01-02',
+            'to_date' => '2025-01-10',
+            'days' => 9,
+            'nights' => 8,
+            'minimum_pax' => 10,
+            'leader' => 1,
+            'tags' => ['Winter', 'Adventure','Culture','East Asia'],
+            'introduction' => ["Celebrate the vibrant Ladakhi Losar, the Tibetan New Year, amidst the stunning winter landscapes of Ladakh. This unique itinerary offers a chance to experience the region's rich cultural heritage during its most festive time. As snow blankets the high-altitude desert, locals welcome the new year with traditional dances, masked performances, and colorful ceremonies. Explore ancient monasteries where prayers and offerings set the tone for the year ahead, and witness timeless customs that reflect Ladakh’s Buddhist heritage. From breathtaking snow-capped mountains to warm local hospitality, Losar in Ladakh promises an immersive cultural journey and an unforgettable start to the new year."],
+            'itinerary' => [
+                [
+                    'day' => 1,
+                    'range' => 0,
+                    'date' => '02/01/2025',
+                    'title' => 'KUALA LUMPUR to DELHI, INDIA',
+                    'highlights' => [
+                        'Assemble at Kuala Lumpur International Airport for departure flight to Delhi.',
+                        'Arrive in Delhi and transfer to hotel. Overnight in Delhi.'
+                    ],
+                    'accommodation' => 'Delhi local 3* hotel',
+                    'meal' => 'Dinner'
+                ],
+                [
+                    'day' => 2,
+                    'range' => 0,
+                    'date' => '03/01/2025',
+                    'title' => 'DELHI to LEH, LADAKH',
+                    'highlights' => [
+                        'Morning domestic flight from Delhi to Leh, with views of the Himalayan range.',
+                        'Rest and acclimatize, followed by a visit to Leh Market and Shanti Stupa.',
+                        'Overnight in Leh.'
+                    ],
+                    'accommodation' => 'Leh local 3* hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 3,
+                    'range' => 0,
+                    'date' => '04/01/2025',
+                    'title' => 'LEH',
+                    'highlights' => [
+                        'Visit Thiksey Monastery, Stakna Monastery, and Matho Monastery.',
+                        'Overnight in Leh.'
+                    ],
+                    'accommodation' => 'Leh local 3* hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 4,
+                    'range' => 0,
+                    'date' => '05/01/2025',
+                    'title' => 'LEH to KARGIL',
+                    'highlights' => [
+                        'Drive to Kargil (about 5 hours), visiting Lamayuru and Mulbekh Monasteries along the way.'
+                    ],
+                    'accommodation' => 'Kargil local 3* hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 5,
+                    'range' => 0,
+                    'date' => '06/01/2025',
+                    'title' => 'KARGIL',
+                    'highlights' => [
+                        'Drive to Suru Valley (about 3 hours) and enjoy views of Nun Kun peaks.',
+                        'Overnight in Kargil.'
+                    ],
+                    'accommodation' => 'Kargil local 3* hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 6,
+                    'range' => 0,
+                    'date' => '07/01/2025',
+                    'title' => 'KARGIL to HEMIS SHUKPACHAN',
+                    'highlights' => [
+                        'Depart for Hemis Shukpachan (about 5 hours) to experience traditional Ladakhi life.',
+                        'Enjoy homemade Ladakhi cuisine and “Chang” brew.',
+                        'Overnight in Hemis Shukpachan.'
+                    ],
+                    'accommodation' => 'Hemis Shukpachan guesthouse',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 7,
+                    'range' => 0,
+                    'date' => '08/01/2025',
+                    'title' => 'HEMIS SHUKPACHAN',
+                    'highlights' => [
+                        'Explore the village and enjoy local “cham” dances for Losar celebration.',
+                        'Overnight in Hemis Shukpachan.'
+                    ],
+                    'accommodation' => 'Hemis Shukpachan guesthouse',
+                    'meal' => 'Breakfast / Lunch / Dinner'
+                ],
+                [
+                    'day' => 8,
+                    'range' => 0,
+                    'date' => '09/01/2025',
+                    'title' => 'HEMIS SHUKPACHAN to LEH',
+                    'highlights' => [
+                        'Witness the Ladakhi traditional Losar ritual and drive back to Leh.'
+                    ],
+                    'accommodation' => 'Leh local 3* hotel',
+                    'meal' => 'Breakfast / Lunch / Dinner'
+                ],
+                [
+                    'day' => 9,
+                    'range' => 0,
+                    'date' => '10/01/2025',
+                    'title' => 'LEH to DELHI to KUALA LUMPUR',
+                    'highlights' => [
+                        'Depart by domestic flight from Leh to Delhi in the morning.',
+                        'Depart by international flight from Delhi to Kuala Lumpur in the evening.'
+                    ],
+                    'accommodation' => null,
+                    'meal' => 'Breakfast'
+                ],
+                [
+                    'day' => 10,
+                    'range' => 0,
+                    'date' => '11/01/2025',
+                    'title' => 'KUALA LUMPUR',
+                    'highlights' => [
+                        'Arrive in Kuala Lumpur in the morning. End of tour.'
+                    ],
+                    'accommodation' => null,
+                    'meal' => null
+                ]
+            ],
+
+            'tour_fare' => [
+
+                    'total' => 1000,
+                    'additional' => 100,
+                    'return' => 100,
+
+            ],
+            'validity' => [
+                'The estimated tour fare above is valid for the travel period of 2 January 2025 to 11 January 2025.',
+                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 13 persons + 1 tour leader + 1 photographer. Surcharge applies if the number of travelers falls below the minimum group size.',
+                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
+            ],
+
+            'payment_terms' => [
+                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
+                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+            ],
+            'whats_included' => [
+                'Accommodation as stated in the itinerary or similar class.',
+                'Return domestic air tickets between Delhi and Ladakh, including 1 check-in baggage (maximum 15 kg).',
+                'Meals as stated in the itinerary.',
+                'Activities, transport, and entrance fees as stated in the itinerary.',
+                '1 English-speaking local guide.',
+                '1 tour manager and 1 photographer from Hummingbird for the entire travel duration.'
+            ],
+
+            'whats_excluded' => [
+                'Return international air tickets between Kuala Lumpur and Delhi.',
+                'Travel insurance.',
+                'Visa application fees (if applicable).',
+                'Mandatory tipping for local guide and driver at minimum of USD35 per pax for entire trip (applicable to group of minimum 13 pax).',
+                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
+                'Optional tours and activities.',
+                'Personal expenses and other fees not expressly mentioned in Section B.'
+            ],
+
+            'price' => 6250,
+            'types' => ['Adventure','Culture'],
+            'season' => ['Winter'],
+
+        ],
+
+
+        'Norway: TROMSØ AND SVALBARD' => [
+            'id' => 3,
+            'image' =>'/assets/images/norway.jpg',
             'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
             'name' => 'Norway: TROMSØ AND SVALBARD',
-            'destination_to_search' => ['northern europe'],
+            'destination_to_search' => ['scandinavia'],
             'destination' => 'norway',
-            'from_date' => '2025-02-13',
-            'to_date' => '2025-03-07',
-            'days' => 23,
-            'nights' => 21,
-            'minimum_pax' => 12,
+            'from_date' => '2025-01-31',
+            'to_date' => '2025-02-10',
+            'days' => 11,
+            'nights' => 9,
+            'minimum_pax' => 9,
             'leader' => 1,
-            'tags' => ['northen europe', 'Autumn'],
-            'introduction'  => ["Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water."],
+            'tags' => ['Scandinavia', 'Adventure','Winter'],
+            'introduction' => ['Explore the Arctic’s wonders in this extraordinary journey through Norway’s northernmost regions. Starting in the lively city of Tromsø, known for its Northern Lights, move towards the wild beauty of Svalbard, where glaciers, polar bears, and untouched wilderness await. This itinerary promises unforgettable arctic experiences in one of the most remote and pristine places on Earth.'],
             'itinerary' => [
                 [
                     'day' => 1,
@@ -311,7 +567,7 @@ return [
         ],
 
         'The KINGDOM OF INCAS: PERU,BOLIVIA,CHILE' => [
-            'id' => 3,
+            'id' => 4,
             'image' =>'/assets/images/kingdom.JPG',
             'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
             'name' => 'The KINGDOM OF INCAS: PERU,BOLIVIA,CHILE',
@@ -323,8 +579,8 @@ return [
             'nights' => 21,
             'minimum_pax' => 12,
             'leader' => 1,
-            'tags' => ['northen europe', 'Autumn'],
-            'introduction'  => ["Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water."],
+            'tags' => ['South America', 'Adventure','Culture'],
+            'introduction' => ['Embark on an unforgettable journey through the ancient heart of South America. This itinerary immerses you in the mystical world of the Incas, from the awe-inspiring ruins of Machu Picchu in Peru to the breathtaking landscapes of Chile and Bolivia. Discover vibrant cultures, sacred valleys, and the stunning diversity of the Andes as you explore these historic lands.'],
             'itinerary' => [
                 [
                     'day' => 1,
@@ -653,199 +909,12 @@ return [
 
 
             'price' => 20560,
-            'types' => ['Adventure'],
+            'types' => ['Adventure','Culture'],
             'season' => ['Winter'],
 
         ],
 
-        'Sri Lanka Dive with Baki Zainal' => [
-            'id' => 4,
-            'image' =>'/assets/images/srilanka.png',
-            'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
-            'name' => 'Sri Lanka Dive with Baki Zainal',
-            'destination_to_search' => ['India'],
-            'destination' => 'India',
-            'from_date' => '2024-12-01',
-            'to_date' => '2024-12-09',
-            'days' => 9,
-            'nights' => 8,
-            'minimum_pax' => 15,
-            'leader' => 1,
-            'tags' => ['Culture', 'Autumn'],
-            'introduction'  => ["Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water."],
-            'itinerary' => [
-                [
-                    'day' => 1,
-                    'range' => 0,
-                    'date' => '1.12.24',
-                    'title' => 'KUALA LUMPUR to COLOMBO to HIKKADUWA',
-                    'highlights' => [
-                        'Assemble at KLIA for flight to Colombo and arrive in the late morning.',
-                        'Meet-and-greet at Colombo airport with traditional dancers and transfer to Hikkaduwa (about 2 hours), with lunch on the way.',
-                        'Explore Hikkaduwa, known for its dive sites, beaches, and coral sanctuary.',
-                        'Check in at dive resort and enjoy free time to explore the area.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Lunch'
-                ],
-                [
-                    'day' => 2,
-                    'range' => 0,
-                    'date' => '2.12.24',
-                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
-                    'highlights' => [
-                        'Start the day with equipment checks and briefing.',
-                        'Wreck dive: SS Conch at 20-22 meters.',
-                        'Wreck dive: Earl of Shaftesbury at 12-14 meters.',
-                        'Return to the beach resort for free time in the afternoon.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 3,
-                    'range' => 0,
-                    'date' => '3.12.24',
-                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
-                    'highlights' => [
-                        'Begin the day with equipment checks and briefing.',
-                        'Reef dive: Kirala Gala at 21-38 meters.',
-                        'Reef dive: Tunaththa Rocks at 6-15 meters.',
-                        'Return to the beach resort for free time.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 4,
-                    'range' => 0,
-                    'date' => '4.12.24',
-                    'title' => 'HIKKADUWA: TUK-TUK LESSON',
-                    'highlights' => [
-                        'Full-day tuk-tuk driving lesson to obtain a driving permit.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 5,
-                    'range' => 0,
-                    'date' => '5.12.24',
-                    'title' => 'HIKKADUWA to GALLE: MORNING TWO-TANK DIVE',
-                    'highlights' => [
-                        'Early morning equipment checks and briefing.',
-                        'Wreck dive: SS Rangoon at 30 meters.',
-                        'Wreck dive: No Name II at 24 meters.',
-                        'Return to the beach resort for free time.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 6,
-                    'range' => 0,
-                    'date' => '6.12.24',
-                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
-                    'highlights' => [
-                        'Morning equipment checks and briefing.',
-                        'Reef dive: Silva Point at 12-30 meters.',
-                        'Reef dive: Goda Gala at 8-26 meters.',
-                        'Return to the beach resort for free time.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 7,
-                    'range' => 0,
-                    'date' => '7.12.24',
-                    'title' => 'HIKKADUWA to TUK-TUK SELF-DRIVING TO GALLE',
-                    'highlights' => [
-                        'Check out and hop on tuk-tuks for a city tour in Galle.',
-                        'Explore Galle Fort, a UNESCO World Heritage Site.',
-                    ],
-                    'accommodation' => 'Radisson Blu Resort *5 stars or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 8,
-                    'range' => 0,
-                    'date' => '8.12.24',
-                    'title' => 'COLOMBO',
-                    'highlights' => [
-                        'Free time in the morning before checking out.',
-                        'Lunch, then depart for a half-day city tour in Colombo.',
-                        'Dinner at Ministry of Crab (self-expense).'
-                    ],
-                    'accommodation' => 'Radisson Hotel Colombo *4 stars or similar',
-                    'meal' => 'Breakfast / Lunch'
-                ],
-                [
-                    'day' => 9,
-                    'range' => 0,
-                    'date' => '9.12.24',
-                    'title' => 'COLOMBO to KUALA LUMPUR',
-                    'highlights' => [
-                        'Check out and proceed to the airport for early morning flight back to Kuala Lumpur.',
-                        'Arrive in Kuala Lumpur in the afternoon. End of tour.'
-                    ],
-                    'accommodation' => null,
-                    'meal' => 'Breakfast'
-                ]
-            ],
 
-            'tour_fare' => [
-
-                    'total' => 7900,
-                    'additional' => 2460,
-                    'return' => 1820,
-
-            ],
-            'validity' => [
-                'The estimated tour fare above is valid for the travel period of 1 Dec 2024 to 9 Dec 2024.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing with a minimum group size of 15 Divers + 1 Hummingbird Tour Leader. Surcharge applies if the number of travelers falls below the minimum group size.',
-                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
-            ],
-
-            'payment_terms' => [
-                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
-
-                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
-            ],
-            'whats_included' => [
-                    'Accompaniment of special guest and PADI Ambassador, Baki Zainal.',
-                    'Tank, weights, and boat.',
-                    'Day 1 Meals: Lunch',
-                    'Days 2 to 7 Meals: Breakfast',
-                    'Day 8 Meals: Breakfast and lunch',
-                    'Day 9 Meals: Breakfast',
-                    'Days 1 and 9 Transport: Transfers to and from Colombo Bandaranaike International Airport.',
-                    'Day 7 Transport: Tuk-tuk self-driving in Galle.',
-                    'Day 8 Transport: Full day transport.',
-                    'Days 1 to 6 Accommodation: Twin bedrooms at beach resort with sea front balcony, air conditioner, hot water, and breakfast.',
-                    'Days 7 and 8 Accommodation: Hotel accommodation.',
-                    'Days 2, 3, 5, and 6 Activities: 8 boat dives with 3 dive masters.',
-                    'Days 7 and 8 Activities: Tuk-tuk lesson, activities, and sightseeing as stated in the itinerary.',
-                    'Entire trip duration: 1 tour manager from Hummingbird.',
-                    'Days 7 and 8: 1 English-speaking local guide.',
-                    'Personalized luggage tag.',
-            ],
-
-            'whats_excluded' => [
-                'International flight tickets between Kuala Lumpur and Sri Lanka.',
-                'Travel insurance.',
-                'Visa. (30-day visas to Sri Lanka are currently free for Malaysians.)',
-                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
-                'Personal expenses and other fees not expressly mentioned in Section B.',
-                'Mandatory tipping for local guide and driver. Recommended at minimum USD6 per pax for entire trip (applicable to group of minimum 15 pax).'
-            ],
-
-
-            'price' => 6300,
-            'types' => ['Adventure'],
-            'season' => ['Winter'],
-
-        ],
 
         // 'Uzbekistan: The Lost Sea' => [
         //     'id' => 5,
@@ -861,8 +930,7 @@ return [
         //     'minimum_pax' => 10,
         //     'leader' => 1,
         //     'tags' => ['Culture', 'Autumn'],
-        //     'introduction'  => ["Discover the enchanting beauty of Uzbekistan in spring, where history, culture, and nature blend seamlessly. This itinerary takes you through ancient Silk Road cities like Samarkand, Bukhara, and Tashkent, showcasing stunning architecture, vibrant bazaars, and intricate tilework. As spring awakens the landscape, you'll also explore hidden gems that reveal Central Asia’s rich heritage. A highlight is the remote Aral Sea, a stark reminder of significant environmental changes. From bustling city streets to the serene shores of the Aral Sea, this adventure offers a captivating mix of cultural exploration and natural wonder for curious travelers."],
-        //     'itinerary' => [
+        //
         //         [
         //             'title' => 'Kuala Lumpur to Delhi',
         //             'highlights' => ['Flight', 'Meal', 'Hotel'],
@@ -900,11 +968,11 @@ return [
         // ],
 
         'Nepal: Red Panda Trek' => [
-            'id' => 6,
-            'image' =>'/assets/images/almaty.png',
+            'id' => 5,
+            'image' =>'/assets/images/redpanda.jpg',
             'description' => 'An exciting adventure.',
             'name' => 'Nepal: Red Panda Trek',
-            'destination_to_search' => ['Nepal'],
+            'destination_to_search' => ['east asia'],
             'destination' => 'Nepal',
             'from_date' => '2025-03-01',
             'to_date' => '2025-05-31',
@@ -912,8 +980,8 @@ return [
             'nights' => 8,
             'minimum_pax' => 2,
             'leader' => 1,
-            'tags' => ['Culture', 'Autumn'],
-            'introduction'  => ["Trek through the pristine wilderness of Nepal in search of the elusive red panda. Nestled in the biodiverse forests of the Himalayas, Dobato serves as a sanctuary for these rare creatures, making it perfect for nature enthusiasts. Accompanied by expert guides, you'll navigate rugged terrain, dense forests, and bamboo groves. This adventure not only offers the thrill of spotting red pandas in their natural habitat but also connects you with local conservation efforts protecting these endangered species. Whether you're an avid trekker or a wildlife observer, this journey into Nepal's remote wilderness promises an unforgettable experience."],
+            'tags' => ['East Asia','Culture', 'Autumn'],
+            'introduction' => ["Trek through the pristine wilderness of Nepal in search of the elusive red panda. Nestled in the biodiverse forests of the Himalayas, Dobato serves as a sanctuary for these rare creatures, making it perfect for nature enthusiasts. Accompanied by expert guides, you'll navigate rugged terrain, dense forests, and bamboo groves. This adventure not only offers the thrill of spotting red pandas in their natural habitat but also connects you with local conservation efforts protecting these endangered species. Whether you're an avid trekker or a wildlife observer, this journey into Nepal's remote wilderness promises an unforgettable experience."],
             'itinerary' => [
                 [
                     'day' => 1,
@@ -1082,21 +1150,136 @@ return [
 
         ],
 
+        'AYURVEDIC IN SRI LANKA' => [
+            'id' => 6,
+            'image' =>'/assets/images/ayurveda_new.jpg',
+            'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
+            'name' => 'AYURVEDIC IN SRI LANKA',
+            'destination_to_search' => ['east asia'],
+            'destination' => 'sri lanka',
+            'from_date' => '2025-03-09',
+            'to_date' => '2025-03-16',
+            'days' => 8,
+            'nights' => 7,
+            'minimum_pax' => 2,
+            'leader' => 1,
+            'tags' => ['Spring', 'Wellness','East Asia'],
+            'introduction' => ['Experience the healing power of nature with a revitalizing Ayurvedic retreat in Sri Lanka. This itinerary offers a serene escape into holistic wellness, combining traditional Ayurvedic treatments with the island’s natural beauty.'],
+            'itinerary' => [
+                [
+                    'day' => 1,
+                    'range' => 0,
+                    'date' => '09TH MAR',
+                    'title' => 'KUALA LUMPUR to COLOMBO',
+                    'highlights' => [
+                        'Assemble at Kuala Lumpur International Airport for flight to Colombo.',
+                        'Proceed for Colombo Free and Easy City Tour.',
+                        'Dinner at Ministry of Crab (Will arrange seating arrangement / Payment will be directly done by client).',
+                        'Transfer to Negombo for Hotel Check-in, then have a good rest.'
+                    ],
+                    'accommodation' => 'Jetwing Ayurveda Pavilions 4* hotel',
+                    'meal' => '-'
+                ],
+                [
+                    'day' => 2,
+                    'range' => 7,
+                    'date' => '10TH MAR',
+                    'title' => 'NEGOMBO',
+                    'highlights' => [
+                        'Enjoy a blissful 6-day treatment plan at Ayurveda Pavilion, designed for your personal needs.',
+                        'Daily consultation with Ayurveda Physicians and personalized treatment in your own villa or at the Ayurveda Centre.',
+                        'Daily morning yoga, herbal drinks, and optional sessions such as pool exercise and music therapy.'
+                    ],
+                    'accommodation' => 'Jetwing Ayurveda Pavilions 4* hotel',
+                    'meal' => 'Breakfast / Lunch / Dinner'
+                ],
+                [
+                    'day' => 8,
+                    'range' => 0,
+                    'date' => '16TH MAR',
+                    'title' => 'COLOMBO to KUALA LUMPUR',
+                    'highlights' => [
+                        'Proceed to Colombo Bandaranaike International Airport early morning.',
+                        'Arrive in Kuala Lumpur in the afternoon. End of tour.'
+                    ],
+                    'accommodation' => null,
+                    'meal' => '-'
+                ]
+            ],
+
+            'tour_fare' => [
+
+                    'total' => 5880,
+                    'additional' => 1480,
+                    'return' => 2350,
+
+            ],
+            'validity' => [
+                'The estimated tour fare is valid for the travel period of 09 Mar 2025 to 16 Mar 2025.',
+                'The Ground Fare is based on twin-sharing or triple-sharing with a minimum group size of 2 persons. Surcharge applies if the number of travelers falls below the minimum group size.',
+                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
+            ],
+
+            // 'payment_terms' => [
+            //     'Bookings made more than 2 calendar months from the Scheduled Date of Departure' => [
+            //         '50% of the Ground Fare as Deposit is payable at the time of booking.',
+            //         'The remaining 50% balance ("Balance") shall be paid no later than 7 days from the date of Tour Confirmation ("Balance Deadline").',
+            //         'If the Balance is not paid by the Balance Deadline, you will be deemed to have withdrawn and canceled your booking on the day after the Balance Deadline.'
+            //     ],
+            //     'Bookings made 2 calendar months or less from the Scheduled Date of Departure' => [
+            //         '100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+            //     ]
+            // ],
+
+            'payment_terms' => [
+                    'Bookings made more than 2 calendar months from the Scheduled Date of Departure 50% of the Ground Fare as Deposit is payable at the time of booking.',
+                    'The remaining 50% balance ("Balance") shall be paid no later than 7 days from the date of Tour Confirmation ("Balance Deadline").',
+                    'If the Balance is not paid by the Balance Deadline, you will be deemed to have withdrawn and canceled your booking on the day after the Balance Deadline.',
+                    'Bookings made 2 calendar months or less from the Scheduled Date of Departure 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.',
+            ],
+
+            'whats_included' => [
+                'All necessary paperwork, special permits, and relevant government and local tax.',
+                'Travel insurance.',
+                'Private transport for the whole duration as per the itinerary.',
+                'Accommodation as stated in the itinerary or similar class.',
+                'Meals as stated in the itinerary (Starting with Breakfast on Day 2 and ending with Breakfast on Day 8).',
+                'Activities, transport, and entrance fees as stated in the itinerary only.'
+            ],
+
+            'whats_excluded' => [
+                'Visa application fees if any.',
+                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
+                'Day 1 Dinner (Dinner at Ministry of Crab with seating arrangement, Payment will be directly done by the client).',
+                'Optional tours and activities.',
+                'Personal expenses and other fees not expressly mentioned in Section B.',
+                'Mandatory tipping for local guide and driver. Recommendation of minimum USD45 per pax for the entire trip (applicable to groups of minimum 2 pax).'
+            ],
+
+
+
+            'price' => 5880,
+            'types' => ['Adventure'],
+            'season' => ['Winter'],
+
+        ],
+
+
         'Upper Mustang: Nepal’s Last Forbidden Kingdom' => [
             'id' => 7,
-            'image' =>'/assets/images/almaty.png',
+            'image' =>'/assets/images/mustang.jpg',
             'description' => 'An exciting adventure.',
             'name' => 'Upper Mustang: Nepal’s Last Forbidden Kingdom',
-            'destination_to_search' => ['Thailand'],
-            'destination' => 'Thailand',
+            'destination_to_search' => ['east asia'],
+            'destination' => 'Nepal',
             'from_date' => '2025-05-10',
             'to_date' => '2025-05-24',
-            'days' => 16,
+            'days' => 15,
             'nights' => 14,
             'minimum_pax' => 10,
             'leader' => 1,
-            'tags' => ['Culture', 'Autumn'],
-            'introduction'  => ["Journey into the remote kingdom of Upper Mustang, one of Nepal’s most culturally preserved regions. This itinerary offers a unique opportunity to explore a landscape steeped in ancient Tibetan traditions, set against the high Himalayas and arid desert valleys. Trek through hidden monasteries, medieval villages, and ancient caves along the historic Silk Road. The capital, Lo Manthang, enchants with its centuries-old palaces and intricate Buddhist art. Known as the “Last Forbidden Kingdom,” Upper Mustang promises not just adventure but a spiritual journey through its unique culture and unspoiled beauty."],
+            'tags' => ['Adventure', 'Culture','Spring','East Asia'],
+            'introduction' => ['Journey into the remote kingdom of Upper Mustang, one of Nepal’s most culturally preserved regions. This itinerary offers a unique opportunity to explore a landscape steeped in ancient Tibetan traditions, set against the high Himalayas and arid desert valleys. Trek through hidden monasteries, medieval villages, and ancient caves along the historic Silk Road. The capital, Lo Manthang, enchants with its centuries-old palaces and intricate Buddhist art. Known as the “Last Forbidden Kingdom,” Upper Mustang promises not just adventure but a spiritual journey through its unique culture and unspoiled beauty.'],
             'itinerary' => [
                 [
                     'day' => 1,
@@ -1327,169 +1510,218 @@ return [
 
         'Kazakhstan & Kyrgyzstan:Nomads and Lakes' => [
             'id' => 8,
-            'image' =>'/assets/images/nomads.png',
+            'image' =>'/assets/images/kazakh.jpg',
             'description' => 'An exciting adventure.',
             'name' => 'Kazakhstan & Kyrgyzstan:Nomads and Lakes',
-            'destination_to_search' => ['India'],
-            'destination' => 'India',
-            'from_date' => '2021-01-01',
-            'to_date' => '2021-01-10',
-            'days' => 10,
-            'minimum_pax' => 5,
-            'tags' => ['Culture', 'Autumn'],
-            'introduction'  => ["Embark on an unforgettable journey through Central Asia with this unique travel package, exploring the rich cultural and natural landscapes of Kazakhstan and Kyrgyzstan. Experience the nomadic heritage firsthand by spending nights in traditional yurt camps, riding horses across vast steppes, and witnessing the ancient art of eagle hunting. Engage with local artisans to learn about carpet felt and clay pipe making, and enjoy captivating performances by local musicians. This adventure promises a perfect blend of history, nature, and authentic cultural experiences in the heart of nomadic life."],
+            'destination_to_search' => ['central asia'],
+            'destination' => 'Kazakhstan',
+            'from_date' => '2025-06-01',
+            'to_date' => '2025-06-15',
+            'days' => 15,
+            'night' => 13,
+            'minimum_pax' => 11,
+            'tags' => ['Adventure', 'Culture','Central Asia'],
+
+            'introduction' => ['Embark on an unforgettable journey through Central Asia with this unique travel package, exploring the rich cultural and natural landscapes of Kazakhstan and Kyrgyzstan. Experience the nomadic heritage firsthand by spending nights in traditional yurt camps, riding horses across vast steppes, and witnessing the ancient art of eagle hunting. Engage with local artisans to learn about carpet felt and clay pipe making, and enjoy captivating performances by local musicians. This adventure promises a perfect blend of history, nature, and authentic cultural experiences in the heart of nomadic life.'],
             'itinerary' => [
                 [
-                    'title' => 'KUALA LUMPUR to ALMATY, KAZAKHSTAN',
+                    'day' => 1,
+                    'range' => 0,
+                    'title' => 'KUALA LUMPUR ✈ ALMATY, KAZAKHSTAN',
                     'highlights' => [
                         'Assemble at Kuala Lumpur International Airport for departure flight to Almaty, Kazakhstan.',
-                        'Arrive at Almaty and head for dinner. Overnight in Almaty.'
+                        'Arrive at Almaty and head for dinner.',
+                        'Overnight in Almaty.'
                     ],
                     'accommodation' => '3* hotel in Almaty',
                     'meal' => 'Dinner'
                 ],
                 [
-                    'title' => 'ALMATY to KOLSAI LAKES',
+                    'day' => 2,
+                    'range' => 0,
+                    'title' => 'ALMATY v KOLSAI LAKES',
                     'highlights' => [
                         'Morning departure to Kolsai Lakes via Karatau Canyons.',
-                        'Arrive at a village in Saty for lunch at guesthouse.',
-                        'Switch to 4x4 vans to the picturesque Lake Kaindy in the park for short hiking.',
-                        'Visit the Kolsai Lakes, called “The Pearls of the Tien Shan” by the locals.',
+                        'Lunch at guesthouse in Saty located in the Kolsai Kolderi national park.',
+                        'Switch to 4x4 vans to Lake Kaindy for short hiking.',
+                        'Visit the Kolsai Lakes, called "The Pearls of the Tien Shan."',
                         'Dinner at local café or guesthouse.'
                     ],
                     'accommodation' => 'Guesthouse',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
-                    'title' => 'KOLSAI LAKES to KARAKOL, KYRGYZ REPUBLIC',
+                    'day' => 3,
+                    'range' => 0,
+                    'title' => 'KOLSAI LAKES v KARAKOL, KYRGYZ REPUBLIC',
                     'highlights' => [
-                        'Early morning departure for easy canyoning in Charyn Canyon.',
-                        'Long drive to Karokol in Kyrgyz Republic via Kegen Pass.',
-                        'Arrive at Karokol in the late afternoon. Dungan-style dinner and overnight in guesthouse.'
+                        'Early morning departure for canyoning in Charyn Canyon.',
+                        'Long drive to Karokol via Kegen Pass with picnic lunch en-route.',
+                        'Arrive at Karokol in the late afternoon and have dinner.',
+                        'Overnight in guesthouse.'
                     ],
                     'accommodation' => 'Guesthouse',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
+                    'day' => 4,
+                    'range' => 0,
                     'title' => 'KARAKOL',
                     'highlights' => [
-                        'Leave by military trucks for Altyn Arashan “Golden Healing Hot Spring”.',
+                        'Leave by military trucks for Altyn Arashan “Golden Healing Hot Spring.”',
+                        'Enjoy hot springs next to Ak Suu and lunch in a hut.',
                         'Return to Karakol for kayaking and mountain-sunset viewing.',
-                        'Dinner with local minority Dunganese family.'
+                        'Dinner with local Dunganese family.'
                     ],
                     'accommodation' => 'Guesthouse',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
-                    'title' => 'KARAKOL to KZYZL-SUU',
+                    'day' => 5,
+                    'range' => 0,
+                    'title' => 'KARAKOL v KZYZL-SUU',
                     'highlights' => [
-                        'Head to the Jeti Ögüz Canyon, impressive sandstone formations.',
+                        'Head to Jeti Ögüz Canyon (Seven Bulls Rocks).',
                         'Visit a local musician to make your own clay flute.',
-                        'Transfer to Kyzyl-Suu for a valley-hiking tour.'
+                        'Transfer to Kyzyl-Suu for valley-hiking tour.',
+                        'Dinner and overnight in mountain hut.'
                     ],
                     'accommodation' => 'Mountain hut',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
-                    'title' => 'KZYZL-SUU to JAICHY',
+                    'day' => 6,
+                    'range' => 0,
+                    'title' => 'KZYZL-SUU v JAICHY',
                     'highlights' => [
-                        'Morning start for a nature walk to the hot springs.',
-                        'After hot springs visit, leave for Jaychy. Picnic lunch in the wild.',
-                        'Hike through Skazka Canyon, known for its fantasy-like shapes carved into red sandstone.',
-                        'Arrive in Jaichy. Dinner and overnight in yurt camp.'
+                        'Morning walk to hot springs.',
+                        'Picnic lunch in the wild.',
+                        'Hike through Skazka Canyon.',
+                        'Dinner and overnight in yurt camp.'
                     ],
                     'accommodation' => 'Yurt camp',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
+                    'day' => 7,
+                    'range' => 0,
                     'title' => 'JAICHY',
                     'highlights' => [
                         'Horseback riding to the nearest panoramic hillside.',
-                        'Visit a shepherds’ homestead and experience traditional farming life.',
-                        'Evening folk concert entertainment by local musical band “Muras”.'
+                        'Visit a shepherds’ homestead.',
+                        'Evening folk concert entertainment by local band "Muras."',
+                        'Dinner and overnight in yurt camp.'
                     ],
                     'accommodation' => 'Yurt camp',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
-                    'title' => 'JAICHY to SONG-KÖL LAKE',
+                    'day' => 8,
+                    'range' => 0,
+                    'title' => 'JAICHY',
                     'highlights' => [
                         'Canyoneering at Jindi Chap Canyon.',
-                        'After lunch near the beach, return to Jaichy camp.',
-                        'Enjoy good wine and try your hand at painting under the guidance of a local artist.'
+                        'Lunch near the beach.',
+                        'Return to Jaichy camp for painting activity.',
+                        'Dinner and overnight in yurt camp.'
                     ],
                     'accommodation' => 'Yurt camp',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
+                    'day' => 9,
+                    'range' => 0,
+                    'title' => 'JAICHY v SONG-KÖL LAKE',
+                    'highlights' => [
+                        'Experience salbuurun (eagle hunting) and archery with a local hunter.',
+                        'Visit family of yurt makers and join in the woodworking.',
+                        'Lunch at homestay and felt carpet making experience.',
+                        'Dinner and overnight in guesthouse.'
+                    ],
+                    'accommodation' => 'Guesthouse',
+                    'meal' => 'Breakfast / Lunch / Dinner'
+                ],
+                [
+                    'day' => 10,
+                    'range' => 0,
                     'title' => 'SONG-KÖL LAKE',
                     'highlights' => [
                         'Nature walk along alpine green hills by Song-Köl Lake.',
-                        'Horseback riding along the lakeshore to the western part of the lake.',
+                        'Horseback riding along the lakeshore.',
                         'Dinner and overnight in Muras yurt camp.'
                     ],
                     'accommodation' => 'Yurt camp',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
-                    'title' => 'SONG-KÖL LAKE to BISHKEK',
+                    'day' => 11,
+                    'range' => 0,
+                    'title' => 'SONG-KÖL LAKE v BISHKEK',
                     'highlights' => [
-                        'After breakfast, six-hours’ transfer to Bishkek.',
-                        'Stops for views of the Karatal Japyryk Nature Reserve.',
-                        'Check in at Bishkek hotel and head for dinner at a restaurant.'
+                        'Transfer to Bishkek with stops for views.',
+                        'Lunch at a café en-route.',
+                        'Check in at Bishkek hotel and dinner at a restaurant.'
                     ],
                     'accommodation' => '3* hotel in Bishkek',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
-                    'title' => 'BISHKEK to ALMATY, KAZAKHSTAN',
+                    'day' => 12,
+                    'range' => 0,
+                    'title' => 'BISHKEK v ALMATY, KAZAKHSTAN',
                     'highlights' => [
-                        'City tour of Bishkek, capital of the Kyrgyz Republic.',
-                        'Transfer to Almaty after lunch in a café.'
+                        'City tour of Bishkek, visiting main attractions.',
+                        'Transfer to Almaty for dinner and overnight.'
                     ],
                     'accommodation' => '3* hotel in Almaty',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
+                    'day' => 13,
+                    'range' => 0,
                     'title' => 'ALMATY',
                     'highlights' => [
-                        'City tour of Almaty, Kazakhstan’s major commercial and cultural center.',
-                        'Visit the nomadic Huns Ethno Village.',
-                        'Wine-tasting at Arba Vineyards.'
+                        'City tour of Almaty including the nomadic Huns Ethno Village.',
+                        'Wine-tasting at Arba Vineyards.',
+                        'Evening walk along Almaty’s promenade and dinner.'
                     ],
                     'accommodation' => '3* hotel in Almaty',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
-                    'title' => 'ALMATY to KUALA LUMPUR',
+                    'day' => 14,
+                    'range' => 0,
+                    'title' => 'ALMATY ✈ KUALA LUMPUR',
                     'highlights' => [
-                        'After breakfast, city tour of Almaty.',
-                        'Depart Almaty in the late afternoon for Kuala Lumpur.'
+                        'City tour of Almaty visiting various attractions.',
+                        'Depart Almaty for Kuala Lumpur in the late afternoon.'
                     ],
                     'accommodation' => null,
-                    'meal' => 'Breakfast'
+                    'meal' => 'Breakfast / Lunch'
                 ],
                 [
+                    'day' => 15,
+                    'range' => 0,
                     'title' => 'KUALA LUMPUR',
                     'highlights' => [
-                        'Early morning arrival in Kuala Lumpur.',
-                        'End of tour.'
+                        'Early morning arrival in Kuala Lumpur. End of tour.'
                     ],
                     'accommodation' => null,
                     'meal' => null
-                ]
+                ],
             ],
+
 
             'tour_fare' => [
 
-                    'total' => 1000,
-                    'additional' => 100,
-                    'return' => 100,
+                    'total' => 9500,
+                    'additional' => 370,
+                    'return' => 3450,
 
             ],
-            'validity' => ['The estimated tour fare above is valid for the travel period of 1 June 2025 to 15 June 2025.',
-            '·	The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 14 persons + 1 tour leader. Surcharge applies if the number of travelers falls below the minimum group size.',
-            '·	All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'],
+            'validity' => ['The estimated tour fare above is valid for the travel period of 1 June 2025 to 15 June 2025.','The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 14 persons + 1 tour leader. Surcharge applies if the number of travelers falls below the minimum group size.',
+            'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'],
+
             'payment_terms' => ['Bookings made more than 2 calendar months from the Scheduled Date of Departure
             50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation
              (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.
@@ -1499,8 +1731,15 @@ return [
             'whats_included' => ['Accommodation as stated in the itinerary or similar class.', 'Meals as stated in the itinerary.',
             'Activities, transport, and entrance fees as stated in the itinerary.',
             '1 English-speaking local guide.','1 English-speaking local guide.','1 tour manager from Hummingbird for the entire travel duration.'],
-            'whats_excluded' => ['Insurance', 'Visa', 'Personal Expenses'],
-            'price' => 100,
+
+            'whats_excluded' => ['Return international air ticket between Kuala Lumpur and Almaty.',
+            'Mandatory tipping for local guide and driver at minimum USD25 per pax for whole trip (for group size of not less than 14 pax).',
+            'Travel insurance.',
+            'Visa application fees (if applicable).',
+            'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
+            'Optional tours and activities.',
+            'Personal expenses and other fees not expressly mentioned in Section B.'],
+            'price' => 9200,
             'types' => ['Adventure','Culture'],
             'season' => ['Summer'],
 
@@ -1508,10 +1747,10 @@ return [
 
         'Ladakh, Little Tibet: Summer Scenic Circuit' => [
             'id' => 9,
-            'image' =>'/assets/images/almaty.png',
+            'image' =>'/assets/images/summercircuit.jpg',
             'description' => 'An exciting adventure.',
             'name' => 'Ladakh, Little Tibet: Summer Scenic Circuit',
-            'destination_to_search' => ['India'],
+            'destination_to_search' => ['east asia'],
             'destination' => 'India',
             'from_date' => '2025-06-18',
             'to_date' => '2025-07-01',
@@ -1519,8 +1758,8 @@ return [
             'nights' => 12,
             'minimum_pax' => 10,
             'leader' => 1,
-            'tags' => ['Culture', 'Autumn'],
-            'introduction'  => ['Embark on a breathtaking summer adventure through Ladakh, starting in Leh, the cultural heart of the region. This journey takes you through stunning landscapes and hidden gems, including the ancient Alchi Monastery, famous for its intricate Buddhist art. Continue to Padum, a serene town in the Zanskar Valley, and marvel at Gonbo Rangjon, a revered mountain with a striking silhouette. Relax by Tso Moriri, a pristine high-altitude lake surrounded by snow-capped peaks. Each stop offers unique experiences, from tranquil monasteries to rich cultural encounters. This itinerary perfectly blends adventure, spirituality, and natural beauty for an immersive Himalayan experience.'],
+            'tags' => ['Culture', 'Adventure','East Asia'],
+            'introduction' => ['Embark on a breathtaking summer adventure through Ladakh, starting in Leh, the cultural heart of the region. This journey takes you through stunning landscapes and hidden gems, including the ancient Alchi Monastery, famous for its intricate Buddhist art. Continue to Padum, a serene town in the Zanskar Valley, and marvel at Gonbo Rangjon, a revered mountain with a striking silhouette. Relax by Tso Moriri, a pristine high-altitude lake surrounded by snow-capped peaks. Each stop offers unique experiences, from tranquil monasteries to rich cultural encounters. This itinerary perfectly blends adventure, spirituality, and natural beauty for an immersive Himalayan experience.'],
             'itinerary' => [
                 [
                     'day' => 1,
@@ -1727,187 +1966,6 @@ return [
             'season' => ['Summer'],
 
         ],
-
-        'Ladakh, Little Tibet: Winter New Year' => [
-            'id' => 11,
-            'image' =>'/assets/images/winter.png',
-            'description' => 'An exciting adventure.',
-            'name' => 'Ladakh, Little Tibet: Winter New Year',
-            'destination_to_search' => ['India'],
-            'destination' => 'India',
-            'from_date' => '2025-01-02',
-            'to_date' => '2025-01-10',
-            'days' => 10,
-            'nights' => 8,
-            'minimum_pax' => 10,
-            'leader' => 1,
-            'tags' => ['Culture', 'Autumn'],
-            'introduction'  => ["Celebrate the vibrant Ladakhi Losar, the Tibetan New Year, amidst the stunning winter landscapes of Ladakh. This unique itinerary offers a chance to experience the region's rich cultural heritage during its most festive time. As snow blankets the high-altitude desert, locals welcome the new year with traditional dances, masked performances, and colorful ceremonies. Explore ancient monasteries where prayers and offerings set the tone for the year ahead, and witness timeless customs that reflect Ladakh’s Buddhist heritage. From breathtaking snow-capped mountains to warm local hospitality, Losar in Ladakh promises an immersive cultural journey and an unforgettable start to the new year."],
-            'itinerary' => [
-                [
-                    'day' => 1,
-                    'range' => 0,
-                    'date' => '02/01/2025',
-                    'title' => 'KUALA LUMPUR to DELHI, INDIA',
-                    'highlights' => [
-                        'Assemble at Kuala Lumpur International Airport for departure flight to Delhi.',
-                        'Arrive in Delhi and transfer to hotel. Overnight in Delhi.'
-                    ],
-                    'accommodation' => 'Delhi local 3* hotel',
-                    'meal' => 'Dinner'
-                ],
-                [
-                    'day' => 2,
-                    'range' => 0,
-                    'date' => '03/01/2025',
-                    'title' => 'DELHI to LEH, LADAKH',
-                    'highlights' => [
-                        'Morning domestic flight from Delhi to Leh, with views of the Himalayan range.',
-                        'Rest and acclimatize, followed by a visit to Leh Market and Shanti Stupa.',
-                        'Overnight in Leh.'
-                    ],
-                    'accommodation' => 'Leh local 3* hotel',
-                    'meal' => 'Breakfast / Dinner'
-                ],
-                [
-                    'day' => 3,
-                    'range' => 0,
-                    'date' => '04/01/2025',
-                    'title' => 'LEH',
-                    'highlights' => [
-                        'Visit Thiksey Monastery, Stakna Monastery, and Matho Monastery.',
-                        'Overnight in Leh.'
-                    ],
-                    'accommodation' => 'Leh local 3* hotel',
-                    'meal' => 'Breakfast / Dinner'
-                ],
-                [
-                    'day' => 4,
-                    'range' => 0,
-                    'date' => '05/01/2025',
-                    'title' => 'LEH to KARGIL',
-                    'highlights' => [
-                        'Drive to Kargil (about 5 hours), visiting Lamayuru and Mulbekh Monasteries along the way.'
-                    ],
-                    'accommodation' => 'Kargil local 3* hotel',
-                    'meal' => 'Breakfast / Dinner'
-                ],
-                [
-                    'day' => 5,
-                    'range' => 0,
-                    'date' => '06/01/2025',
-                    'title' => 'KARGIL',
-                    'highlights' => [
-                        'Drive to Suru Valley (about 3 hours) and enjoy views of Nun Kun peaks.',
-                        'Overnight in Kargil.'
-                    ],
-                    'accommodation' => 'Kargil local 3* hotel',
-                    'meal' => 'Breakfast / Dinner'
-                ],
-                [
-                    'day' => 6,
-                    'range' => 0,
-                    'date' => '07/01/2025',
-                    'title' => 'KARGIL to HEMIS SHUKPACHAN',
-                    'highlights' => [
-                        'Depart for Hemis Shukpachan (about 5 hours) to experience traditional Ladakhi life.',
-                        'Enjoy homemade Ladakhi cuisine and “Chang” brew.',
-                        'Overnight in Hemis Shukpachan.'
-                    ],
-                    'accommodation' => 'Hemis Shukpachan guesthouse',
-                    'meal' => 'Breakfast / Dinner'
-                ],
-                [
-                    'day' => 7,
-                    'range' => 0,
-                    'date' => '08/01/2025',
-                    'title' => 'HEMIS SHUKPACHAN',
-                    'highlights' => [
-                        'Explore the village and enjoy local “cham” dances for Losar celebration.',
-                        'Overnight in Hemis Shukpachan.'
-                    ],
-                    'accommodation' => 'Hemis Shukpachan guesthouse',
-                    'meal' => 'Breakfast / Lunch / Dinner'
-                ],
-                [
-                    'day' => 8,
-                    'range' => 0,
-                    'date' => '09/01/2025',
-                    'title' => 'HEMIS SHUKPACHAN to LEH',
-                    'highlights' => [
-                        'Witness the Ladakhi traditional Losar ritual and drive back to Leh.'
-                    ],
-                    'accommodation' => 'Leh local 3* hotel',
-                    'meal' => 'Breakfast / Lunch / Dinner'
-                ],
-                [
-                    'day' => 9,
-                    'range' => 0,
-                    'date' => '10/01/2025',
-                    'title' => 'LEH to DELHI to KUALA LUMPUR',
-                    'highlights' => [
-                        'Depart by domestic flight from Leh to Delhi in the morning.',
-                        'Depart by international flight from Delhi to Kuala Lumpur in the evening.'
-                    ],
-                    'accommodation' => null,
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 10,
-                    'range' => 0,
-                    'date' => '11/01/2025',
-                    'title' => 'KUALA LUMPUR',
-                    'highlights' => [
-                        'Arrive in Kuala Lumpur in the morning. End of tour.'
-                    ],
-                    'accommodation' => null,
-                    'meal' => null
-                ]
-            ],
-
-            'tour_fare' => [
-
-                    'total' => 1000,
-                    'additional' => 100,
-                    'return' => 100,
-
-            ],
-            'validity' => [
-                'The estimated tour fare above is valid for the travel period of 2 January 2025 to 11 January 2025.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 13 persons + 1 tour leader + 1 photographer. Surcharge applies if the number of travelers falls below the minimum group size.',
-                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
-            ],
-
-            'payment_terms' => [
-                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
-                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
-            ],
-            'whats_included' => [
-                'Accommodation as stated in the itinerary or similar class.',
-                'Return domestic air tickets between Delhi and Ladakh, including 1 check-in baggage (maximum 15 kg).',
-                'Meals as stated in the itinerary.',
-                'Activities, transport, and entrance fees as stated in the itinerary.',
-                '1 English-speaking local guide.',
-                '1 tour manager and 1 photographer from Hummingbird for the entire travel duration.'
-            ],
-
-            'whats_excluded' => [
-                'Return international air tickets between Kuala Lumpur and Delhi.',
-                'Travel insurance.',
-                'Visa application fees (if applicable).',
-                'Mandatory tipping for local guide and driver at minimum of USD35 per pax for entire trip (applicable to group of minimum 13 pax).',
-                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
-                'Optional tours and activities.',
-                'Personal expenses and other fees not expressly mentioned in Section B.'
-            ],
-
-            'price' => 6250,
-            'types' => ['Adventure','Culture'],
-            'season' => ['Winter'],
-
-        ],
-
-
 
 
     ],

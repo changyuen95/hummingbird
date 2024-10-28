@@ -57,11 +57,19 @@
 
 
 <script>
+    var click = 0;
+
 
         function redirectTour(name) {
-            console.log('redirect');
+
+
+            console.log(click);
             $('.preloader').fadeIn('slow');
             window.location.href = '/tours-by-type/' + name;
+            $('.preloader').fadeOut('slow');
+
+
+
         }
 
 
