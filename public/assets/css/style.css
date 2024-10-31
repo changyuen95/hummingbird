@@ -7105,6 +7105,11 @@ a:focus {
 .private-tour-size {
     padding: 0px 22%;
 }
+
+.update-price{
+    font-weight: 700;
+}
+
   @media (max-width: 768px) {
 
     .private-tours-bg{
@@ -7193,5 +7198,7 @@ a:focus {
     .our-row {
         display:grid;
     }
+
+
 
 }
