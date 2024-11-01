@@ -84,11 +84,7 @@
                                         <img src="/assets/images/ig.png" width="25">
                                     </a>
                                 </li>
-                                <li >
-                                    <a href="#" title="Instagram" target="_blank">
-                                        <img src="/assets/images/youtube.png" width="25px">
-                                    </a>
-                                </li>
+
 
                                 <!--<li class="wa">-->
                                 <!--    <a href="#" title="WhatsApp">-->

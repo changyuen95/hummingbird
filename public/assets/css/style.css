@@ -7085,6 +7085,7 @@ a:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top:10px;
 }
 
 .abt-content-title{
@@ -7110,7 +7111,20 @@ a:focus {
     font-weight: 700;
 }
 
+.desktop-padding-25 {
+    padding-left: 25%;
+    padding-right:25%;
+}
+
   @media (max-width: 768px) {
+
+    .abt-us-title{
+        padding: 12% 10% 0px 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:90px
+    }
 
     .private-tours-bg{
         width: 100vw;
@@ -7121,15 +7135,16 @@ a:focus {
         background-position: center;
     }
 
+
+    .desktop-padding-25{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .image-row {
         display: block;
     }
-    .abt-us-title{
-        padding: 12% 10% 0px 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+
     .about-us-row {
         flex-direction: column; /* Stack elements vertically on mobile */
     }
@@ -7199,6 +7214,19 @@ a:focus {
         display:grid;
     }
 
+    .text-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  /* Vertically center the text content */
+        transform: translateX(25px);  /* Shift the whole text block to the right */
+        max-width: 90%;  /* Control the width to ensure it doesn't go too far */
+    }
+
+    .text-container p {
+        font-size: 1.2rem;
+        max-width : 100%;
+    }
 
 
 }

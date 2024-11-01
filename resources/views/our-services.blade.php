@@ -16,9 +16,9 @@
 
 
 
-    <div class="centered-section abt-us-title" style="margin-top:90px;">
-        <p style="text-align:center;font-size:32px" >Explore Our Unique Travel Experiences</p>
-        <p style="line-height:22px;font-size: 14px;">At Hummingbird, we offer a variety of thoughtfully designed itineraries to cater to every type of traveler. Whether you’re seeking a thematic journey, a special interest adventure, or a personalized private tour, we have something for everyone.</p>
+    <div class="centered-section abt-us-title">
+        <p style="text-align:center;font-size:32px;line-height:48px" >Explore Our Unique Travel Experiences</p>
+        <p style="line-height:28px;font-size: 14px;">At Hummingbird, we offer a variety of thoughtfully designed itineraries to cater to every type of traveler. Whether you’re seeking a thematic journey, a special interest adventure, or a personalized private tour, we have something for everyone.</p>
          </div>
 
     <div class="row-section">

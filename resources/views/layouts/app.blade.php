@@ -140,11 +140,11 @@
                 <div class="side-menu__block__copy desktop-only" style="align-content: center;">
                     <p style="text-align: -webkit-left;margin-bottom:-8px;color:white;font-weight:700">Hummingbird</p>
                     <div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;">
-                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px">Wisma Parlo, No 72, Jalan Kampong Attap</span>
-                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;margin-top: 20px;">
-                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px">Tel: +6012-3456789</span>
-                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px">enquiry@hummingbird.my</span>
-                            <span style="font-weight: 400 !important;font-family: system-ui;margin-bottom:-8px">KPL No.0218</span>
+                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px;font-size:14px">Wisma Parlo, No 72, Jalan Kampong Attap</span>
+                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px;font-size:14px">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;margin-top: 20px;">
+                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px;font-size:14px">Tel: +6012-3456789</span>
+                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px;font-size:14px">enquiry@hummingbird.my</span>
+                            <span style="font-weight: 400 !important;font-family: system-ui;margin-bottom:-8px;font-size:14px">KPL No.0218</span>
                     </div>
                 </div>
             </div>

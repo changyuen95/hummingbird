@@ -34,26 +34,26 @@
 
 
    <div class="centered-section">
-        <p>Private Tours</p>
-        <p style="margin-bottom:30px">Wish to explore new destinations with your family and friends only? Our private tour service is for families and friends who want to create unforgettable memories together, all while enjoying a private & personalised travel experience.</p>
+        <p style="font-size:32px;line-height:48px;font-weight:300">Private Tours</p>
+        <p style="margin-bottom:30px;line-height:48px;font-size:14px">Wish to explore new destinations with your family and friends only? Our private tour service is for families and friends who want to create unforgettable memories together, all while enjoying a private & personalised travel experience.</p>
 
-        <p style="font-weight:500">Why choose Private Tours ?</p>
+        <p style="font-weight:500;font-size:16px">Why choose Private Tours ?</p>
     </div>
 
     <div class="bespoke-container">
         <div class="left-content">
-            <h5>Exclusive Experiences</h5>
-            <p>Enjoy the comfort of traveling with your inner circle. Our private tours allow you to share special moments without the presence of strangers.</p>
+            <h5 style="font-size:24px;line-height:40px;font-weight:300">Exclusive Experiences</h5>
+            <p class="desktop-padding-25">Enjoy the comfort of traveling with your inner circle. Our private tours allow you to share special moments without the presence of strangers.</p>
         </div>
 
 
 
-        <div class="separator">|</div>
+        <div class="separator"><img src="/assets/images/line.png"></div>
 
 
         <div class="right-content">
-            <h5>Tailored Itineraries</h5>
-            <p>Customize your journey to include activities and sights that resonate with your group’s interests—whether it’s adventure, culture, or relaxation.</p>
+            <h5 style="font-size:24px;line-height:40px;font-weight:300">Tailored Itineraries</h5>
+            <p class="desktop-padding-25">Customize your journey to include activities and sights that resonate with your group’s interests—whether it’s adventure, culture, or relaxation.</p>
         </div>
     </div>
 
