@@ -13,7 +13,7 @@
                 </div><!-- /.event-three__image -->
                 <div class="event-three__content" style="height:12.2rem">
 
-                    <div class="">
+                    <div class="" style="height:60px">
                         <ul class="update-tags title-list inline">
                             @foreach ( $tour['tags'] as $tag )
                             <li class="title-item">
