@@ -65,7 +65,7 @@ class TourController extends Controller
 
 
     public function enquiryForm (Request $request) {
-        $mail = Mail::to('changyuen95@gmail.my');
+        $mail = Mail::to('changyuen95@gmail.com');
 
         // Send Confirmation Mail
         $mail->send(new contact(
