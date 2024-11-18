@@ -79,13 +79,13 @@
                                 <li >
                                     <a href="#" title="Facebook" target="_blank">
                                     <img src="/assets/images/fb-mobile.png" class="fb-link mobile-only" width="20px">
-                                    <img src="/assets/images/fb.png" class="ig-link desktop-only" width="25px">
+                                    <img src="/assets/images/fb.png" class="fb-link desktop-only" width="25px">
 
                                     </a>
                                 </li>
                                 <li style="border-radius:0" >
                                     <a href="#" title="Instagram" target="_blank">
-                                        <img src="/assets/images/ig-mobile.png" class="fb-link mobile-only" width="20">
+                                        <img src="/assets/images/ig-mobile.png" class="ig-link mobile-only" width="20">
                                         <img src="/assets/images/ig.png" class="ig-link desktop-only" width="25">
 
                                     </a>

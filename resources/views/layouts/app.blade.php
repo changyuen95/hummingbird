@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="/assets/css/hover-min.css">
     <link rel="stylesheet" href="/assets/css/muzex-icons.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=3">
+    <link rel="stylesheet" href="/assets/css/style.css?v=3.1">
     <link rel="stylesheet" href="/assets/css/responsive.css">
     <link rel="stylesheet" href="/assets/css/customs.css">
 

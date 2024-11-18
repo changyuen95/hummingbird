@@ -4520,7 +4520,7 @@ a:focus {
 
 .side-menu__block-inner {
 	position: relative;
-	width: 300px;
+	/* width: 300px; */
 	margin-left: auto;
 	height: 100vh;
 	background-color: var(--thm-black);
@@ -6629,7 +6629,7 @@ a:focus {
 
 
 .mobile-only{
-    display: none;
+    display: none !important;
   }
 
   .desktop-only{
