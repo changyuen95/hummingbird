@@ -62,7 +62,7 @@
                         <div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;">
                                 <span style="font-weight: 100 !important;margin-bottom:-8px;font-size:14px;font-family:Inter">Wisma Parlo, No 72, Jalan Kampong Attap</span>
                                 <span style="font-weight: 100 !important;margin-bottom:-8px;font-size:14px;font-family:Inter">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;margin-top: 20px;">
-                                <span style="font-weight: 100 !important;margin-bottom:-8px;font-size:14px;font-family:Inter">Tel: +6012-3456789</span>
+                                <span style="font-weight: 100 !important;margin-bottom:-8px;font-size:14px;font-family:Inter">Tel: +60123019260</span>
                                 <span style="font-weight: 100 !important;margin-bottom:-8px;font-size:14px;font-family:Inter">enquiry@hummingbird.my</span>
                                 <span style="font-weight: 100 !important;margin-bottom:-8px;font-size:14px;font-family:Inter">KPL No.0218</span>
                                 <a href="https://wa.me/60123019260?" style="margin-top:30px" target="_blank" class="whatsapp-button">
