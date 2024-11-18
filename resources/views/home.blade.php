@@ -58,22 +58,22 @@
 
     <div class="image-row">
         <div class="image-container"  onclick="redirect('adventure')">
-            <img src="{{asset('assets/images/home/adventure.png')}}" alt="Image 1">
+            <img style="max-width:100%" src="{{asset('assets/images/home/adventure.png')}}" alt="Image 1">
             <div class="image-text" style="background-color: rgba(0, 0, 0, 0.3)">Adventure</div>
         </div>
         <div class="image-container" onclick="redirect('culture')">
-            <img src="{{asset('assets/images/home/culture.png')}}" alt="Image 1">
+            <img style="max-width:100%" src="{{asset('assets/images/home/culture.png')}}" alt="Image 1">
             <div class="image-text" style="background-color: rgba(0, 0, 0, 0.3)">Culture</div>
         </div>
     </div>
 
     <div class="image-row" >
         <div class="image-container" onclick="redirect('wellness')">
-            <img src="{{asset('assets/images/home/wellness.JPG')}}" alt="Image 1">
+            <img style="max-width:100%" src="{{asset('assets/images/home/wellness.JPG')}}" alt="Image 1">
             <div class="image-text" style="background-color: rgba(0, 0, 0, 0.3)">Wellness</div>
         </div>
         <div class="image-container" onclick="redirect('lifestyle')">
-            <img src="{{asset('assets/images/home/art lifestyle.JPG')}}" alt="Image 1">
+            <img style="max-width:100%" src="{{asset('assets/images/home/art lifestyle.JPG')}}" alt="Image 1">
             <div class="image-text" style="background-color: rgba(0, 0, 0, 0.3)">Art & Lifestyle</div>
         </div>
     </div>
