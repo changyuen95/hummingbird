@@ -125,11 +125,11 @@
             <div class="cursor-follower"></div>
         </div><!-- /.side-menu__block-overlay -->
 
-        <div class="side-menu__block-inner " style="width:100%">
+        <div class="side-menu__block-inner " style="width:60%">
 
-            <a href="/" class="side-menu__logo "><img class="logo-res" src="/assets/images/humming-bird-white.png" alt=""></a>
+            <a href="/" class="side-menu__logo "><img class="logo-res" style="margin-left:35px" src="/assets/images/humming-bird-white.png" alt=""></a>
 
-            <div style="display:flex;column-gap:15%">
+            <div style="display:block">
                 <div class="menu-res">
                     <nav class="mobile-nav__container">
                         <!-- content is loading via js -->
@@ -137,14 +137,16 @@
 
                 </div>
 
-                <div class="side-menu__block__copy desktop-only" style="align-content: center;">
-                    <p style="text-align: -webkit-left;margin-bottom:-8px;color:white;font-weight:700">Hummingbird</p>
+                <div class="side-menu__block__copy desktop-only" style="align-content: center;margin-left:40px">
+                    <p style="text-align: -webkit-left;margin-bottom:-8px;color:white;font-weight:700;font-family:Inter">Hummingbird</p>
                     <div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;">
-                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px;font-size:14px">Wisma Parlo, No 72, Jalan Kampong Attap</span>
-                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px;font-size:14px">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;margin-top: 20px;">
-                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px;font-size:14px">Tel: +6012-3456789</span>
-                            <span style="font-weight: 400 !important;!i;!;font-family: system-ui;margin-bottom:-8px;font-size:14px">enquiry@hummingbird.my</span>
-                            <span style="font-weight: 400 !important;font-family: system-ui;margin-bottom:-8px;font-size:14px">KPL No.0218</span>
+                        <div style="cursor: pointer;display:contents;" id="re-address">
+                            <span style="font-weight: 400 !important;!i;!;font-family: Inter;margin-bottom:-8px;font-size:14px;text-decoration:underline;">Wisma Parlo, No 72, Jalan Kampong Attap</span>
+                            <span style="font-weight: 400 !important;!i;!;font-family: Inter;margin-bottom:-8px;font-size:14px;text-decoration:underline;">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;margin-top: 20px;">
+                        </div>
+                            <span style="font-weight: 400 !important;!i;!;font-family: Inter;margin-bottom:-8px;font-size:14px">Tel: +6012-3456789</span>
+                            <span style="font-weight: 400 !important;!i;!;font-family: Inter;margin-bottom:-8px;font-size:14px">enquiry@hummingbird.my</span>
+                            <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px">KPL No. 0218</span>
                     </div>
                 </div>
             </div>
@@ -175,8 +177,32 @@
     <!-- Custom Scripts -->
     <script src="/assets/js/theme.js"></script>
 
+        <script>
 
+            $('#re-address').click(function(){
+                var url = "https://www.google.com/maps/place/Parlo+Tours+Travel+Agency+%7C+Kuala+Lumpur/@3.1372495,101.6957696,17z/data=!3m1!4b1!4m6!3m5!1s0x31cc49db4e9f29c7:0x83e4b3a1e3c5ea7e!8m2!3d3.1372495!4d101.6957696!16s%2Fg%2F1vc7_9n6?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D";
+                event.preventDefault();
+                window.open(url, '_blank').focus();
+            });
+
+            $('#re-thematic').click(function(){
+                var url = "/tours-by-type";
+                event.preventDefault();
+                window.open(url, '_blank').focus();
+            });
+
+            $('#re-private').click(function(){
+                var url = "/private-tour";
+                event.preventDefault();
+                window.open(url, '_blank').focus();
+            });
+
+
+
+
+        </script>
         @stack('scripts')
+
 
 </body>
 

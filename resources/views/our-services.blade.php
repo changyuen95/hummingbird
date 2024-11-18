@@ -31,7 +31,7 @@
                 <h2 class="number-title">01</h2>
                 <h2 class="non-number-title">Thematic Itineraries</h2>
                 <p>Our thematic itineraries are crafted around specific themes that resonate with your passions and interests. Dive deep into the essence of a destination through curated experiences, such as:</p>
-                <ul>
+                <ul style="padding-left:15px;margin-top:0px">
                     <li>Cultural Explorations</li>
                     <li>Nature and Adventure</li>
                     <li>Festivals</li>
@@ -50,7 +50,7 @@
                 <h2 class="non-number-title">Special Interest Itineraries</h2>
                 <p>For those with specific interests, our special interest itineraries provide focused experiences that allow you to delve deeper into your passions. Choose from options like:
                 </p>
-                <ul>
+                <ul style="padding-left:15px;margin-top:0px">
                     <li>Trekking Adventures</li>
                     <li>Wellness Retreats</li>
                     <li>History and Heritage</li>
@@ -72,7 +72,7 @@
                 <h2 class="non-number-title">Private Tours</h2>
                 <p>Experience travel on your own terms with our exclusive private tours. Perfect for families or groups of friends, these tours offer:
                 </p>
-                <ul>
+                <ul style="padding-left:15px;margin-top:0px">
                     <li>Customized Itineraries</li>
                     <li>Flexibility and Comfort</li>
                     <li>Dedicated Guides</li>
@@ -88,7 +88,7 @@
                 <h2 class="number-title">04</h2>
                 <h2 class="non-number-title">Collaborative Tours</h2>
                 <p>Our collaborative tours bring together field experts, media personalities, and key opinion leaders (KOLs) to enhance your travel experience. These special interest tours offer:</p>
-                <ul>
+                <ul style="padding-left:15px;margin-top:0px">
                     <li>Expert Insights</li>
                     <li>Unique Perspectives</li>
                     <li>Engaging Activities</li>
@@ -104,6 +104,7 @@
 
 
 
+
     <div class="content-container">
         <div class="background-box">
             <h2 class="center-heading">Ready to travel?</h2>
@@ -111,14 +112,14 @@
             No matter which itinerary you choose, we guarantee an enriching travel experience that goes beyond the ordinary.
         </p>
         <p class="center-paragraph">
-            Contact us today to learn more about our thematic, special interest, private, and collaborative tour options. Let’s embark on an unforgettable adventure together!
+            <a class="center-paragraph" style="color:#fff;font-style:italic;text-decoration:underline;padding:0" href="/contact-us" target="_blank">Contact us </a>today to learn more about our thematic, special interest, private, and collaborative tour options. Let’s embark on an unforgettable adventure together!
         </p>
             <div class="icon-container">
-                <div class=" icon">
+                <div class=" icon" id="re-thematic">
                     <img class="small-image" src="{{asset('assets/images/our-services/left.png')}}" alt="Icon 1">
                     <p >Thematic Itineraries</p>
                 </div>
-                <div class="icon">
+                <div class="icon " id="re-private">
                     <img class="small-image" src="{{asset('assets/images/our-services/left.png')}}" alt="Icon 1">
                     <p >Private Tour</p>
 

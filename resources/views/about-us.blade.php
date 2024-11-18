@@ -16,7 +16,7 @@
 
                 <div class="container bg-title-margin" >
                     <div class="content-box text-center">
-                        <h3>For travelers, <br> By travelers</h3>
+                        <h3>For Travelers <br> By Travelers</h3>
 
                     </div>
                 </div>
@@ -33,14 +33,15 @@
    @endpush
 
    <div class="centered-section abt-us-title">
-        <p style="text-align:center;margin-bottom:0px;font-size:1.4rem" class="mobile-only">We are travelers,</p>
-        <p style="text-align:center;font-size:1.4rem" class="mobile-only">crafting and curating tours for travelers</p>
-        <p style="text-align:center;margin-bottom:0px;font-size:1.4rem" class="desktop-only">We are travelers,crafting and curating tours</p>
-        <p style="text-align:center;font-size:1.4rem" class="desktop-only">for travelers</p>
-        <p style="line-height:22px;font-size: 14px;">At Hummingbird, we believe that travel is not just about visiting new places; it's about immersing yourself in the rich tapestry of cultures, histories, and landscapes that our world has to offer. We craft and curate tours for those who see travel as a profound experience—an opportunity for personal growth, connection, and discovery.</p>
-        <p style="line-height:22px;font-size: 14px;">Calling Fellow Travelers!</p>
-        <p style="line-height:22px;font-size: 14px;">If you are a traveler seeking adventure, cultural enrichment, or simply a break from the ordinary, our thoughtfully crafted tours invite you to experience travel in its most profound form.</p>
-        <p style="line-height:22px;font-size: 14px;">Join Hummingbird on a journey of discovery and embark on a journey that promises not just sights but meaningful experiences that will stay with you long after your travels have ended. Your adventure awaits—let’s create something extraordinary together!</p>
+        <p style="text-align:center;margin-bottom:0px;font-size:32px;line-height:48px" class="mobile-only">We are travelers,</p>
+        <p style="text-align:center;font-size:32px" class="mobile-only">crafting and curating tours for travelers</p>
+        <p style="text-align:center;margin-bottom:0px;font-size:32px;line-height:48px" class="desktop-only">We are travelers,crafting and curating tours for travelers</p>
+        {{-- <p style="text-align:center;font-size:32px" class="desktop-only">for travelers</p> --}}
+        <p style="line-height:28px;font-size: 14px;margin-top:35px;">At Hummingbird, we believe that travel is not just about visiting new places; it's about immersing yourself in the rich tapestry of cultures, histories, and landscapes that our world has to offer. We craft and curate tours for those who see travel as a profound experience—an opportunity for personal growth, connection, and discovery.</p>
+        <p style="text-align:center;margin-bottom:25px;margin-top:25px;font-size:24px;line-height:40px">Calling Fellow Travelers!</p>
+
+        <p style="line-height:28px;font-size: 14px;">If you are a traveler seeking adventure, cultural enrichment, or simply a break from the ordinary, our thoughtfully crafted tours invite you to experience travel in its most profound form.</p>
+        <p style="line-height:28px;font-size: 14px;">Join Hummingbird on a journey of discovery and embark on a journey that promises not just sights but meaningful experiences that will stay with you long after your travels have ended. Your adventure awaits—let’s create something extraordinary together!</p>
     </div>
 
 
@@ -62,12 +63,14 @@
                 <p class="abt-content-word">Hummingbird is his personal project designed to share his extensive travel knowledge with others. Through Hummingbird, Kae aims to craft unforgettable experiences that go beyond typical trips, blending travel photography with deep cultural insights.</p>
             </div>
         </div>
-        <div><p>Traveling with Hummingbird means:</p></div>
+        <div>
+            <p style="text-align:center;margin-bottom:40px;font-size:32px;line-height:48px" >Travelling with Hummingbird means:</p>
+        </div>
         <!-- Third Row: Left Text, Right Image -->
         <div class="about-us-row">
             <div class="about-us-col-left" style="align-content:center">
-                <p class="abt-content-title">Building Deep Connections</p>
-                <p class="abt-content-word">Traveling to forge deep connections with the places we visit and learning from the rich tapestry of cultures and religions.</p>
+                <p class="abt-content-title2">Building Deep Connections</p>
+                <p class="abt-content-word2">Traveling to forge deep connections with the places we visit and learning from the rich tapestry of cultures and religions.</p>
 
             </div>
             <div class="about-us-col-right">
@@ -81,21 +84,22 @@
                 <img class="about-us-image" src="/assets/images/about-us/exploration.png" alt="Left Image">
             </div>
             <div class="about-us-col-right" style="align-content:center">
-                <p class="abt-content-title">Exchange and Explorotion</p>
-                <p class="abt-content-word">Traveling to engage in meaningful exchanges with people from all walks of life and exploring uncharted territories.</p>
+                <p class="abt-content-title2">Exchange and Explorotion</p>
+                <p class="abt-content-word2">Traveling to engage in meaningful exchanges with people from all walks of life and exploring uncharted territories.</p>
             </div>
         </div>
 
         <!-- Fifth Row: Left Text, Right Empty -->
         <div class="about-us-row">
             <div class="about-us-col-left" style="align-content:center">
-                <p class="abt-content-title">Broadening Horizons</p>
-                <p class="abt-content-word">Traveling to broaden horizons, embracing the unexpected, and finding beauty in the unfamiliar.</p>
+                <p class="abt-content-title2">Broadening Horizons</p>
+                <p class="abt-content-word2">Traveling to broaden horizons, embracing the unexpected, and finding beauty in the unfamiliar.</p>
             </div>
             <div class="about-us-col-right">
-                <!-- Empty right column -->
+                <img class="about-us-image" src="/assets/images/broadening.png" alt="Right Image">
             </div>
         </div>
+
     </div>
 
 
@@ -106,14 +110,14 @@
             No matter which itinerary you choose, we guarantee an enriching travel experience that goes beyond the ordinary.
         </p>
         <p class="center-paragraph">
-            Contact us today to learn more about our thematic, special interest, private, and collaborative tour options. Let’s embark on an unforgettable adventure together!
+            <a class="center-paragraph" style="color:#fff;font-style:italic;text-decoration:underline;padding:0" href="/contact-us" target="_blank">Contact us </a>today to learn more about our thematic, special interest, private, and collaborative tour options. Let’s embark on an unforgettable adventure together!
         </p>
             <div class="icon-container">
-                <div class=" icon">
+                <div class=" icon" id="re-thematic">
                     <img class="small-image" src="{{asset('assets/images/our-services/left.png')}}" alt="Icon 1">
                     <p >Thematic Itineraries</p>
                 </div>
-                <div class="icon">
+                <div class="icon " id="re-private">
                     <img class="small-image" src="{{asset('assets/images/our-services/left.png')}}" alt="Icon 1">
                     <p >Private Tour</p>
 

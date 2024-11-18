@@ -167,15 +167,18 @@
 
         </div> --}}
 
-        <div class="private-tours-bg" style="background-image: url('/assets/images/private-tour-bg.png');">
+        <div class="private-tours-bg" style="margin-top:100px;background-image: url('/assets/images/private-tour-bg.png');">
 
-            <div class="private-box">
-                <h2 style="font-size: 2em;padding: 30px;">Private Tours</h2>
-                <p class="private-tour-size" style="font-size: 1em;">
+            <div class="private-box" style="width:60%">
+                <h2 style="font-size: 24px;font-weight:500;padding: 35px;">Private Tours</h2>
+                <p class="private-tour-size" style="font-size: 16px;font-weight:300;line-height:28px">
                     Wish to explore new destinations with your family and friends only?
                     Our private tour service is for families and friends who want to create unforgettable memories together,
                     all while enjoying a private &amp; personalised travel experience.
                 </p><div style="display:flex;column-gap:10px;place-content: center;margin-bottom: 10px;">
+                    <p style="line-height:22px;font-size: 1rem;padding-top:20px;padding-bottom:20px">Private Tour</p><a href="/private-tour" style="width:32px;height:33px;margin-top:15px" class="redirect-button">→</a>
+                        </div>
+
             {{-- <p style="line-height:22px;font-size: 1rem;padding-top:20px;padding-bottom:20px">Private Tour</p><a href="/avout-us" style="width:32px;height:33px;margin-top:15px" class="redirect-button">→</a> --}}
                 </div>
             </div>
