@@ -37,12 +37,14 @@
 
                     </ul><!-- /.main-nav__navigation-box -->
 
-                    <div class="mobile-only" style="margin-left: 35px;margin-top: 75px;color: white;font-weight:700;font-family:Inter"><p style="color: white;">Hummingbird</p>
+                    <div class="mobile-only" style="font-size:14px;margin-left: 35px;margin-top: 75px;color: white;font-weight:700;font-family:Inter"><p style="color: white;">Hummingbird</p>
 
 
                         <div style="margin: 0px;display: grid;">
-                            <span style="font-weight: 400 !important;font-family: Inter;font-size:14px">Wisma Parlo, No 72, Jalan Kampong Attap</span>
-                            <span style="font-weight: 400 !important;font-family: Inter;font-size:14px">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;margin-top: 30px;display: grid;">
+                            <div style="cursor: pointer;display:contents;" id="re-address">
+                                <span style="font-weight: 400 !important;font-family: Inter;font-size:14px;text-decoration:underline">Wisma Parlo, No 72, Jalan Kampong Attap</span>
+                                <span style="font-weight: 400 !important;font-family: Inter;font-size:14px;text-decoration:underline">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;margin-top: 30px;display: grid;">
+                            </div>
                             <span style="font-weight: 400 !important;font-family: Inter;font-size:14px">Tel: +6012-3456789</span>
                             <span style="font-weight: 400 !important;font-family: Inter;font-size:14px">enquiry@hummingbird.my</span>
                             <span style="font-weight: 400 !important;font-family: Inter;font-size:14px">KPL No. 0218</span>

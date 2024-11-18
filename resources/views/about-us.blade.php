@@ -34,21 +34,25 @@
 
    <div class="centered-section abt-us-title">
         <p style="text-align:center;margin-bottom:0px;font-size:32px;line-height:48px" class="mobile-only">We are travelers,</p>
-        <p style="text-align:center;font-size:32px" class="mobile-only">crafting and curating tours for travelers</p>
+        <p style="text-align:center;font-size:32px;line-height:48px" class="mobile-only">crafting and curating tours for travelers</p>
         <p style="text-align:center;margin-bottom:0px;font-size:32px;line-height:48px" class="desktop-only">We are travelers,crafting and curating tours for travelers</p>
         {{-- <p style="text-align:center;font-size:32px" class="desktop-only">for travelers</p> --}}
-        <p style="line-height:28px;font-size: 14px;margin-top:35px;">At Hummingbird, we believe that travel is not just about visiting new places; it's about immersing yourself in the rich tapestry of cultures, histories, and landscapes that our world has to offer. We craft and curate tours for those who see travel as a profound experience—an opportunity for personal growth, connection, and discovery.</p>
+        <p style="line-height:32px;font-size: 14px;margin-top:35px;">At Hummingbird, we believe that travel is not just about visiting new places; it's about immersing yourself in the rich tapestry of cultures, histories, and landscapes that our world has to offer. We craft and curate tours for those who see travel as a profound experience—an opportunity for personal growth, connection, and discovery.</p>
         <p style="text-align:center;margin-bottom:25px;margin-top:25px;font-size:24px;line-height:40px">Calling Fellow Travelers!</p>
 
-        <p style="line-height:28px;font-size: 14px;">If you are a traveler seeking adventure, cultural enrichment, or simply a break from the ordinary, our thoughtfully crafted tours invite you to experience travel in its most profound form.</p>
-        <p style="line-height:28px;font-size: 14px;">Join Hummingbird on a journey of discovery and embark on a journey that promises not just sights but meaningful experiences that will stay with you long after your travels have ended. Your adventure awaits—let’s create something extraordinary together!</p>
+        <p style="line-height:32px;font-size: 14px;">If you are a traveler seeking adventure, cultural enrichment, or simply a break from the ordinary, our thoughtfully crafted tours invite you to experience travel in its most profound form.</p>
+        <p style="line-height:32px;font-size: 14px;">Join Hummingbird on a journey of discovery and embark on a journey that promises not just sights but meaningful experiences that will stay with you long after your travels have ended. Your adventure awaits—let’s create something extraordinary together!</p>
     </div>
 
 
     <div class="about-us-container">
         <!-- First Row: Full Width Image -->
-        <div class="about-us-row">
+        <div class="about-us-row desktop-only">
             <img class="about-us-full-width-image" src="/assets/images/about-us/top.png" alt="Full Width Image">
+        </div>
+
+        <div class="about-us-row mobile-only">
+            <img class="about-us-full-width-image" src="/assets/images/about-us/top-mobile.png" alt="Full Width Image">
         </div>
 
         <!-- Second Row: Left Image, Right Text -->
@@ -79,13 +83,25 @@
         </div>
 
         <!-- Fourth Row: Left Image, Right Text -->
-        <div class="about-us-row">
+        <div class="about-us-row desktop-only">
             <div class="about-us-col-left">
                 <img class="about-us-image" src="/assets/images/about-us/exploration.png" alt="Left Image">
             </div>
             <div class="about-us-col-right" style="align-content:center">
                 <p class="abt-content-title2">Exchange and Explorotion</p>
                 <p class="abt-content-word2">Traveling to engage in meaningful exchanges with people from all walks of life and exploring uncharted territories.</p>
+            </div>
+        </div>
+
+
+        <div class="about-us-row mobile-only">
+            <div class="about-us-col-left">
+                <p class="abt-content-title2">Exchange and Explorotion</p>
+                <p class="abt-content-word2">Traveling to engage in meaningful exchanges with people from all walks of life and exploring uncharted territories.</p>
+            </div>
+            <div class="about-us-col-right" style="align-content:center">
+                <img class="about-us-image" src="/assets/images/about-us/exploration.png" alt="Left Image">
+
             </div>
         </div>
 

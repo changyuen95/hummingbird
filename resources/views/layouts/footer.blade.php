@@ -13,7 +13,7 @@
                             <li>50460 Kuala Lumpur, Malaysia</li>
 
                         </ul> --}}
-                        <p>Wisma Parlo, No. 72, Jalan Kampong Attap<br>
+                        <p class="footer-wording">Wisma Parlo, No. 72, Jalan Kampong Attap<br>
                             50460 Kuala Lumpur, Malaysia</p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-4 -->
@@ -44,44 +44,50 @@
                         {{-- <h3 class="footer-widget__title">华总聯絡方式</h3> --}}
                         {{-- <p>Wisma Huazong, Lot 15285, <br>
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p> --}}
-                        <p><a href="/">Home</a></p>
-                        <p><a href="/about-us">About</a></p>
-                        <p><a href="contact-us">Contact Us</a></p>
+                        <p class="footer-title">Quick Links</p>
+                        <p class="footer-wording"><a href="/">Home</a></p>
+                        <p class="footer-wording"><a href="/about-us">About</a></p>
+                        <p class="footer-wording"><a href="contact-us">Contact Us</a></p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
                 <div class="col-lg-2 mobile-footer-col">
                     <div class="footer-widget footer-widget__contact">
                         {{-- <h3 class="footer-widget__title">华总聯絡方式</h3> --}}
-                        {{-- <p>Wisma Huazong, Lot 15285, <br>
+                        {{-- <p class="footer-wording">Wisma Huazong, Lot 15285, <br>
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p> --}}
-                        <p style="font-weight: 700">Tours</p>
-                        <p><a href="/tours-by-type">Tours by Type</a></p>
-                        <p><a href="/private-tour">Private Tours</a></p>
+                        <p class="footer-title">Services & Tours</p>
+                        <p class="footer-wording">Our Services</p>
+                        <p class="footer-wording"><a href="/tours-by-type">Tours by Type</a></p>
+                        <p class="footer-wording"><a href="/private-tour">Private Tours</a></p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
                 <div class="col-lg-2 mobile-footer-col">
                     <div class="footer-widget footer-widget__contact">
                         {{-- <h3 class="footer-widget__title">华总聯絡方式</h3> --}}
-                        {{-- <p>Wisma Huazong, Lot 15285, <br>
+                        {{-- <p class="footer-wording">Wisma Huazong, Lot 15285, <br>
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p> --}}
-                        <p style="font-weight: 700">Legal</p>
-                        <p><a href="/tnc">Terms & Conditions</a></p>
-                        <p><a href="/privacy">Private Policy</a></p>
+                        <p class="footer-title">Terms & Policies</p>
+                        <p class="footer-wording"><a href="/tnc">Terms & Conditions</a></p>
+                        <p class="footer-wording"><a href="/privacy">Private Policy</a></p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
                 <div class="col-lg-3 mobile-footer-col">
                     <div class="footer-widget footer-widget__open-hrs">
-                         <p style="font-weight: 700">Connect <br>
+                         <p style="font-weight: 700">Follow us <br>
                         <div style="">
-                            <ul id="buttons" class="">
+                            <ul id="buttons" class="" style="margin-top:20px">
                                 <li >
                                     <a href="#" title="Facebook" target="_blank">
-                                    <img src="/assets/images/fb.png" width="25px">
+                                    <img src="/assets/images/fb-mobile.png" class="fb-link mobile-only" width="20px">
+                                    <img src="/assets/images/fb.png" class="ig-link desktop-only" width="25px">
+
                                     </a>
                                 </li>
-                                <li >
+                                <li style="border-radius:0" >
                                     <a href="#" title="Instagram" target="_blank">
-                                        <img src="/assets/images/ig.png" width="25">
+                                        <img src="/assets/images/ig-mobile.png" class="fb-link mobile-only" width="20">
+                                        <img src="/assets/images/ig.png" class="ig-link desktop-only" width="25">
+
                                     </a>
                                 </li>
 

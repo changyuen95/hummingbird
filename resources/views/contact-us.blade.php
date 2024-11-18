@@ -27,24 +27,24 @@
                     <div class="col-lg-6">
 
                         <div class="block-title-two text-center">
-                            <p ><b>Contact Us</b></p>
-                            <p style="font-size:14px">Get in touch and stay informed. Fill Out the enquiry form below and we will get back to you soon.</p>
+                            <p style="font-size:32px;font-weight:500">Contact Us</p>
+                            <p style="font-size:16px">Get in touch and stay informed. Fill Out the enquiry form below and we will get back to you soon.</p>
                         </div><!-- /.block-title-two -->
 
                         <form action="{{ route('enquiry-form') }}" style="margin-bottom:50px" method="POST">
                             @csrf
                             <div class="form-group">
-                                <label style="font-size:16px" for="name">Name: <span>* </span></label>
+                                <label style="font-size:16px;font-family:Inter" for="name">Name: <span>* </span></label>
                                 <input type="text" class="form-control contact-form" id="name" name="name" placeholder="Enter your name" required>
                             </div>
 
                             <div class="form-group">
-                                <label style="font-size:16px" for="email">Email: <span>* </span></label>
+                                <label style="font-size:16px;font-family:Inter" for="email">Email: <span>* </span></label>
                                 <input type="email" class="form-control contact-form" id="email" name="email" placeholder="Enter your email" required>
                             </div>
 
                             <div class="form-group">
-                                <label style="font-size:16px" for="comment">Message:<span> * </span></label>
+                                <label style="font-size:16px;font-family:Inter" for="comment">Message:<span> * </span></label>
                                 <textarea class="form-control contact-form" id="comment" name="comment" rows="4" placeholder="Enter your message" required></textarea>
                             </div>
 
@@ -58,7 +58,7 @@
 
                     <div class="col-lg-4" style="align-content:center">
                         <div" style="align-content: center;">
-                        <p style="font-weight:700;text-align: -webkit-left;margin-bottom:-8px;font-size:14px;font-family:Inter">Hummingbird</p>
+                        <p style="font-weight:700;text-align: -webkit-left;margin-bottom:5px;font-size:14px;font-family:Inter">Hummingbird</p>
                         <div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;">
                                 <span style="font-weight: 100 !important;margin-bottom:-8px;font-size:14px;font-family:Inter">Wisma Parlo, No 72, Jalan Kampong Attap</span>
                                 <span style="font-weight: 100 !important;margin-bottom:-8px;font-size:14px;font-family:Inter">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;margin-top: 20px;">
@@ -77,6 +77,7 @@
             </div><!-- /.container -->
         </div><!-- /.contact-one -->
 
+        @include('layouts.footer')
 
     </div>
 

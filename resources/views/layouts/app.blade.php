@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="/assets/css/hover-min.css">
     <link rel="stylesheet" href="/assets/css/muzex-icons.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=2.1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=3">
     <link rel="stylesheet" href="/assets/css/responsive.css">
     <link rel="stylesheet" href="/assets/css/customs.css">
 
@@ -125,9 +125,9 @@
             <div class="cursor-follower"></div>
         </div><!-- /.side-menu__block-overlay -->
 
-        <div class="side-menu__block-inner " style="width:60%">
+        <div class="side-menu__block-inner res-sidewidth">
 
-            <a href="/" class="side-menu__logo "><img class="logo-res" style="margin-left:35px" src="/assets/images/humming-bird-white.png" alt=""></a>
+            <a href="/" class="side-menu__logo "><img class="logo-res logo-margin" src="/assets/images/humming-bird-white.png" alt=""></a>
 
             <div style="display:block">
                 <div class="menu-res">
@@ -141,11 +141,11 @@
                     <p style="text-align: -webkit-left;margin-bottom:-8px;color:white;font-weight:700;font-family:Inter">Hummingbird</p>
                     <div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;">
                         <div style="cursor: pointer;display:contents;" id="re-address">
-                            <span style="font-weight: 400 !important;!i;!;font-family: Inter;margin-bottom:-8px;font-size:14px;text-decoration:underline;">Wisma Parlo, No 72, Jalan Kampong Attap</span>
-                            <span style="font-weight: 400 !important;!i;!;font-family: Inter;margin-bottom:-8px;font-size:14px;text-decoration:underline;">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;margin-top: 20px;">
+                            <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px;text-decoration:underline;">Wisma Parlo, No 72, Jalan Kampong Attap</span>
+                            <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px;text-decoration:underline;">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;margin-top: 20px;">
                         </div>
-                            <span style="font-weight: 400 !important;!i;!;font-family: Inter;margin-bottom:-8px;font-size:14px">Tel: +6012-3456789</span>
-                            <span style="font-weight: 400 !important;!i;!;font-family: Inter;margin-bottom:-8px;font-size:14px">enquiry@hummingbird.my</span>
+                            <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px">Tel: +6012-3456789</span>
+                            <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px">enquiry@hummingbird.my</span>
                             <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px">KPL No. 0218</span>
                     </div>
                 </div>
@@ -193,6 +193,18 @@
 
             $('#re-private').click(function(){
                 var url = "/private-tour";
+                event.preventDefault();
+                window.open(url, '_blank').focus();
+            });
+
+            $('.ig-link').click(function(){
+                var url = "https://www.instagram.com/hummingbird_my?fbclid=IwZXh0bgNhZW0CMTAAAR1-aiFQ8MEAaS5rDOXUOk8_svQq9sVo42O8TRQI6wY8CtTi7p-kKReeCqQ_aem_00wd9JEeNI9HqfZX10rHvQ";
+                event.preventDefault();
+                window.open(url, '_blank').focus();
+            });
+
+            $('.fb-link').click(function(){
+                var url = "https://www.facebook.com/profile.php?id=61558712066428";
                 event.preventDefault();
                 window.open(url, '_blank').focus();
             });
