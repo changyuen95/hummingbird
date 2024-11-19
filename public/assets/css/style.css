@@ -3332,7 +3332,10 @@ a:focus {
 	overflow: hidden;
 	background-color: var(--thm-black);
     border-radius: 17px;
-    height: 26rem;
+    height: 355px;
+    width: 355px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -6604,9 +6607,15 @@ a:focus {
     margin-bottom: 12px;
   }
 
-  .filter-box .filter-title {
+  .filter-box .main-filter-title {
     flex: 1 1;
     font-weight: 700;
+  }
+
+
+  .filter-box .filter-title {
+    flex: 1 1;
+    font-weight: 300;
   }
 
   .filter-box .filter-list.inline{
@@ -6635,19 +6644,21 @@ a:focus {
   .desktop-only{
     display: block;
   }
-
+ .desktop-only-contents{
+    display: contents;
+ }
 
 .filter-button {
     padding: 0 8px;
     height: 26px;
-    line-height: 26px;
+    line-height: 28px;
     background-color: #f5f7fa;
     border-radius: 4px;
-    font-size: 12px;
     color: #0f294d;
     cursor: pointer;
-    font-size:16px;
+    font-size:14px;
     font-weight:400;
+    font-family:Inter;
   }
 
   .filter-clear {
@@ -6655,14 +6666,14 @@ a:focus {
   }
 
   .filter-box .filter-button.active{
-    background-color: #0f294d;
+    background-color: #D9E7E0;
     color: #fff
   }
 
-  .filter-box .filter-button.active{
+  /* .filter-box .filter-button.active{
     background-color: #0f294d;
     color: #fff
-  }
+  } */
 
   .title-box{
     margin-bottom: 2px;
@@ -7197,6 +7208,22 @@ a:focus {
     height: 20px;
     margin-right: 8px;
 }
+
+#book-now.fixed {
+    position: fixed; /* Fixed state */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#book-now.hidden {
+    display: block; /* Hidden when footer overlaps */
+}
+
+.hidden{
+    display: none;
+}
+
 @media (max-width: 1300px) {
 
     .footer-widget p {
@@ -7209,7 +7236,7 @@ a:focus {
 }
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
 
     .text-container h2 {
         margin-bottom: 10px;
@@ -7271,12 +7298,15 @@ a:focus {
     .desktop-only{
         display: none;
     }
+    .desktop-only-contents{
+        display: none;
+    }
     .menu-res {
         width:100%;
         margin-left : 0px;
     }
     .mobile-only{
-        display: block;
+        display: block !important;
     }
 
     .banner-carousel .content-box h3 {

@@ -23,11 +23,12 @@
                         </ul>
                     </div>
 
-                    <div><p class="update-name" style="font-size: large;font-weight: 700;font-family: karla;">{{$tour['name']}}</p>
-                    <span class="update-date">{{$tour['from_date'] .' - '.$tour['to_date']}}</span>
-                    <span class="update-days">{{$tour['days'] . ' Days ' . $tour['days'] - 1 . ' Nights'}}</span>
-                    <span class="update-destination">{{$tour['destination']}}</span>
-                    <span class="update-price" style="margin-top: 16px;font-weight:700;font-size:18px">{{'RM '. $tour['price']}}</span>
+                    <div><p class="update-name" style="font-family:Inter;font-size: 20px;font-weight: 300;line-height:20px">{{$tour['name']}}</p>
+                    <span class="update-price" style="font-family:Inter;margin-top: 10px;font-weight:700;font-size:16px;line-height:40px">{{'RM '. $tour['price']}}</span>
+                    <span class="update-date" style="font-family:Inter;font-size: 14px;font-weight: 400;line-height:24px">{{$tour['from_date'] .' - '.$tour['to_date']}}</span>
+                    <span class="update-days" style="font-family:Inter;font-size: 14px;font-weight: 400;line-height:24px">{{$tour['days'] . ' Days ' . $tour['days'] - 1 . ' Nights'}}</span>
+                    <span class="update-destination" style="font-family:Inter;font-size: 14px;font-weight: 400;line-height:24px">{{$tour['destination']}}</span>
+
 
                     </div>
 

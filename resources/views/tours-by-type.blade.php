@@ -29,7 +29,7 @@
             <div class="list-side">
 
                 <div class="title-container">
-                    <p style="font-family: 'Karla'; font-weight: 400; font-size: 26px; color: black;">Tours by Type</p>
+                    <p style=" font-weight: 300; font-size: 32px;  color: black;">Tours by Type</p>
                     <button id="toggle-button" class="toggle-btn" onclick="toggleFilters()">
                         <img src="/assets/images/up.png" alt="Toggle" id="toggle-icon" />
                     </button>

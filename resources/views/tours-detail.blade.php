@@ -13,7 +13,7 @@ $tour = config('tour.tours.'.$encoded);
 @section('content')
 
 @push('header')
-    <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" >
+    <div id="banner-carousel" class="banner-carousel thm__owl-carousel owl-theme owl-carousel" >
 
         <!-- Slide Item  -->
 
@@ -46,13 +46,13 @@ $tour = config('tour.tours.'.$encoded);
 
 
     <section class="blog-one blog-standard-page">
-        <div class="container" style="padding-left:0px;padding:right:0px">
+        <div class="container" style="padding-left:0px;padding-right:0px">
 
 
             <div class="row" style="align-items: unset;">
 
 
-                <div class="col-lg-4 mobile-off" >
+                <div class="col-lg-4 desktop-only" >
                     <div class="sidebar__single">
                         <ul class="sidebar-index" style="list-style:none">
                             <li><a href="#introduction" class="index-link">Introduction</a></li>
@@ -89,60 +89,60 @@ $tour = config('tour.tours.'.$encoded);
 
                                         </li>
                                     </ul>
-                                    <h3 style="font-size:32px;font-family">{{$tour['name']}}</h3>
+                                    <h3 style="font-size:32px;font-weight:300;line-height:40px">{{$tour['name']}}</h3>
                                     <div class="mobile-off">
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/destination.png" style="width: 15px;height: 15px;"></div>
-                                            <div class="col-11 res-padding" ><p style="font-family:sans-serif">{{$tour['destination'] ?? ''}}</p></div>
+                                            <div class="col-11 res-padding" ><p style="font-family:Inter">{{$tour['destination'] ?? ''}}</p></div>
                                         </div>
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/clock.png" style="width: 15px;height: 15px;"></div>
-                                            <div class="col-11 res-padding" ><p style="font-family:sans-serif">From {{ Carbon\Carbon::parse($tour['from_date'])->format('d M Y') }} to {{Carbon\Carbon::parse($tour['to_date'])->format('d M Y')}} | {{$tour['days'] ?? 0}} days {{($tour['days'] ?? 0) - 1}} nights </p></div>
+                                            <div class="col-11 res-padding" ><p style="font-family:Inter">From {{ Carbon\Carbon::parse($tour['from_date'])->format('d M Y') }} to {{Carbon\Carbon::parse($tour['to_date'])->format('d M Y')}} | {{$tour['days'] ?? 0}} days {{($tour['days'] ?? 0) - 1}} nights </p></div>
                                         </div>
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/pax.png" style="width: 15px;height: 15px;"></div>
-                                            <div class="col-11 res-padding" ><p style="font-family:sans-serif">Group Size: Minimum {{$tour['minimum_pax'] ?? 0}} pax
+                                            <div class="col-11 res-padding" ><p style="font-family:Inter">Group Size: Minimum {{$tour['minimum_pax'] ?? 0}} pax
                                             (Maximum {{$tourp['max_pax'] ?? 0}} pax)</p></div>
                                         </div>
                                     </div>
 
-                                    <div class="desktop-off">
+                                    <div class="mobile-only">
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/destination.png" style="width: 15px;height: 15px;"></div>
-                                            <div class="col-11 res-padding" ><p style="font-family:sans-serif">{{$tour['destination'] ?? ''}}</p></div>
+                                            <div class="col-11 res-padding" ><p style="font-family:Inter">{{$tour['destination'] ?? ''}}</p></div>
                                         </div>
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/clock.png" style="width: 15px;height: 15px;"></div>
-                                            <div class="col-11 res-padding" ><p style="font-family:sans-serif">{{$tour['days'] ?? 0}} days {{($tour['days'] ?? 0) - 1}} nights </p></div>
+                                            <div class="col-11 res-padding" ><p style="font-family:Inter">{{$tour['days'] ?? 0}} days {{($tour['days'] ?? 0) - 1}} nights </p></div>
                                         </div>
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/pax.png" style="width: 15px;height: 15px;"></div>
-                                            <div class="col-11 res-padding" ><p style="font-family:sans-serif">Minimum group size of {{$tour['minimum_pax'] ?? 0}} persons</p></div>
+                                            <div class="col-11 res-padding" ><p style="font-family:Inter">Minimum group size of {{$tour['minimum_pax'] ?? 0}} persons</p></div>
                                         </div>
                                     </div>
 
 
-                                    <h3 style="margin-top:35px" id="introduction">Introduction</h3>
+                                    <h3 style="margin-top:35px;" id="introduction">Introduction</h3>
 
 
                                     @foreach ($tour['introduction'] as $introduction)
-                                        <p style="font-size:14px">{{$introduction}}</p><br>
+                                        <p style="font-size:14px;line-height:28px;font-weight:300">{{$introduction}}</p><br>
                                     @endforeach
 
                                 </p>
 
                                 <h3 style="margin-top:30px" id="itinerary" >Itinerary</h3>
-                                <p style="font-size:12px">Tour itineraries are subject to change. We will inform you of any amendments as soon as we become aware of them.</p>
+                                <p style="font-size:12px;font-family:Inter">Tour itineraries are subject to change. We will inform you of any amendments as soon as we become aware of them.</p>
 
                                     @foreach ( $tour['itinerary'] as $key => $itinerary)
 
 
                                     <div class="day-section">
-                                        <div class="day-number">Day {{$itinerary['day']}} {{$itinerary['range'] > 0 ? ' - '. $itinerary['range'] : ''}}</div>
-                                        <div class="day-title">{{$itinerary['title'] ?? ''}}</div>
+                                        <div class="day-number" style="font-size:16px">Day {{$itinerary['day']}} {{$itinerary['range'] > 0 ? ' - '. $itinerary['range'] : ''}}</div>
+                                        <div class="day-title" style="font-size:16px">{{$itinerary['title'] ?? ''}}</div>
                                         <div class="toggle-arrow" onclick="toggleContent('content{{$key}}')">
-                                            <img style="display:block" id ="content{{$key}}_up" src="/assets/images/up.png">
-                                            <img style="display:none" id ="content{{$key}}_down" src="/assets/images/down.png">
+                                            <img style="display:block" id ="content{{$key}}_up" src="/assets/images/down.png">
+                                            <img style="display:none" id ="content{{$key}}_down" src="/assets/images/up.png">
 
                                         </div>
                                     </div>
@@ -201,13 +201,14 @@ $tour = config('tour.tours.'.$encoded);
                                     </div>
 
 
-                                    <p style="margin-top:20px">
+                                    <p style="margin-top:20px;font-family:Inter;font-weight:700;font-size:14px;">
                                       TOUR FARE VALIDITY
                                     </p>
+
                                     <ul>
                                         @foreach ($tour['validity'] as $validity)
-                                            <li>
-                                                {{$validity}}
+                                            <li style="font-family:Inter;font-weight:400;font-size:14px;line-height:22px">
+                                               {{$validity}}
                                             </li>
                                         @endforeach
 
@@ -215,11 +216,11 @@ $tour = config('tour.tours.'.$encoded);
                                     </ul>
 
                                     <h3 class="mobile-off" id="paymentterms">Payment Terms</h3>
-                                    <h3 class="bold-small desktop-off" id="paymentterms">Payment Terms</h3>
+                                    <h3 class="bold-small mobile-only" id="paymentterms">Payment Terms</h3>
 
                                     <ul>
                                         @foreach ($tour['payment_terms'] as $payment_terms)
-                                            <li>
+                                            <li style="font-family:Inter;font-weight:400;font-size:14px;">
                                                 {{$payment_terms}}
                                             </li>
                                         @endforeach
@@ -230,7 +231,7 @@ $tour = config('tour.tours.'.$encoded);
                                             <h3>What's Included</h3>
                                             <ul>
                                                 @foreach ($tour['whats_included'] as $whats_included)
-                                                    <li>
+                                                    <li style="font-family:Inter;font-weight:400;font-size:14px;">
                                                         {{$whats_included}}
                                                     </li>
                                                 @endforeach
@@ -241,7 +242,7 @@ $tour = config('tour.tours.'.$encoded);
                                             <h3>What's Not Included</h3>
                                             <ul>
                                                 @foreach ($tour['whats_excluded'] as $whats_excluded)
-                                                    <li>
+                                                    <li style="font-family:Inter;font-weight:400;font-size:14px;">
                                                         {{$whats_excluded}}
                                                     </li>
                                                 @endforeach
@@ -252,7 +253,7 @@ $tour = config('tour.tours.'.$encoded);
 
                                     </div>
                                     <div>
-                                        <a href="https://wa.me/60123019260?text={{$tour['name']}}" target="_blank">
+                                        <a class="desktop-only-contents" href="https://wa.me/60123019260?text={{$tour['name']}}" target="_blank">
                                             <button class="book-now-desktop" >Book Now</button>
                                         </a>
 
@@ -280,7 +281,7 @@ $tour = config('tour.tours.'.$encoded);
                     </div><!-- /.sidebar -->
                     <div>
 
-                        <button class="desktop-off full-width-button" style="padding-left: 0px;padding-right:0px">Book Now</button>
+                        <button data-href="https://wa.me/60123019260?text={{$tour['name']}}" class="mobile-only full-width-button" id="book-now" style="padding-left: 0px;padding-right:0px">Book Now</button>
 
 
                     </div>
@@ -376,6 +377,13 @@ $tour = config('tour.tours.'.$encoded);
 
 @push('styles')
     <link rel="stylesheet" href="/assets/css/detail.css">
+
+    <style>
+        .title-button{
+            cursor: unset;
+        }
+    </style>
+
 @endpush
 
 @push('scripts')
@@ -425,18 +433,63 @@ $tour = config('tour.tours.'.$encoded);
 
             });
 
+
             window.onscroll = function() {
                 var banner = document.querySelector('.sidebar__single').pageYOffset;
                 var sidebar = document.querySelector('.sidebar__single');
+                var logoElements = document.querySelectorAll('.main-nav-one');
                 var contentPosition = document.querySelector('#tourfare').offsetTop;
+
                 console.log(window.pageYOffset);
                 // Add the 'fixed-sidebar' class when scrolling past the content position
-                if (window.pageYOffset >= 897) {
+                if (window.pageYOffset >= 700) {
                     sidebar.classList.add('fixed-sidebar');
+                    logoElements.forEach(function (logo) {
+                        logo.classList.add('hidden'); // Add the 'hidden' class to each element
+                    });
                 } else {
                     sidebar.classList.remove('fixed-sidebar');
-                }
-            };
+                    logoElements.forEach(function (logo) {
+                        logo.classList.remove('hidden'); // Remove the 'hidden' class from each element
+                    });                }
+                };
+
+            document.addEventListener("DOMContentLoaded", function () {
+                const bookNowButton = document.getElementById("book-now");
+                const banner = document.getElementById("banner-carousel");
+                const footer = document.getElementById("footer");
+
+                const bannerBottom = banner.offsetHeight; // Height of the banner
+                    const footerTop = footer.offsetTop; // Distance of the footer from the top
+
+                window.addEventListener("scroll", function () {
+
+                    const scrollPosition = window.scrollY + window.innerHeight; // Current scroll position (bottom of the viewport)
+
+                    // If the user scrolls past the banner
+                    if (window.scrollY > bannerBottom) {
+
+
+                        if (scrollPosition < footerTop) {
+                            bookNowButton.classList.add("fixed");
+                        } else {
+                            bookNowButton.classList.remove("fixed");
+                        }
+
+                    } else {
+                        bookNowButton.classList.remove("fixed");
+                    }
+
+                    // If the button reaches the footer
+                    if (scrollPosition >= footerTop) {
+                        bookNowButton.classList.remove("fixed");
+                        bookNowButton.classList.add("hidden");
+                    } else {
+                        bookNowButton.classList.remove("hidden");
+                    }
+                });
+            });
+
 
 
 

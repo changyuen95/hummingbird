@@ -1,4 +1,4 @@
-<footer class="site-footer" style="width: 100%" >
+<footer id="footer" class="site-footer" style="width: 100%" >
     <div class="site-footer__upper">
         <div class="container" style="padding-left:0px;padding:right:0px;max-width:90%">
             <div class="row">
