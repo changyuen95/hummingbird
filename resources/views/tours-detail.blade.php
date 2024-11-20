@@ -62,7 +62,7 @@ $tour = config('tour.tours.'.$encoded);
                             <li><a href="#included" class="index-link">What's Included</a></li>
                             <li><a href="#excluded" class="index-link">What's Not Included</a></li>
                             <li><a href="#tnc" class="index-link">Terms & Conditions</a></li>
-                            <li><button class="book-now-desktop">Book Now</button></li>
+                            <li style="margin-top:50px"><button class="book-now-desktop">Book Now</button></li>
                         </ul>
                     </div>
                 </div>
@@ -146,7 +146,18 @@ $tour = config('tour.tours.'.$encoded);
 
                                         </div>
                                     </div>
+
                                     <div class="content" style="display:none" id="content{{$key}}">
+
+                                        @if(count($tour['images'][$key]) > 0)
+                                            <div class="row">
+                                            @foreach ($tour['images'][$key] as $img )
+                                                <img class="col-lg-6 detail-img" src="{{$img}}" >
+
+                                            @endforeach
+                                            </div>
+                                        @endif
+
                                         <ul style="mobile-padding-left">
                                             @foreach ($itinerary['highlights'] as $highlights)
                                                 <li>{{$highlights}}</li>
@@ -176,7 +187,7 @@ $tour = config('tour.tours.'.$encoded);
                                             Ground Fare
                                         </span>
                                         <span class="tour_fare_price">
-                                            From RM {{number_format($tour['tour_fare']['total']) ?? 0}}
+                                            RM {{number_format($tour['tour_fare']['total']) ?? 0}}
                                         </span>
                                     </div>
 
@@ -208,25 +219,25 @@ $tour = config('tour.tours.'.$encoded);
                                     <ul>
                                         @foreach ($tour['validity'] as $validity)
                                             <li style="font-family:Inter;font-weight:400;font-size:14px;line-height:22px">
-                                               {{$validity}}
+                                               {!!$validity!!}
                                             </li>
                                         @endforeach
 
 
                                     </ul>
 
-                                    <h3 class="mobile-off" id="paymentterms">Payment Terms</h3>
+                                    <h3 class="mobile-off" id="paymentterms" style="margin-top:50px">Payment Terms</h3>
                                     <h3 class="bold-small mobile-only" id="paymentterms">Payment Terms</h3>
 
                                     <ul>
                                         @foreach ($tour['payment_terms'] as $payment_terms)
                                             <li style="font-family:Inter;font-weight:400;font-size:14px;">
-                                                {{$payment_terms}}
+                                                {!!$payment_terms!!}
                                             </li>
                                         @endforeach
                                     </ul>
 
-                                    <div id="included" class="row">
+                                    <div id="included" class="row" style="margin-top:50px">
                                         <div class="col-lg-6">
                                             <h3>What's Included</h3>
                                             <ul>
@@ -238,7 +249,7 @@ $tour = config('tour.tours.'.$encoded);
                                             </ul>
                                         </div>
 
-                                        <div id="excluded" class="col-lg-6">
+                                        <div id="excluded" class="col-lg-6" style="margin-top:50px">
                                             <h3>What's Not Included</h3>
                                             <ul>
                                                 @foreach ($tour['whats_excluded'] as $whats_excluded)

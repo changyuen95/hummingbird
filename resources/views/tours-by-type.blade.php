@@ -106,16 +106,16 @@
                                 <div class="filter-button date" value="All">All</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button date" value="1-3">Jan - Mar</div>
+                                <div class="filter-button date" value="1">Jan - Mar</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button date" value="4-6">Apr - Jun</div>
+                                <div class="filter-button date" value="4">Apr - Jun</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button date" value="7-9">July - Sept</div>
+                                <div class="filter-button date" value="7">July - Sept</div>
                             </li>
                             <li class="filter-item">
-                                <div class="filter-button date" value="10-12">Oct - Dec</div>
+                                <div class="filter-button date" value="10">Oct - Dec</div>
                             </li>
                         </ul>
                     </div>
@@ -238,11 +238,19 @@
 
                     tour_html.find('.popup-gallery').prop('href', tour['tour_detail_link']) // Replace link
                     tour_html.find('.update-image').prop('src', tour['image']) // Replace image
-                    tour_html.find('.update-date').text((tour['from_date'] ?? null) + ' - ' + tour['to_date']) // Replace country
+                    let fromDate = new Date(tour['from_date']);
+                    let toDate = new Date(tour['to_date']);
+
+                    let fromDateFormatted = new Intl.DateTimeFormat('en-GB', { day: '2-digit', month: 'short' }).format(fromDate);
+                    let toDateFormatted = new Intl.DateTimeFormat('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).format(toDate);
+
+                    tour_html.find('.update-date').text((fromDateFormatted ?? null) + ' - ' + toDateFormatted) // Replace country
                     tour_html.find('.update-days').text((tour['days'] ?? 0) + ' Days ' + (tour['days']-1) + ' Nights') // Replace country
                     tour_html.find('.update-destination').text(tour['destination'] ?? null) // Replace country
                     tour_html.find('.update-price').text('RM '+ (tour['price'] ?? null)) // Replace country
                     tour_html.find('.update-name').text(tour['name'] ?? null) // Replace country
+                    tour_html.find('.all-tour').attr('onclick', "redirectTour('" + tour['index'] + "')");
+
 
 
                     // tour_html.find('.highlight-master').html('');
@@ -250,11 +258,11 @@
                     tour_html.find('.update-tags').html('');
 
 
-                    if(tour['tags']){
+                    if(tour['types']){
 
                         // tour_html.find('.update-tags').append(`<ul class="title-list inline">`);
 
-                        tour['tags'].forEach(element => {
+                        tour['types'].forEach(element => {
 
                             tour_html.find('.update-tags').append(`<li class="title-item"><div class="title-button destination" value="`+element+`">`+element+`</div></li>`);
 

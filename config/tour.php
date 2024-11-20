@@ -2,199 +2,233 @@
 return [
     'tours' => [
 
-        'Sri Lanka Dive with Baki Zainal' => [
-            'id' => 1,
-            'image' =>'/assets/images/srilanka.jpg',
-            'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
-            'name' => 'Sri Lanka Dive with Baki Zainal',
-            'destination_to_search' => ['east asia'],
-            'destination' => 'Sri Lanka',
-            'from_date' => '2024-12-01',
-            'to_date' => '2024-12-09',
-            'days' => 9,
-            'nights' => 8,
-            'minimum_pax' => 15,
-            'leader' => 1,
-            'tags' => ['East Asia', 'Winter' , 'Adventure'],
-            'introduction' => ["Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water."],
-            'itinerary' => [
-                [
-                    'day' => 1,
-                    'range' => 0,
-                    'date' => '1.12.24',
-                    'title' => 'KUALA LUMPUR to COLOMBO to HIKKADUWA',
-                    'highlights' => [
-                        'Assemble at KLIA for flight to Colombo and arrive in the late morning.',
-                        'Meet-and-greet at Colombo airport with traditional dancers and transfer to Hikkaduwa (about 2 hours), with lunch on the way.',
-                        'Explore Hikkaduwa, known for its dive sites, beaches, and coral sanctuary.',
-                        'Check in at dive resort and enjoy free time to explore the area.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Lunch'
-                ],
-                [
-                    'day' => 2,
-                    'range' => 0,
-                    'date' => '2.12.24',
-                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
-                    'highlights' => [
-                        'Start the day with equipment checks and briefing.',
-                        'Wreck dive: SS Conch at 20-22 meters.',
-                        'Wreck dive: Earl of Shaftesbury at 12-14 meters.',
-                        'Return to the beach resort for free time in the afternoon.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 3,
-                    'range' => 0,
-                    'date' => '3.12.24',
-                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
-                    'highlights' => [
-                        'Begin the day with equipment checks and briefing.',
-                        'Reef dive: Kirala Gala at 21-38 meters.',
-                        'Reef dive: Tunaththa Rocks at 6-15 meters.',
-                        'Return to the beach resort for free time.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 4,
-                    'range' => 0,
-                    'date' => '4.12.24',
-                    'title' => 'HIKKADUWA: TUK-TUK LESSON',
-                    'highlights' => [
-                        'Full-day tuk-tuk driving lesson to obtain a driving permit.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 5,
-                    'range' => 0,
-                    'date' => '5.12.24',
-                    'title' => 'HIKKADUWA to GALLE: MORNING TWO-TANK DIVE',
-                    'highlights' => [
-                        'Early morning equipment checks and briefing.',
-                        'Wreck dive: SS Rangoon at 30 meters.',
-                        'Wreck dive: No Name II at 24 meters.',
-                        'Return to the beach resort for free time.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 6,
-                    'range' => 0,
-                    'date' => '6.12.24',
-                    'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
-                    'highlights' => [
-                        'Morning equipment checks and briefing.',
-                        'Reef dive: Silva Point at 12-30 meters.',
-                        'Reef dive: Goda Gala at 8-26 meters.',
-                        'Return to the beach resort for free time.'
-                    ],
-                    'accommodation' => 'Hikkaduwa Beach Resort or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 7,
-                    'range' => 0,
-                    'date' => '7.12.24',
-                    'title' => 'HIKKADUWA to TUK-TUK SELF-DRIVING TO GALLE',
-                    'highlights' => [
-                        'Check out and hop on tuk-tuks for a city tour in Galle.',
-                        'Explore Galle Fort, a UNESCO World Heritage Site.',
-                    ],
-                    'accommodation' => 'Radisson Blu Resort *5 stars or similar',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 8,
-                    'range' => 0,
-                    'date' => '8.12.24',
-                    'title' => 'COLOMBO',
-                    'highlights' => [
-                        'Free time in the morning before checking out.',
-                        'Lunch, then depart for a half-day city tour in Colombo.',
-                        'Dinner at Ministry of Crab (self-expense).'
-                    ],
-                    'accommodation' => 'Radisson Hotel Colombo *4 stars or similar',
-                    'meal' => 'Breakfast / Lunch'
-                ],
-                [
-                    'day' => 9,
-                    'range' => 0,
-                    'date' => '9.12.24',
-                    'title' => 'COLOMBO to KUALA LUMPUR',
-                    'highlights' => [
-                        'Check out and proceed to the airport for early morning flight back to Kuala Lumpur.',
-                        'Arrive in Kuala Lumpur in the afternoon. End of tour.'
-                    ],
-                    'accommodation' => null,
-                    'meal' => 'Breakfast'
-                ]
-            ],
+        // 'Sri Lanka Dive with Baki Zainal' => [
+        //     'id' => 1,
+        //     'image' =>'/assets/images/srilanka.jpg',
+        //     'images' => [
+        //         0 => [
+        //             '/assets/images/srilanka.jpg' , '/assets/images/srilanka1.jpg'
+        //         ]
+        //     ],
+        //     'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
+        //     'name' => 'Sri Lanka Dive with Baki Zainal',
+        //     'destination_to_search' => ['east asia'],
+        //     'destination' => 'Sri Lanka',
+        //     'from_date' => '2024-12-01',
+        //     'to_date' => '2024-12-09',
+        //     'days' => 9,
+        //     'nights' => 8,
+        //     'minimum_pax' => 15,
+        //     'leader' => 1,
+        //     'tags' => ['East Asia', 'Winter' , 'Adventure'],
+        //     'introduction' => ["Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water."],
+        //     'itinerary' => [
+        //         [
+        //             'day' => 1,
+        //             'range' => 0,
+        //             'date' => '1.12.24',
+        //             'title' => 'KUALA LUMPUR to COLOMBO to HIKKADUWA',
+        //             'highlights' => [
+        //                 'Assemble at KLIA for flight to Colombo and arrive in the late morning.',
+        //                 'Meet-and-greet at Colombo airport with traditional dancers and transfer to Hikkaduwa (about 2 hours), with lunch on the way.',
+        //                 'Explore Hikkaduwa, known for its dive sites, beaches, and coral sanctuary.',
+        //                 'Check in at dive resort and enjoy free time to explore the area.'
+        //             ],
+        //             'accommodation' => 'Hikkaduwa Beach Resort or similar',
+        //             'meal' => 'Lunch'
+        //         ],
+        //         [
+        //             'day' => 2,
+        //             'range' => 0,
+        //             'date' => '2.12.24',
+        //             'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
+        //             'highlights' => [
+        //                 'Start the day with equipment checks and briefing.',
+        //                 'Wreck dive: SS Conch at 20-22 meters.',
+        //                 'Wreck dive: Earl of Shaftesbury at 12-14 meters.',
+        //                 'Return to the beach resort for free time in the afternoon.'
+        //             ],
+        //             'accommodation' => 'Hikkaduwa Beach Resort or similar',
+        //             'meal' => 'Breakfast'
+        //         ],
+        //         [
+        //             'day' => 3,
+        //             'range' => 0,
+        //             'date' => '3.12.24',
+        //             'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
+        //             'highlights' => [
+        //                 'Begin the day with equipment checks and briefing.',
+        //                 'Reef dive: Kirala Gala at 21-38 meters.',
+        //                 'Reef dive: Tunaththa Rocks at 6-15 meters.',
+        //                 'Return to the beach resort for free time.'
+        //             ],
+        //             'accommodation' => 'Hikkaduwa Beach Resort or similar',
+        //             'meal' => 'Breakfast'
+        //         ],
+        //         [
+        //             'day' => 4,
+        //             'range' => 0,
+        //             'date' => '4.12.24',
+        //             'title' => 'HIKKADUWA: TUK-TUK LESSON',
+        //             'highlights' => [
+        //                 'Full-day tuk-tuk driving lesson to obtain a driving permit.'
+        //             ],
+        //             'accommodation' => 'Hikkaduwa Beach Resort or similar',
+        //             'meal' => 'Breakfast'
+        //         ],
+        //         [
+        //             'day' => 5,
+        //             'range' => 0,
+        //             'date' => '5.12.24',
+        //             'title' => 'HIKKADUWA to GALLE: MORNING TWO-TANK DIVE',
+        //             'highlights' => [
+        //                 'Early morning equipment checks and briefing.',
+        //                 'Wreck dive: SS Rangoon at 30 meters.',
+        //                 'Wreck dive: No Name II at 24 meters.',
+        //                 'Return to the beach resort for free time.'
+        //             ],
+        //             'accommodation' => 'Hikkaduwa Beach Resort or similar',
+        //             'meal' => 'Breakfast'
+        //         ],
+        //         [
+        //             'day' => 6,
+        //             'range' => 0,
+        //             'date' => '6.12.24',
+        //             'title' => 'HIKKADUWA: MORNING TWO-TANK DIVE',
+        //             'highlights' => [
+        //                 'Morning equipment checks and briefing.',
+        //                 'Reef dive: Silva Point at 12-30 meters.',
+        //                 'Reef dive: Goda Gala at 8-26 meters.',
+        //                 'Return to the beach resort for free time.'
+        //             ],
+        //             'accommodation' => 'Hikkaduwa Beach Resort or similar',
+        //             'meal' => 'Breakfast'
+        //         ],
+        //         [
+        //             'day' => 7,
+        //             'range' => 0,
+        //             'date' => '7.12.24',
+        //             'title' => 'HIKKADUWA to TUK-TUK SELF-DRIVING TO GALLE',
+        //             'highlights' => [
+        //                 'Check out and hop on tuk-tuks for a city tour in Galle.',
+        //                 'Explore Galle Fort, a UNESCO World Heritage Site.',
+        //             ],
+        //             'accommodation' => 'Radisson Blu Resort *5 stars or similar',
+        //             'meal' => 'Breakfast'
+        //         ],
+        //         [
+        //             'day' => 8,
+        //             'range' => 0,
+        //             'date' => '8.12.24',
+        //             'title' => 'COLOMBO',
+        //             'highlights' => [
+        //                 'Free time in the morning before checking out.',
+        //                 'Lunch, then depart for a half-day city tour in Colombo.',
+        //                 'Dinner at Ministry of Crab (self-expense).'
+        //             ],
+        //             'accommodation' => 'Radisson Hotel Colombo *4 stars or similar',
+        //             'meal' => 'Breakfast / Lunch'
+        //         ],
+        //         [
+        //             'day' => 9,
+        //             'range' => 0,
+        //             'date' => '9.12.24',
+        //             'title' => 'COLOMBO to KUALA LUMPUR',
+        //             'highlights' => [
+        //                 'Check out and proceed to the airport for early morning flight back to Kuala Lumpur.',
+        //                 'Arrive in Kuala Lumpur in the afternoon. End of tour.'
+        //             ],
+        //             'accommodation' => null,
+        //             'meal' => 'Breakfast'
+        //         ]
+        //     ],
 
-            'tour_fare' => [
+        //     'tour_fare' => [
 
-                    'total' => 7900,
-                    'additional' => 2460,
-                    'return' => 1820,
+        //             'total' => 7900,
+        //             'additional' => 2460,
+        //             'return' => 1820,
 
-            ],
-            'validity' => [
-                'The estimated tour fare above is valid for the travel period of 1 Dec 2024 to 9 Dec 2024.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing with a minimum group size of 15 Divers + 1 Hummingbird Tour Leader. Surcharge applies if the number of travelers falls below the minimum group size.',
-                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
-            ],
+        //     ],
+        //     'validity' => [
+        //         'The estimated tour fare above is valid for the travel period of 1 Dec 2024 to 9 Dec 2024.',
+        //         'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing with a minimum group size of 15 Divers + 1 Hummingbird Tour Leader. Surcharge applies if the number of travelers falls below the minimum group size.',
+        //         'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
+        //     ],
 
-            'payment_terms' => [
-                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
+        //     'payment_terms' => [
+        //         'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
 
-                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
-            ],
-            'whats_included' => [
-                    'Accompaniment of special guest and PADI Ambassador, Baki Zainal.',
-                    'Tank, weights, and boat.',
-                    'Day 1 Meals: Lunch',
-                    'Days 2 to 7 Meals: Breakfast',
-                    'Day 8 Meals: Breakfast and lunch',
-                    'Day 9 Meals: Breakfast',
-                    'Days 1 and 9 Transport: Transfers to and from Colombo Bandaranaike International Airport.',
-                    'Day 7 Transport: Tuk-tuk self-driving in Galle.',
-                    'Day 8 Transport: Full day transport.',
-                    'Days 1 to 6 Accommodation: Twin bedrooms at beach resort with sea front balcony, air conditioner, hot water, and breakfast.',
-                    'Days 7 and 8 Accommodation: Hotel accommodation.',
-                    'Days 2, 3, 5, and 6 Activities: 8 boat dives with 3 dive masters.',
-                    'Days 7 and 8 Activities: Tuk-tuk lesson, activities, and sightseeing as stated in the itinerary.',
-                    'Entire trip duration: 1 tour manager from Hummingbird.',
-                    'Days 7 and 8: 1 English-speaking local guide.',
-                    'Personalized luggage tag.',
-            ],
+        //         'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+        //     ],
+        //     'whats_included' => [
+        //             'Accompaniment of special guest and PADI Ambassador, Baki Zainal.',
+        //             'Tank, weights, and boat.',
+        //             'Day 1 Meals: Lunch',
+        //             'Days 2 to 7 Meals: Breakfast',
+        //             'Day 8 Meals: Breakfast and lunch',
+        //             'Day 9 Meals: Breakfast',
+        //             'Days 1 and 9 Transport: Transfers to and from Colombo Bandaranaike International Airport.',
+        //             'Day 7 Transport: Tuk-tuk self-driving in Galle.',
+        //             'Day 8 Transport: Full day transport.',
+        //             'Days 1 to 6 Accommodation: Twin bedrooms at beach resort with sea front balcony, air conditioner, hot water, and breakfast.',
+        //             'Days 7 and 8 Accommodation: Hotel accommodation.',
+        //             'Days 2, 3, 5, and 6 Activities: 8 boat dives with 3 dive masters.',
+        //             'Days 7 and 8 Activities: Tuk-tuk lesson, activities, and sightseeing as stated in the itinerary.',
+        //             'Entire trip duration: 1 tour manager from Hummingbird.',
+        //             'Days 7 and 8: 1 English-speaking local guide.',
+        //             'Personalized luggage tag.',
+        //     ],
 
-            'whats_excluded' => [
-                'International flight tickets between Kuala Lumpur and Sri Lanka.',
-                'Travel insurance.',
-                'Visa. (30-day visas to Sri Lanka are currently free for Malaysians.)',
-                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
-                'Personal expenses and other fees not expressly mentioned in Section B.',
-                'Mandatory tipping for local guide and driver. Recommended at minimum USD6 per pax for entire trip (applicable to group of minimum 15 pax).'
-            ],
+        //     'whats_excluded' => [
+        //         'International flight tickets between Kuala Lumpur and Sri Lanka.',
+        //         'Travel insurance.',
+        //         'Visa. (30-day visas to Sri Lanka are currently free for Malaysians.)',
+        //         'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
+        //         'Personal expenses and other fees not expressly mentioned in Section B.',
+        //         'Mandatory tipping for local guide and driver. Recommended at minimum USD6 per pax for entire trip (applicable to group of minimum 15 pax).'
+        //     ],
 
 
-            'price' => 6300,
-            'types' => ['Adventure'],
-            'season' => ['Winter'],
+        //     'price' => 6300,
+        //     'types' => ['Adventure'],
+        //     'season' => ['Winter'],
 
-        ],
+        // ],
 
 
         'Ladakh, Little Tibet: Winter New Year' => [
+            'index' => 'Ladakh, Little Tibet: Winter New Year',
             'id' => 2,
             'image' =>'/assets/images/winter.jpg',
+            'images' => [
+                0 => [
+                    '/assets/images/winter/1.png' , '/assets/images/winter/2.png'
+                ],
+                1 => [
+                    '/assets/images/winter/3.png', '/assets/images/winter/4.png'
+                ],
+                2 => [
+                    '/assets/images/winter/5.png', '/assets/images/winter/6.png'
+                ],
+                3 => [
+                    '/assets/images/winter/7.png', '/assets/images/winter/8.png'
+                ],
+                4 => [
+                    '/assets/images/winter/9.png', '/assets/images/winter/10.png'
+                ],
+                5 => [
+                    '/assets/images/winter/11.png', '/assets/images/winter/12.png'
+                ],
+                6 => [
+                    '/assets/images/winter/13.png', '/assets/images/winter/14.png'
+                ],
+                7 => [
+                    '/assets/images/winter/15.png', '/assets/images/winter/16.png'
+                ],
+                8 => [],
+                9 => []
+            ],
             'description' => 'An exciting adventure.',
             'name' => 'Ladakh, Little Tibet: Winter New Year',
             'destination_to_search' => ['east asia'],
@@ -212,7 +246,7 @@ return [
                     'day' => 1,
                     'range' => 0,
                     'date' => '02/01/2025',
-                    'title' => 'KUALA LUMPUR to DELHI, INDIA',
+                    'title' => 'KUALA LUMPUR ✈ DELHI, INDIA',
                     'highlights' => [
                         'Assemble at Kuala Lumpur International Airport for departure flight to Delhi.',
                         'Arrive in Delhi and transfer to hotel. Overnight in Delhi.'
@@ -224,7 +258,7 @@ return [
                     'day' => 2,
                     'range' => 0,
                     'date' => '03/01/2025',
-                    'title' => 'DELHI to LEH, LADAKH',
+                    'title' => 'DELHI ✈ LEH, LADAKH',
                     'highlights' => [
                         'Morning domestic flight from Delhi to Leh, with views of the Himalayan range.',
                         'Rest and acclimatize, followed by a visit to Leh Market and Shanti Stupa.',
@@ -249,7 +283,7 @@ return [
                     'day' => 4,
                     'range' => 0,
                     'date' => '05/01/2025',
-                    'title' => 'LEH to KARGIL',
+                    'title' => 'LEH ✈ KARGIL',
                     'highlights' => [
                         'Drive to Kargil (about 5 hours), visiting Lamayuru and Mulbekh Monasteries along the way.'
                     ],
@@ -272,7 +306,7 @@ return [
                     'day' => 6,
                     'range' => 0,
                     'date' => '07/01/2025',
-                    'title' => 'KARGIL to HEMIS SHUKPACHAN',
+                    'title' => 'KARGIL ✈ HEMIS SHUKPACHAN',
                     'highlights' => [
                         'Depart for Hemis Shukpachan (about 5 hours) to experience traditional Ladakhi life.',
                         'Enjoy homemade Ladakhi cuisine and “Chang” brew.',
@@ -297,7 +331,7 @@ return [
                     'day' => 8,
                     'range' => 0,
                     'date' => '09/01/2025',
-                    'title' => 'HEMIS SHUKPACHAN to LEH',
+                    'title' => 'HEMIS SHUKPACHAN ✈ LEH',
                     'highlights' => [
                         'Witness the Ladakhi traditional Losar ritual and drive back to Leh.'
                     ],
@@ -308,7 +342,7 @@ return [
                     'day' => 9,
                     'range' => 0,
                     'date' => '10/01/2025',
-                    'title' => 'LEH to DELHI to KUALA LUMPUR',
+                    'title' => 'LEH to DELHI ✈ KUALA LUMPUR',
                     'highlights' => [
                         'Depart by domestic flight from Leh to Delhi in the morning.',
                         'Depart by international flight from Delhi to Kuala Lumpur in the evening.'
@@ -331,20 +365,23 @@ return [
 
             'tour_fare' => [
 
-                    'total' => 1000,
-                    'additional' => 100,
-                    'return' => 100,
+                    'total' => 6500,
+                    'additional' => 1250,
+                    'return' => 2470,
 
             ],
+
+
+
             'validity' => [
-                'The estimated tour fare above is valid for the travel period of 2 January 2025 to 11 January 2025.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 13 persons + 1 tour leader + 1 photographer. Surcharge applies if the number of travelers falls below the minimum group size.',
+                'The estimated tour fare above is valid for the travel period of <b>2 January 2025 to 11 January 2025</b>.',
+                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with <b>minimum 10 persons</b> and <b>maximum 13 persons</b>. Surcharge applies if the number of travelers falls below the minimum group size.',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
             ],
 
             'payment_terms' => [
-                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
-                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+                '<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br> 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
+                '<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u><br> 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
             ],
             'whats_included' => [
                 'Accommodation as stated in the itinerary or similar class.',
@@ -365,18 +402,56 @@ return [
                 'Personal expenses and other fees not expressly mentioned in Section B.'
             ],
 
-            'price' => 6250,
-            'types' => ['Adventure','Culture'],
+            'price' => 6500,
+            'types' => ['Adventure','Culture','East Asia','Winter'],
             'season' => ['Winter'],
 
         ],
 
 
         'Norway: TROMSØ AND SVALBARD' => [
+            'index' => 'Norway: TROMSØ AND SVALBARD',
             'id' => 3,
             'image' =>'/assets/images/norway.jpg',
+            'images' => [
+                0 => [
+                    '/assets/images/norway/1.png' , '/assets/images/norway/2.png'
+                ],
+                1 => [
+                    '/assets/images/norway/3.png', '/assets/images/norway/4.png','/assets/images/norway/5.png', '/assets/images/norway/6.png',
+                ],
+                2 => [
+                    '/assets/images/norway/7.png', '/assets/images/norway/8.png'
+                ],
+                3 => [
+                    '/assets/images/norway/9.png', '/assets/images/norway/10.png'
+                ],
+                4 => [
+                    '/assets/images/norway/11.png', '/assets/images/norway/12.png','/assets/images/norway/13.png', '/assets/images/norway/14.png'
+                ],
+                5 => [
+                    '/assets/images/norway/15.png', '/assets/images/norway/16.png'
+                ],
+                6 => [
+
+                ],
+                7 => [
+                    '/assets/images/norway/17.png', '/assets/images/norway/18.png','/assets/images/norway/19.png', '/assets/images/norway/20.png'
+                ],
+                8 => [
+                    '/assets/images/norway/21.png', '/assets/images/norway/22.png'
+                ],
+                9 => [
+                    '/assets/images/norway/23.png', '/assets/images/norway/24.png'
+                ],
+                10 => [
+
+                ],
+
+
+            ],
             'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
-            'name' => 'Norway: TROMSØ AND SVALBARD',
+            'name' => 'Norway: TromsØ And Svalbard',
             'destination_to_search' => ['scandinavia'],
             'destination' => 'norway',
             'from_date' => '2025-01-31',
@@ -392,116 +467,118 @@ return [
                     'day' => 1,
                     'range' => 0,
                     'date' => '14/11/2024',
-                    'title' => 'Kuala Lumpur  Kathmandu',
+                    'title' => 'KUALA LUMPUR ✈ DOHA to OSLO',
                     'highlights' => [
-                        'Afternoon meet-up at Kuala Lumpur International Airport 1 for departure to Kathmandu, Nepal.',
-                        'Upon arrival, greet by the local representative.',
-                        'Transfer to hotel for check-in and dinner, with free time at leisure.'
+                        'Depart from Kuala Lumpur to Tromsø via Doha.',
+                        'Arrive in Oslo in the afternoon. Transfer from Oslo airport to hotel by train (about 30 min). Free and easy for the rest of the day.',
+
                     ],
-                    'accommodation' => 'Kathmandu 3* hotel',
-                    'meal' => 'Dinner'
+                    'accommodation' => 'Oslo 3 stars hotel',
+                    'meal' => null,
                 ],
                 [
                     'day' => 2,
                     'range' => 0,
                     'date' => '15/11/2024',
-                    'title' => 'Kathmandu  Pokhara',
+                    'title' => 'OSLO ✈ TROMSØ ',
                     'highlights' => [
-                        'Morning transfer to Pokhara by bus, enjoying scenic landscapes.',
-                        'Check-in at hotel near Phewa Lake with free time at leisure.'
+                        'After hotel breakfast, transfer by train to Oslo airport for flight to Tromsø (2 hours).' ,
+                        'Arrive in Tromsø in the afternoon and transfer to our cabins. On the way, we’ll stop for grocery shopping, where our tour leader will purchase ingredients for delicious meals during our cabin stay (up to dinner on Day 4). ',
+                        'Arrive at and settle into our private seaside cabin, right on the water’s edge. Each cabin is insulated and well-equipped, with electric heating, a living room, 4 bedrooms, 2 bathrooms, a sauna and a fully equipped kitchen. ',
+                        'At night, watch the northern lights from the comfort of the second-floor balcony or seaside terrace.',
                     ],
-                    'accommodation' => 'Pokhara 3* hotel',
-                    'meal' => 'Breakfast'
+                    'accommodation' => 'Private seaside cabin ',
+                    'meal' => 'Breakfast / Dinner'
                 ],
                 [
                     'day' => 3,
                     'range' => 0,
                     'date' => '16/11/2024',
-                    'title' => 'Pokhara (860m) to Ghorepani (2,874m)',
+                    'title' => 'TROMSØ: DOGSLEDDING ',
                     'highlights' => [
-                        'Drive for 1.5 hours to NayaPul, then trek through villages and waterfalls.',
-                        'Lunch at Bhanthanti, followed by a 4-hour trek to Ghorepani.',
-                        'Overnight in a guesthouse with stunning mountain views.'
+                        'We will transfer to Tromsø, then to the dogsledding camp for half-day dogsledding. Two persons will share one sled. One will guide the energetic huskies through the snowy terrain, while the other enjoys the ride. You will switch roles, so you get to experience the thrill of leading husky team and also the joy of being a passenger.',
+                        'Afterwards, transfer back to Tromsø and from there, to the cabin. At night, keep a lookout for the northern lights from the comfort of our cabin.',
                     ],
-                    'accommodation' => 'Ghorepani guesthouse',
+                    'accommodation' => 'Private seaside cabin ',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
                     'day' => 4,
                     'range' => 0,
                     'date' => '17/11/2024',
-                    'title' => 'Ghorepani (2,874m) to Tadapani (2,700m)',
+                    'title' => 'TROMSØ: REINDEER AND SAMI CULTURE ',
                     'highlights' => [
-                        'Climb to Poon Hill for sunrise and stunning views of the Himalayas.',
-                        'Return to Ghorepani for breakfast, then descend through rhododendron forests to Tadapani.'
+                        'We will transfer to Tromsø, then to the reindeer camp for a reindeer-filled day. We will be hosted by local Sami reindeer herders, from whom we will learn about reindeer herding and Sami culture. ',
+                        'We’ll enjoy a 10 to 15-minute sleigh ride and also get to feed these magnificent animals. We’ll take our lunch of reindeer stew inside a traditional Sami hut, while gathering around the fire to listen to Sami history, stories and traditional Sami folk songs. ',
+                        'Afterwards, transfer back to Tromsø and from there, to the cabin. At night, keep a lookout for the northern lights from the comfort of our cabin.',
                     ],
-                    'accommodation' => 'Tadapani guesthouse',
+                    'accommodation' => 'Private seaside cabin ',
                     'meal' => 'Breakfast / Lunch / Dinner'
                 ],
                 [
                     'day' => 5,
                     'range' => 0,
-                    'date' => '18/11/2024',
-                    'title' => 'Tadapani (2,700m) to Ghandruk (1,940m)',
+                    'date' => '19/11/2024',
+                    'title' => 'Tromsø 3 stars hotel ',
                     'highlights' => [
-                        'Trek downhill to Ghandruk Village, known for its beauty and cultural heritage.',
-                        'Visit the local cultural museum in Ghandruk.'
+                        'We’ll check out from our seaside cabin and transfer to Tromsø.',
+                        'After dropping off our luggage at the hotel, we’ll stroll over the Tromsø bridge to the iconic Arctic Cathedral, known for its striking architecture and beautiful stained glass. Next, we’ll ride a cable car (subject to weather conditions) up to Storsteinen. At the top, admire the spectacular views of Tromsø and its beautiful surroundings and enjoy lunch (self-expense) at the panoramic café, which serves coffee, cakes, and warm dishes.',
+                        'Free and easy for the rest of the day. Visit a museum or head to Storgata, Tromsø’s main shopping street, filled with charming shops and cafes. Remember to shop for next day’s breakfast.',
                     ],
-                    'accommodation' => 'Ghandruk guesthouse',
-                    'meal' => 'Breakfast / Lunch / Dinner'
+                    'accommodation' => 'Tromsø 3 stars hotel',
+                    'meal' => 'Breakfast '
                 ],
                 [
                     'day' => 6,
                     'range' => 0,
-                    'date' => '19/11/2024',
-                    'title' => 'Ghandruk (1,940m) to Pokhara (860m)',
+                    'date' => '18/11/2024',
+                    'title' => 'TROMSØ ✈ SVALBARD',
                     'highlights' => [
-                        'Final day of trekking; drive back to Pokhara and explore the city.',
-                        'Free time at leisure after check-in.'
+                        'We’ll take a flight to Longyearbyen, Svalbard in the afternoon (1 hour 40 min). Longyearbyen is the northernmost settlement of its size in the world, located on the remote archipelago of Svalbard. Known for its stunning Arctic landscapes and polar climate, it serves as a hub for research and adventure tourism.In the first week of February, Longyearbyen is enveloped in winter. The sun is below the horizon, creating a soft twilight in blues and purples. ',
+                        'On arrival in Longyearbyen, we’ll transfer to our hotel by shuttle bus. After checking in, explore the nearby restaurants and stores for dinner.',
                     ],
-                    'accommodation' => 'Pokhara 3* hotel',
-                    'meal' => 'Breakfast / Lunch'
+                    'accommodation' => 'Svalbard 3 stars hotel',
+                    'meal' => null
                 ],
                 [
                     'day' => 7,
                     'range' => 0,
                     'date' => '20/11/2024',
-                    'title' => 'Pokhara',
+                    'title' => 'SVALBARD',
                     'highlights' => [
-                        'Visit Sarangkot for panoramic Himalayan views.',
-                        'Tour the World Peace Pagoda and enjoy boating on Phewa Lake, including a visit to Tal Barahi Temple.'
+                        'Today, we’ll visit Coal Mine Number 3. The first part of the tour will take place in the outside facility, where machines and equipment were left behind when production stopped. We will then be taken into a tunnel of the mine that was excavated in the 70s. In the mine, we can see the entrance to the old seed bank as well as the Arctic World Archive. We will have the option to crawl in one of the narrow mining shafts and experience the rough working conditions the miners experienced on a daily basis.Age limit : 12years old',
                     ],
-                    'accommodation' => 'Pokhara 3* hotel',
+                    'accommodation' => 'Svalbard 3 stars hotel',
                     'meal' => 'Breakfast'
                 ],
                 [
                     'day' => 8,
                     'range' => 0,
                     'date' => '21/11/2024',
-                    'title' => 'Pokhara to Kathmandu',
+                    'title' => 'SVALBARD',
                     'highlights' => [
-                        'Transfer back to Kathmandu.',
-                        'Check-in at the hotel and enjoy free time at leisure.'
+                        "Free and easy today. Longyearbyen’s must-visit attractions include Svalbard Church (the world's northernmost church currently in regular use) and the Svalbard Museum with extensive exhibitions on the region's 400-year history. The North Pole Expedition Museum showcases the significance of three historic airships in Arctic exploration. These sites provide rich insights into the cultural and natural heritage of this unique Arctic destination. You can also schedule a visit to a brewery or an ice-cave.",
                     ],
-                    'accommodation' => 'Kathmandu 3* hotel',
-                    'meal' => 'Breakfast'
+                    'accommodation' => 'Svalbard 3 stars hotel ',
+                    'meal' => 'Breakfast',
                 ],
                 [
                     'day' => 9,
                     'range' => 0,
                     'date' => '22/11/2024',
-                    'title' => 'Kathmandu',
+                    'title' => 'SVALBARD ✈ OSLO',
                     'highlights' => [
-                        'Visit Boudhanath Stupa, Patan Durbar Square, and Swayambhunath Stupa (Monkey Temple).'
+                        'Free and easy in the morning before flight to Oslo (4 hours 40 min), arriving in Oslo in the evening. ',
+                        'Transfer by train from Oslo airport to the hotel (about 30 min). Drop off luggage and go for dinner (self-expense) at nearby restaurants.',
                     ],
-                    'accommodation' => 'Kathmandu 3* hotel',
-                    'meal' => 'Breakfast / Dinner'
+                    'accommodation' => 'Oslo 3 stars hotel',
+                    'meal' => 'Breakfast '
                 ],
                 [
                     'day' => 10,
                     'range' => 0,
                     'date' => '23/11/2024',
-                    'title' => 'Kathmandu  Kuala Lumpur',
+                    'title' => 'OSLO ✈ DOHA',
                     'highlights' => [
                         'Free time until transfer to Tribhuvan International Airport for departure to Kuala Lumpur.'
                     ],
@@ -512,9 +589,9 @@ return [
                     'day' => 11,
                     'range' => 0,
                     'date' => '24/11/2024',
-                    'title' => 'Kuala Lumpur',
+                    'title' => 'DOHA ✈ KUALA LUMPUR',
                     'highlights' => [
-                        'Arrive in Kuala Lumpur in the morning. End of tour.'
+                        'After a short overlay, board flight to Kuala Lumpur, arriving in the afternoon. End of tour.'
                     ],
                     'accommodation' => null,
                     'meal' => null
@@ -525,20 +602,20 @@ return [
 
                     'total' => 12700,
                     'additional' => null,
-                    'return' => 7280,
+                    'return' => 8050,
 
             ],
             'validity' => [
-                'The estimated tour fare is valid for the travel period of 31 Jan 2025 to 10 Feb 2025.',
-                'The Ground Fare is based on twin-sharing, with a minimum of 9 persons and a maximum of 11 persons (excluding the tour leader). A surcharge applies if the number of travelers falls below the minimum group size.',
+                'The estimated tour fare is valid for the travel period of <b>31 Jan 2025 to 10 Feb 2025</b>.',
+                '·The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with <b>minimum 9 persons and maximum 11 persons</b> (not including tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
             ],
 
             'payment_terms' => [
-                    'Bookings made more than 2 calendar months from the Scheduled Date of Departure 50% of the Ground Fare as Deposit is payable at the time of booking.',
-                    'The remaining 50% balance ("Balance") shall be paid no later than 7 days from the date of Tour Confirmation ("Balance Deadline").',
+                    '<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br> 50% of the Ground Fare as Deposit is payable at the time of booking.',
+                    'The remaining 50% balance ("<b>Balance</b>") shall be paid no later than 7 days from the date of Tour Confirmation ("<b>Balance Deadline</b>").',
                     'If the Balance is not paid by the Balance Deadline, you will be deemed to have withdrawn and canceled your booking on the day after the Balance Deadline.',
-                    'Bookings made 2 calendar months or less from the Scheduled Date of Departure 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.',
+                    '<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u> 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.',
             ],
 
             'whats_included' => [
@@ -552,25 +629,92 @@ return [
                 'Return international air tickets between Kuala Lumpur and Oslo.',
                 'Domestic air tickets from Oslo to Tromso; Tromso to Svalbard; Svalbard to Oslo.',
                 'Travel insurance.',
-                'Visa application fees (if applicable).',
-                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
-                'Optional tours and activities.',
-                'Personal expenses and other fees not expressly mentioned in Section B.'
             ],
 
 
 
             'price' => 12700,
-            'types' => ['Adventure'],
+            'types' => ['Adventure','Scandinavia','Winter'],
             'season' => ['Winter'],
 
         ],
 
         'The KINGDOM OF INCAS: PERU,BOLIVIA,CHILE' => [
+            'index' => 'The KINGDOM OF INCAS: PERU,BOLIVIA,CHILE',
             'id' => 4,
             'image' =>'/assets/images/kingdom.JPG',
+            'images' => [
+                0 => [
+
+                ],
+                1 => [
+                    '/assets/images/kingdom/1.png', '/assets/images/kingdom/2.png'
+                ],
+                2 => [
+                    '/assets/images/kingdom/3.png', '/assets/images/kingdom/4.png'
+                ],
+                3 => [
+                    '/assets/images/kingdom/5.png', '/assets/images/kingdom/6.png'
+                ],
+                4 => [
+                    '/assets/images/kingdom/7.png', '/assets/images/kingdom/8.png','/assets/images/kingdom/9.png', '/assets/images/kingdom/10.png'
+                ],
+                5 => [
+                    '/assets/images/kingdom/11.png', '/assets/images/kingdom/12.png'
+                ],
+                6 => [
+                    '/assets/images/kingdom/13.png', '/assets/images/kingdom/14.png', '/assets/images/kingdom/15.png', '/assets/images/kingdom/16.png'
+                ],
+                7 => [
+                    '/assets/images/kingdom/17.png', '/assets/images/kingdom/18.png'
+                ],
+                8 => [
+                    '/assets/images/kingdom/19.png', '/assets/images/kingdom/20.png', '/assets/images/kingdom/21.png', '/assets/images/kingdom/22.png'
+                ],
+                9 => [
+                    '/assets/images/kingdom/23.png', '/assets/images/kingdom/24.png'
+                ],
+                10 => [
+                    '/assets/images/kingdom/25.png', '/assets/images/kingdom/26.png'
+                ],
+                11 =>  [
+                    '/assets/images/kingdom/27.png', '/assets/images/kingdom/28.png'
+                ],
+                12 =>  [
+                    '/assets/images/kingdom/29.png', '/assets/images/kingdom/30.png'
+                ],
+                13 =>  [
+                    '/assets/images/kingdom/31.png', '/assets/images/kingdom/32.png'
+                ],
+                14 =>  [
+                    '/assets/images/kingdom/33.png', '/assets/images/kingdom/34.png', '/assets/images/kingdom/35.png', '/assets/images/kingdom/36.png'
+                ],
+                15 => [
+                    '/assets/images/kingdom/37.png', '/assets/images/kingdom/38.png'
+                ],
+                16 => [
+                    '/assets/images/kingdom/39.png', '/assets/images/kingdom/40.png'
+                ],
+                17 => [
+                    '/assets/images/kingdom/41.png', '/assets/images/kingdom/42.png', '/assets/images/kingdom/43.png', '/assets/images/kingdom/44.png'
+                ],
+                18 => [
+                    '/assets/images/kingdom/45.png', '/assets/images/kingdom/46.png'
+                ],
+                19 => [
+                    '/assets/images/kingdom/47.png', '/assets/images/kingdom/48.png'
+                ],
+                20 => [
+                    '/assets/images/kingdom/49.png', '/assets/images/kingdom/50.png'
+                ],
+                21 => [
+                    '/assets/images/kingdom/51.png', '/assets/images/kingdom/52.png'
+                ],
+                22 => [],
+
+            ],
             'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
-            'name' => 'The KINGDOM OF INCAS: PERU,BOLIVIA,CHILE',
+            'name' => 'The Kingdom Of Incas: Peru,Bolivia,Chile',
             'destination_to_search' => ['south america'],
             'destination' => 'peru',
             'from_date' => '2025-02-13',
@@ -585,7 +729,7 @@ return [
                 [
                     'day' => 1,
                     'date' => '13/02/25',
-                    'title' => 'KUALA LUMPUR to AMSTERDAM',
+                    'title' => 'KUALA LUMPUR ✈ AMSTERDAM',
                     'range' => 0,
                     'highlights' => [
                         'Assemble at Kuala Lumpur International Airport for flight to Peru via Amsterdam.'
@@ -596,7 +740,7 @@ return [
                 [
                     'day' => 2,
                     'date' => '14/02/25',
-                    'title' => 'AMSTERDAM to LIMA',
+                    'title' => 'AMSTERDAM ✈ LIMA',
                     'range' => 0,
                     'highlights' => [
                         'Arrive at Lima, Peru in the evening.',
@@ -608,7 +752,7 @@ return [
                 [
                     'day' => 3,
                     'date' => '15/02/25',
-                    'title' => 'LIMA to CUSCO',
+                    'title' => 'LIMA ✈ CUSCO',
                     'range' => 0,
                     'highlights' => [
                         'Board a morning flight from Lima to Cusco.',
@@ -638,7 +782,7 @@ return [
                 [
                     'day' => 5,
                     'date' => '17/02/25',
-                    'title' => 'CUSCO to OLLANTAYTAMBO',
+                    'title' => 'CUSCO ✈ OLLANTAYTAMBO',
                     'range' => 0,
                     'highlights' => [
                         'Head to Ollantaytambo, stopping at Pisac and Moray.',
@@ -666,7 +810,7 @@ return [
                 [
                     'day' => 7,
                     'date' => '19/02/25',
-                    'title' => 'OLLANTAYTAMBO AGUAS CALIENTES to MACHU PICCHU',
+                    'title' => 'OLLANTAYTAMBO AGUAS CALIENTES ✈ MACHU PICCHU',
                     'range' => 0,
                     'highlights' => [
                         'Explore Machu Picchu, a UNESCO World Heritage Site.',
@@ -679,7 +823,7 @@ return [
                 [
                     'day' => 8,
                     'date' => '20/02/25',
-                    'title' => 'AGUAS CALIENTES OLLANTAYTAMBO to CUSCO',
+                    'title' => 'AGUAS CALIENTES OLLANTAYTAMBO ✈ CUSCO',
                     'range' => 0,
                     'highlights' => [
                         'Journey back to Cusco through the Sacred Valley.',
@@ -691,7 +835,7 @@ return [
                 [
                     'day' => 9,
                     'date' => '21/02/25',
-                    'title' => 'CUSCO to PUNO',
+                    'title' => 'CUSCO ✈ PUNO',
                     'range' => 0,
                     'highlights' => [
                         'Depart from Cusco to Puno, along the shores of Lake Titicaca.',
@@ -717,7 +861,7 @@ return [
                 [
                     'day' => 11,
                     'date' => '23/02/25',
-                    'title' => 'PUNO to COPACABANA',
+                    'title' => 'PUNO ✈ COPACABANA',
                     'range' => 0,
                     'highlights' => [
                         'Head to Copacabana in Bolivia, crossing the border by bus.',
@@ -865,9 +1009,9 @@ return [
 
             ],
             'validity' => [
-                'The estimated tour fare is valid for the travel period of 13 February 2025 to 7 March 2025.',
-                'The Ground Fare is based on twin-sharing, with a minimum group size of 12 persons. A surcharge applies if the number of travelers falls below the minimum group size.',
-                'Maximum group size is 16 persons.',
+                'The estimated tour fare is valid for the travel period of <b>13 February 2025 to 7 March 2025.</b>',
+                'The Ground Fare is based on twin-sharing, with a minimum group size of <b>12 persons</b>. A surcharge applies if the number of travelers falls below the minimum group size.',
+                'Maximum group size is <b>16 persons</b>.',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
             ],
 
@@ -882,10 +1026,8 @@ return [
             //     ]
             // ],
             'payment_terms' => [
-                'Bookings made more than 2 calendar months from the Scheduled Date of Departure 50% of the Ground Fare as Deposit is payable at the time of booking.',
-                'The remaining 50% balance ("Balance") shall be paid no later than 7 days from the date of Tour Confirmation ("Balance Deadline").',
-                'If the Balance is not paid by the Balance Deadline, you will be deemed to have withdrawn and canceled your booking on the day after the Balance Deadline.',
-                'Bookings made 2 calendar months or less from the Scheduled Date of Departure 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.',
+                '<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br> 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance ("<b>Balance</b>") shall be paid no later than 7 days from the date of Tour Confirmation ("<b>Balance Deadline</b>"). If the Balance is not paid by the Balance Deadline, you will be deemed to have withdrawn and canceled your booking on the day after the Balance Deadline.',
+                '<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u><br> 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.',
             ],
 
             'whats_included' => [
@@ -909,8 +1051,8 @@ return [
 
 
             'price' => 20560,
-            'types' => ['Adventure','Culture'],
-            'season' => ['Winter'],
+            'types' => ['Adventure','Culture','Spring','South America'],
+            'season' => ['Spring'],
 
         ],
 
@@ -967,194 +1109,208 @@ return [
 
         // ],
 
-        'Nepal: Red Panda Trek' => [
-            'id' => 5,
-            'image' =>'/assets/images/redpanda.jpg',
-            'description' => 'An exciting adventure.',
-            'name' => 'Nepal: Red Panda Trek',
-            'destination_to_search' => ['east asia'],
-            'destination' => 'Nepal',
-            'from_date' => '2025-03-01',
-            'to_date' => '2025-05-31',
-            'days' => 9,
-            'nights' => 8,
-            'minimum_pax' => 2,
-            'leader' => 1,
-            'tags' => ['East Asia','Culture', 'Autumn'],
-            'introduction' => ["Trek through the pristine wilderness of Nepal in search of the elusive red panda. Nestled in the biodiverse forests of the Himalayas, Dobato serves as a sanctuary for these rare creatures, making it perfect for nature enthusiasts. Accompanied by expert guides, you'll navigate rugged terrain, dense forests, and bamboo groves. This adventure not only offers the thrill of spotting red pandas in their natural habitat but also connects you with local conservation efforts protecting these endangered species. Whether you're an avid trekker or a wildlife observer, this journey into Nepal's remote wilderness promises an unforgettable experience."],
-            'itinerary' => [
-                [
-                    'day' => 1,
-                    'range' => 0,
-                    'date' => '1.12.24',
-                    'title' => 'KUALA LUMPUR to KATHMANDU',
-                    'highlights' => [
-                        'Assemble at Kuala Lumpur International Airport for flight to Kathmandu.',
-                        'Upon arrival, meet and greet by local representatives.',
-                        'Enjoy welcome dinner at a nice Nepali restaurant with cultural performance.',
-                        'Transfer to hotel for check-in in Kathmandu and rest.'
-                    ],
-                    'accommodation' => 'Kathmandu local 3* hotel',
-                    'meal' => 'Dinner'
-                ],
-                [
-                    'day' => 2,
-                    'range' => 0,
-                    'date' => '2.12.24',
-                    'title' => 'KATHMANDU',
-                    'highlights' => [
-                        'Full day free and easy; optional city tour program available.',
-                        'Overnight stay in Kathmandu.'
-                    ],
-                    'accommodation' => 'Kathmandu local 3* hotel',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 3,
-                    'range' => 0,
-                    'date' => '3.12.24',
-                    'title' => 'KATHMANDU to BHADRAPUR to ILAM',
-                    'highlights' => [
-                        'Breakfast at hotel, then proceed to Bhadrapur via domestic flight with views of Mt. Everest, Lhotse, and Kanchenjunga.',
-                        'Lunch stop at Char Aali on the way to Ilam Bazaar.',
-                        'Scenic drive of approximately 3 hours to Ilam Bazar.',
-                        'Overnight stay at hotel in Ilam with views of the famous tea garden.'
-                    ],
-                    'accommodation' => 'Ilam local hotel',
-                    'meal' => 'Breakfast / Lunch'
-                ],
-                [
-                    'day' => 4,
-                    'range' => 0,
-                    'date' => '4.12.24',
-                    'title' => 'ILAM to DOBATO',
-                    'highlights' => [
-                        'Breakfast and morning views of the tea garden.',
-                        'Drive to Dobato (3-4 hours), experiencing Nepalese culture and lifestyle.',
-                        'Lunch and exploration of local birds and mammals.',
-                        'Meeting with forest guardians/red panda trackers to discuss the following days’ plans.',
-                        'Overnight stay at Dobato homestay.'
-                    ],
-                    'accommodation' => 'Dobato homestay',
-                    'meal' => 'Breakfast / Lunch / Dinner'
-                ],
-                [
-                    'day' => 5,
-                    'range' => 0,
-                    'date' => '5.12.24',
-                    'title' => 'DOBATO, RED PANDA TRACKING',
-                    'highlights' => [
-                        'Breakfast followed by red panda tracking in Dobato’s forests.',
-                        'Hiking around rhododendron and oak forests in search of red pandas and other wildlife.',
-                        'Guided tracking for potential red panda sightings.',
-                        'Overnight stay at Dobato homestay.'
-                    ],
-                    'accommodation' => 'Dobato homestay',
-                    'meal' => 'Breakfast / Lunch / Dinner'
-                ],
-                [
-                    'day' => 6,
-                    'range' => 0,
-                    'date' => '6.12.24',
-                    'title' => 'DOBATO, RED PANDA TRACKING',
-                    'highlights' => [
-                        'Repeat tracking activities from the previous day on different paths.',
-                        'Overnight in Dobato homestay.'
-                    ],
-                    'accommodation' => 'Dobato homestay',
-                    'meal' => 'Breakfast / Lunch / Dinner'
-                ],
-                [
-                    'day' => 7,
-                    'range' => 0,
-                    'date' => '7.12.24',
-                    'title' => 'DOBATO to ILAM to BHADRAPUR',
-                    'highlights' => [
-                        'Breakfast and return to Ilam Bazar.',
-                        'Continue journey to Bhadrapur.',
-                        'Dinner and overnight stay at hotel in Bhadrapur.'
-                    ],
-                    'accommodation' => 'Bhadrapur local hotel',
-                    'meal' => 'Breakfast / Dinner'
-                ],
-                [
-                    'day' => 8,
-                    'range' => 0,
-                    'date' => '8.12.24',
-                    'title' => 'BHADRAPUR to KATHMANDU',
-                    'highlights' => [
-                        'Breakfast at hotel and fly to Kathmandu, enjoying scenic views.',
-                        'Free and easy arrangements after arrival in Kathmandu.'
-                    ],
-                    'accommodation' => 'Kathmandu local 3* hotel',
-                    'meal' => 'Breakfast'
-                ],
-                [
-                    'day' => 9,
-                    'range' => 0,
-                    'date' => '9.12.24',
-                    'title' => 'KATHMANDU to KUALA LUMPUR',
-                    'highlights' => [
-                        'Proceed to Tribhuvan International Airport for flight back to Kuala Lumpur.',
-                        'Arrive in Kuala Lumpur. End of tour.'
-                    ],
-                    'accommodation' => null,
-                    'meal' => 'Breakfast'
-                ]
-                ],
+        // 'Nepal: Red Panda Trek' => [
+        //     'id' => 5,
+        //     'image' =>'/assets/images/redpanda.jpg',
+        //     'description' => 'An exciting adventure.',
+        //     'name' => 'Nepal: Red Panda Trek',
+        //     'destination_to_search' => ['east asia'],
+        //     'destination' => 'Nepal',
+        //     'from_date' => '2025-03-01',
+        //     'to_date' => '2025-05-31',
+        //     'days' => 9,
+        //     'nights' => 8,
+        //     'minimum_pax' => 2,
+        //     'leader' => 1,
+        //     'tags' => ['East Asia','Culture', 'Autumn'],
+        //     'introduction' => ["Trek through the pristine wilderness of Nepal in search of the elusive red panda. Nestled in the biodiverse forests of the Himalayas, Dobato serves as a sanctuary for these rare creatures, making it perfect for nature enthusiasts. Accompanied by expert guides, you'll navigate rugged terrain, dense forests, and bamboo groves. This adventure not only offers the thrill of spotting red pandas in their natural habitat but also connects you with local conservation efforts protecting these endangered species. Whether you're an avid trekker or a wildlife observer, this journey into Nepal's remote wilderness promises an unforgettable experience."],
+        //     'itinerary' => [
+        //         [
+        //             'day' => 1,
+        //             'range' => 0,
+        //             'date' => '1.12.24',
+        //             'title' => 'KUALA LUMPUR to KATHMANDU',
+        //             'highlights' => [
+        //                 'Assemble at Kuala Lumpur International Airport for flight to Kathmandu.',
+        //                 'Upon arrival, meet and greet by local representatives.',
+        //                 'Enjoy welcome dinner at a nice Nepali restaurant with cultural performance.',
+        //                 'Transfer to hotel for check-in in Kathmandu and rest.'
+        //             ],
+        //             'accommodation' => 'Kathmandu local 3* hotel',
+        //             'meal' => 'Dinner'
+        //         ],
+        //         [
+        //             'day' => 2,
+        //             'range' => 0,
+        //             'date' => '2.12.24',
+        //             'title' => 'KATHMANDU',
+        //             'highlights' => [
+        //                 'Full day free and easy; optional city tour program available.',
+        //                 'Overnight stay in Kathmandu.'
+        //             ],
+        //             'accommodation' => 'Kathmandu local 3* hotel',
+        //             'meal' => 'Breakfast'
+        //         ],
+        //         [
+        //             'day' => 3,
+        //             'range' => 0,
+        //             'date' => '3.12.24',
+        //             'title' => 'KATHMANDU to BHADRAPUR to ILAM',
+        //             'highlights' => [
+        //                 'Breakfast at hotel, then proceed to Bhadrapur via domestic flight with views of Mt. Everest, Lhotse, and Kanchenjunga.',
+        //                 'Lunch stop at Char Aali on the way to Ilam Bazaar.',
+        //                 'Scenic drive of approximately 3 hours to Ilam Bazar.',
+        //                 'Overnight stay at hotel in Ilam with views of the famous tea garden.'
+        //             ],
+        //             'accommodation' => 'Ilam local hotel',
+        //             'meal' => 'Breakfast / Lunch'
+        //         ],
+        //         [
+        //             'day' => 4,
+        //             'range' => 0,
+        //             'date' => '4.12.24',
+        //             'title' => 'ILAM to DOBATO',
+        //             'highlights' => [
+        //                 'Breakfast and morning views of the tea garden.',
+        //                 'Drive to Dobato (3-4 hours), experiencing Nepalese culture and lifestyle.',
+        //                 'Lunch and exploration of local birds and mammals.',
+        //                 'Meeting with forest guardians/red panda trackers to discuss the following days’ plans.',
+        //                 'Overnight stay at Dobato homestay.'
+        //             ],
+        //             'accommodation' => 'Dobato homestay',
+        //             'meal' => 'Breakfast / Lunch / Dinner'
+        //         ],
+        //         [
+        //             'day' => 5,
+        //             'range' => 0,
+        //             'date' => '5.12.24',
+        //             'title' => 'DOBATO, RED PANDA TRACKING',
+        //             'highlights' => [
+        //                 'Breakfast followed by red panda tracking in Dobato’s forests.',
+        //                 'Hiking around rhododendron and oak forests in search of red pandas and other wildlife.',
+        //                 'Guided tracking for potential red panda sightings.',
+        //                 'Overnight stay at Dobato homestay.'
+        //             ],
+        //             'accommodation' => 'Dobato homestay',
+        //             'meal' => 'Breakfast / Lunch / Dinner'
+        //         ],
+        //         [
+        //             'day' => 6,
+        //             'range' => 0,
+        //             'date' => '6.12.24',
+        //             'title' => 'DOBATO, RED PANDA TRACKING',
+        //             'highlights' => [
+        //                 'Repeat tracking activities from the previous day on different paths.',
+        //                 'Overnight in Dobato homestay.'
+        //             ],
+        //             'accommodation' => 'Dobato homestay',
+        //             'meal' => 'Breakfast / Lunch / Dinner'
+        //         ],
+        //         [
+        //             'day' => 7,
+        //             'range' => 0,
+        //             'date' => '7.12.24',
+        //             'title' => 'DOBATO to ILAM to BHADRAPUR',
+        //             'highlights' => [
+        //                 'Breakfast and return to Ilam Bazar.',
+        //                 'Continue journey to Bhadrapur.',
+        //                 'Dinner and overnight stay at hotel in Bhadrapur.'
+        //             ],
+        //             'accommodation' => 'Bhadrapur local hotel',
+        //             'meal' => 'Breakfast / Dinner'
+        //         ],
+        //         [
+        //             'day' => 8,
+        //             'range' => 0,
+        //             'date' => '8.12.24',
+        //             'title' => 'BHADRAPUR to KATHMANDU',
+        //             'highlights' => [
+        //                 'Breakfast at hotel and fly to Kathmandu, enjoying scenic views.',
+        //                 'Free and easy arrangements after arrival in Kathmandu.'
+        //             ],
+        //             'accommodation' => 'Kathmandu local 3* hotel',
+        //             'meal' => 'Breakfast'
+        //         ],
+        //         [
+        //             'day' => 9,
+        //             'range' => 0,
+        //             'date' => '9.12.24',
+        //             'title' => 'KATHMANDU to KUALA LUMPUR',
+        //             'highlights' => [
+        //                 'Proceed to Tribhuvan International Airport for flight back to Kuala Lumpur.',
+        //                 'Arrive in Kuala Lumpur. End of tour.'
+        //             ],
+        //             'accommodation' => null,
+        //             'meal' => 'Breakfast'
+        //         ]
+        //         ],
 
-            'tour_fare' => [
+        //     'tour_fare' => [
 
-                    'total' => 4585,
-                    'additional' => 1150,
-                    'return' => null,
+        //             'total' => 4585,
+        //             'additional' => 1150,
+        //             'return' => null,
 
-            ],
-            'validity' => [
-                'The estimated tour fare above is valid for the travel period of 01 March 2025 to 31 May 2025.',
-                'The fare above is only for ground arrangement (“Ground Fare”) and does not include flight tickets.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing. Surcharge applies if the number of travelers falls below the minimum group size.',
-                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
-            ],
+        //     ],
+        //     'validity' => [
+        //         'The estimated tour fare above is valid for the travel period of 01 March 2025 to 31 May 2025.',
+        //         'The fare above is only for ground arrangement (“Ground Fare”) and does not include flight tickets.',
+        //         'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing. Surcharge applies if the number of travelers falls below the minimum group size.',
+        //         'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
+        //     ],
 
-            'payment_terms' => [
-                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
-                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
-            ],
+        //     'payment_terms' => [
+        //         'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
+        //         'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+        //     ],
 
-            'whats_included' => [
-                'All necessary paperwork, special permits and relevant government and local tax.',
-                'Private transport for the whole duration including transfer between hotel and airport.',
-                'Return domestic flight between Kathmandu and Bhadrapur.',
-                'Accommodation as stated in the itinerary or similar class.',
-                'Meals as stated in the itinerary only.',
-                'Activities, transport, and entrance fees as stated in the itinerary only.',
-                '1 experienced English-speaking government-registered trekking guide.',
-                'Trekking equipment such as down-filled sleeping bag (to be returned after trekking).'
-            ],
+        //     'whats_included' => [
+        //         'All necessary paperwork, special permits and relevant government and local tax.',
+        //         'Private transport for the whole duration including transfer between hotel and airport.',
+        //         'Return domestic flight between Kathmandu and Bhadrapur.',
+        //         'Accommodation as stated in the itinerary or similar class.',
+        //         'Meals as stated in the itinerary only.',
+        //         'Activities, transport, and entrance fees as stated in the itinerary only.',
+        //         '1 experienced English-speaking government-registered trekking guide.',
+        //         'Trekking equipment such as down-filled sleeping bag (to be returned after trekking).'
+        //     ],
 
-            'whats_excluded' => [
-                'Visa application fees on arrival of USD30, subject to change by Nepal Government.',
-                'Return international air flight between Kuala Lumpur and Kathmandu (Suggested Airlines: Malaysia Airlines / Batik Air).',
-                'Travel insurance.',
-                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
-                'Optional tours and activities as per stated in the itinerary Day 2.',
-                'Personal expenses and other fees not expressly mentioned in Section B.',
-                'Mandatory tipping for local guide and driver. Recommended at minimum USD35 per pax for entire trip.',
-                'Voluntary tipping for red panda trackers.'
-            ],
+        //     'whats_excluded' => [
+        //         'Visa application fees on arrival of USD30, subject to change by Nepal Government.',
+        //         'Return international air flight between Kuala Lumpur and Kathmandu (Suggested Airlines: Malaysia Airlines / Batik Air).',
+        //         'Travel insurance.',
+        //         'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
+        //         'Optional tours and activities as per stated in the itinerary Day 2.',
+        //         'Personal expenses and other fees not expressly mentioned in Section B.',
+        //         'Mandatory tipping for local guide and driver. Recommended at minimum USD35 per pax for entire trip.',
+        //         'Voluntary tipping for red panda trackers.'
+        //     ],
 
-            'price' => 4585,
-            'types' => ['Adventure','Culture'],
-            'season' => ['Spring'],
+        //     'price' => 4585,
+        //     'types' => ['Adventure','Culture'],
+        //     'season' => ['Spring'],
 
-        ],
+        // ],
 
         'AYURVEDIC IN SRI LANKA' => [
+            'index' =>'AYURVEDIC IN SRI LANKA',
             'id' => 6,
             'image' =>'/assets/images/ayurveda_new.jpg',
+            'images' => [
+
+                0 => [
+
+                ],
+                1 => [
+                    '/assets/images/ayurvedic/1.png', '/assets/images/ayurvedic/2.png'
+                ],
+                2 => [
+                    '/assets/images/ayurvedic/3.png', '/assets/images/ayurvedic/4.png' , '/assets/images/ayurvedic/5.png', '/assets/images/ayurvedic/6.png'
+                ],
+
+            ],
             'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
-            'name' => 'AYURVEDIC IN SRI LANKA',
+            'name' => 'Ayurvedic In Sri Lanka',
             'destination_to_search' => ['east asia'],
             'destination' => 'sri lanka',
             'from_date' => '2025-03-09',
@@ -1170,7 +1326,7 @@ return [
                     'day' => 1,
                     'range' => 0,
                     'date' => '09TH MAR',
-                    'title' => 'KUALA LUMPUR to COLOMBO',
+                    'title' => 'KUALA LUMPUR ✈ COLOMBO',
                     'highlights' => [
                         'Assemble at Kuala Lumpur International Airport for flight to Colombo.',
                         'Proceed for Colombo Free and Easy City Tour.',
@@ -1197,7 +1353,7 @@ return [
                     'day' => 8,
                     'range' => 0,
                     'date' => '16TH MAR',
-                    'title' => 'COLOMBO to KUALA LUMPUR',
+                    'title' => 'COLOMBO ✈ KUALA LUMPUR',
                     'highlights' => [
                         'Proceed to Colombo Bandaranaike International Airport early morning.',
                         'Arrive in Kuala Lumpur in the afternoon. End of tour.'
@@ -1209,14 +1365,14 @@ return [
 
             'tour_fare' => [
 
-                    'total' => 5880,
-                    'additional' => 1480,
-                    'return' => 2350,
+                    'total' => 6100,
+                    'additional' => 1500,
+                    'return' => 2400,
 
             ],
             'validity' => [
-                'The estimated tour fare is valid for the travel period of 09 Mar 2025 to 16 Mar 2025.',
-                'The Ground Fare is based on twin-sharing or triple-sharing with a minimum group size of 2 persons. Surcharge applies if the number of travelers falls below the minimum group size.',
+                'The estimated tour fare is valid for the travel period of <b>09 Mar 2025 to 16 Mar 2025</b>.',
+                'The Ground Fare is based on twin-sharing or triple-sharing with a minimum group size of <b>2 persons</b>. Surcharge applies if the number of travelers falls below the minimum group size.',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
             ],
 
@@ -1232,10 +1388,10 @@ return [
             // ],
 
             'payment_terms' => [
-                    'Bookings made more than 2 calendar months from the Scheduled Date of Departure 50% of the Ground Fare as Deposit is payable at the time of booking.',
+                    '<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br> 50% of the Ground Fare as Deposit is payable at the time of booking.',
                     'The remaining 50% balance ("Balance") shall be paid no later than 7 days from the date of Tour Confirmation ("Balance Deadline").',
                     'If the Balance is not paid by the Balance Deadline, you will be deemed to have withdrawn and canceled your booking on the day after the Balance Deadline.',
-                    'Bookings made 2 calendar months or less from the Scheduled Date of Departure 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.',
+                    '<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u><br> 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.',
             ],
 
             'whats_included' => [
@@ -1259,15 +1415,60 @@ return [
 
 
             'price' => 5880,
-            'types' => ['Adventure'],
+            'types' => ['Spring','Wellness','East Asia'],
             'season' => ['Winter'],
 
         ],
 
 
         'Upper Mustang: Nepal’s Last Forbidden Kingdom' => [
+            'index' =>'Upper Mustang: Nepal’s Last Forbidden Kingdom',
             'id' => 7,
             'image' =>'/assets/images/mustang.jpg',
+            'images' => [
+
+                0 => [
+
+                ],
+                1 => [
+                    '/assets/images/upper/1.png', '/assets/images/upper/2.png', '/assets/images/upper/3.png', '/assets/images/upper/4.png'
+                ],
+                3 => [
+                    '/assets/images/upper/5.png', '/assets/images/upper/6.png'
+                ],
+                4 => [
+                    '/assets/images/upper/7.png', '/assets/images/upper/8.png'
+                ],
+                5 => [
+                    '/assets/images/upper/9.png', '/assets/images/upper/10.png'
+                ],
+                6 => [
+                    '/assets/images/upper/11.png', '/assets/images/upper/12.png'
+                ],
+                7 => [
+                    '/assets/images/upper/13.png', '/assets/images/upper/14.png'
+                ],
+                8 => [
+                    '/assets/images/upper/15.png', '/assets/images/upper/16.png'
+                ],
+                9 => [
+                    '/assets/images/upper/17.png', '/assets/images/upper/18.png'
+                ],
+                10 => [
+                    '/assets/images/upper/19.png', '/assets/images/upper/20.png'
+                ],
+                11 => [
+                    '/assets/images/upper/21.png', '/assets/images/upper/22.png'
+                ],
+                12 => [
+                    '/assets/images/upper/23.png', '/assets/images/upper/24.png'
+                ],
+                13 => [
+                    '/assets/images/upper/25.png', '/assets/images/upper/26.png'
+                ],
+                14 => [],
+                15 => [],
+            ],
             'description' => 'An exciting adventure.',
             'name' => 'Upper Mustang: Nepal’s Last Forbidden Kingdom',
             'destination_to_search' => ['east asia'],
@@ -1284,7 +1485,7 @@ return [
                 [
                     'day' => 1,
                     'range' => 0,
-                    'title' => 'KUALA LUMPUR to KATHMANDU',
+                    'title' => 'KUALA LUMPUR ✈ KATHMANDU',
                     'highlights' => [
                         'Assemble at Kuala Lumpur International Airport for flight to Kathmandu.',
                         'Apply for visa-on-arrival at Kathmandu airport.',
@@ -1310,7 +1511,7 @@ return [
                 [
                     'day' => 3,
                     'range' => 0,
-                    'title' => 'KATHMANDU to POKHARA',
+                    'title' => 'KATHMANDU ✈ POKHARA',
                     'highlights' => [
                         'Start the Upper Mustang road trip to Pokhara through farm villages and mountain views.',
                         'Transfer to hotel near Phewa Lake.',
@@ -1322,7 +1523,7 @@ return [
                 [
                     'day' => 4,
                     'range' => 0,
-                    'title' => 'POKHARA to TATOPANI',
+                    'title' => 'POKHARA ✈ TATOPANI',
                     'highlights' => [
                         'Continue Upper Mustang road trip, passing through Kusma and Baglung to Beni.',
                         'Follow the banks of the Kali Gandaki river to Tatopani, famous for its natural hot springs.',
@@ -1334,7 +1535,7 @@ return [
                 [
                     'day' => 5,
                     'range' => 0,
-                    'title' => 'TATOPANI to KAGBENI',
+                    'title' => 'TATOPANI ✈ KAGBENI',
                     'highlights' => [
                         'Drive from Tatopani to Kagbeni through Kali-Gandaki valley.',
                         'Pass through Ghasa, Tukuche, and Marpha, famous for its apple trees.',
@@ -1346,7 +1547,7 @@ return [
                 [
                     'day' => 6,
                     'range' => 0,
-                    'title' => 'KAGBENI to GHILLING',
+                    'title' => 'KAGBENI ✈ GHILLING',
                     'highlights' => [
                         'Explore Kagbeni in the morning.',
                         'Travel through beautiful landscapes to Ghilling.',
@@ -1358,7 +1559,7 @@ return [
                 [
                     'day' => 7,
                     'range' => 0,
-                    'title' => 'GHILLING to TSARANG',
+                    'title' => 'GHILLING ✈ TSARANG',
                     'highlights' => [
                         'Head towards Tsarang on a high altitude road.',
                         'Pass through Gyami Khola, Ny la, Ghami la & Chinggel into Dhakmar Village.',
@@ -1370,7 +1571,7 @@ return [
                 [
                     'day' => 8,
                     'range' => 0,
-                    'title' => 'TSARANG to LO MANTHANG',
+                    'title' => 'TSARANG ✈ LO MANTHANG',
                     'highlights' => [
                         'Drive through Sangda La and Lo La Pass to Lo Manthang.',
                         'Explore ancient monasteries, caves, and stunning landscapes.',
@@ -1382,7 +1583,7 @@ return [
                 [
                     'day' => 9,
                     'range' => 0,
-                    'title' => 'LO MANTHANG to KORA LA to CHHOSAR',
+                    'title' => 'LO MANTHANG ✈ KORA LA to CHHOSAR',
                     'highlights' => [
                         'Drive to Kora La at the Nepal-Tibet border.',
                         'Explore the sky caves of Chhosar.',
@@ -1394,7 +1595,7 @@ return [
                 [
                     'day' => 10,
                     'range' => 0,
-                    'title' => 'CHHOSAR to LO MANTHANG',
+                    'title' => 'CHHOSAR ✈ LO MANTHANG',
                     'highlights' => [
                         'Explore the remote area of Upper Mustang and its rich heritage.',
                         'Overnight in Lo Manthang.'
@@ -1405,7 +1606,7 @@ return [
                 [
                     'day' => 11,
                     'range' => 0,
-                    'title' => 'LO MANTHANG to SYANGBOCHE',
+                    'title' => 'LO MANTHANG ✈ SYANGBOCHE',
                     'highlights' => [
                         'Travel to Syanboche, stopping for photos along the way.',
                         'Visit Chungsi Cave.',
@@ -1417,7 +1618,7 @@ return [
                 [
                     'day' => 12,
                     'range' => 0,
-                    'title' => 'SYANGBOCHE to MARPHA',
+                    'title' => 'SYANGBOCHE ✈ MARPHA',
                     'highlights' => [
                         'Drive to Marpha via Muktinath, Kagbeni, and Jomsom.',
                         'Visit the holy shrine of Muktinath.',
@@ -1429,7 +1630,7 @@ return [
                 [
                     'day' => 13,
                     'range' => 0,
-                    'title' => 'MARPHA to JOMSOM to POKHARA',
+                    'title' => 'MARPHA ✈ JOMSOM ✈ POKHARA',
                     'highlights' => [
                         'Drive to Pokhara, enjoying magnificent mountain scenery along the rocky trail.',
                         'Overnight in Pokhara.'
@@ -1440,7 +1641,7 @@ return [
                 [
                     'day' => 14,
                     'range' => 0,
-                    'title' => 'POKHARA to KATHMANDU',
+                    'title' => 'POKHARA ✈ KATHMANDU',
                     'highlights' => [
                         'Head back to Kathmandu by land, taking about 6-7 hours.',
                         'Overnight in Kathmandu.'
@@ -1451,7 +1652,7 @@ return [
                 [
                     'day' => 15,
                     'range' => 0,
-                    'title' => 'KATHMANDU to KUALA LUMPUR',
+                    'title' => 'KATHMANDU ✈ KUALA LUMPUR',
                     'highlights' => [
                         'Free time in the morning before check-out.',
                         'Transfer to Kathmandu Airport for departure to Kuala Lumpur.',
@@ -1464,20 +1665,20 @@ return [
 
             'tour_fare' => [
 
-                    'total' => 12300,
-                    'additional' => 880,
-                    'return' => 1700,
+                    'total' => 12700,
+                    'additional' => 890,
+                    'return' => 2400,
 
             ],
             'validity' => [
-                'The estimated tour fare above is valid for the travel period of 10 May 2025 to 24 May 2025.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 15 persons + 1 tour leader. Surcharge applies if the number of travelers falls below the minimum group size.',
+                'The estimated tour fare above is valid for the travel period of <b>10 May 2025 to 24 May 2025.</b>',
+                '·The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with <b>minimum 10 persons and maximum 15 persons</b> (not including 1 tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
             ],
 
             'payment_terms' => [
-                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
-                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+                '<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br> 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
+                '<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u><br> 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
             ],
 
             'whats_included' => [
@@ -1502,15 +1703,61 @@ return [
                 'Personal expenses and other fees not expressly mentioned in Section B.'
             ],
 
-            'price' => 12000,
-            'types' => ['Adventure','Culture'],
+            'price' => 12700,
+            'types' => ['Adventure','Culture','East Asia','Spring'],
             'season' => ['Spring'],
 
         ],
 
         'Kazakhstan & Kyrgyzstan:Nomads and Lakes' => [
+            'index' =>'Kazakhstan & Kyrgyzstan:Nomads and Lakes',
             'id' => 8,
             'image' =>'/assets/images/kazakh.jpg',
+            'images' => [
+                0 => [
+                    '/assets/images/kazakh/1.png', '/assets/images/kazakh/2.png',
+                ],
+                1 => [
+                    '/assets/images/kazakh/3.png', '/assets/images/kazakh/4.png',
+                ],
+                2 => [
+                    '/assets/images/kazakh/4.png', '/assets/images/kazakh/5.png',
+                ],
+                3 => [
+                    '/assets/images/kazakh/6.png', '/assets/images/kazakh/7.png',
+                ],
+                4 => [
+                    '/assets/images/kazakh/8.png', '/assets/images/kazakh/9.png',
+                ],
+                5 => [
+                    '/assets/images/kazakh/10.png', '/assets/images/kazakh/11.png',
+                ],
+                6 => [
+                    '/assets/images/kazakh/12.png', '/assets/images/kazakh/13.png',
+                ],
+                7 => [
+                    '/assets/images/kazakh/14.png', '/assets/images/kazakh/15.png',
+                ],
+                8 => [
+                    '/assets/images/kazakh/16.png', '/assets/images/kazakh/17.png',
+                ],
+                9 => [
+                    '/assets/images/kazakh/18.png', '/assets/images/kazakh/19.png', '/assets/images/kazakh/20.png', '/assets/images/kazakh/21.png'
+                ],
+                10 => [
+                    '/assets/images/kazakh/22.png', '/assets/images/kazakh/23.png',
+                ],
+                11 => [
+                    '/assets/images/kazakh/24.png', '/assets/images/kazakh/25.png',
+                ],
+                12 => [
+                    '/assets/images/kazakh/26.png', '/assets/images/kazakh/27.png',
+                ],
+                13 => [
+                    '/assets/images/kazakh/28.png', '/assets/images/kazakh/29.png',
+                ],
+                14 => [],
+            ],
             'description' => 'An exciting adventure.',
             'name' => 'Kazakhstan & Kyrgyzstan:Nomads and Lakes',
             'destination_to_search' => ['central asia'],
@@ -1527,7 +1774,7 @@ return [
                 [
                     'day' => 1,
                     'range' => 0,
-                    'title' => 'KUALA LUMPUR ✈ ALMATY, KAZAKHSTAN',
+                    'title' => 'KUALA LUMPUR to ALMATY, KAZAKHSTAN',
                     'highlights' => [
                         'Assemble at Kuala Lumpur International Airport for departure flight to Almaty, Kazakhstan.',
                         'Arrive at Almaty and head for dinner.',
@@ -1691,7 +1938,7 @@ return [
                 [
                     'day' => 14,
                     'range' => 0,
-                    'title' => 'ALMATY ✈ KUALA LUMPUR',
+                    'title' => 'ALMATY to KUALA LUMPUR',
                     'highlights' => [
                         'City tour of Almaty visiting various attractions.',
                         'Depart Almaty for Kuala Lumpur in the late afternoon.'
@@ -1714,18 +1961,18 @@ return [
 
             'tour_fare' => [
 
-                    'total' => 9500,
-                    'additional' => 370,
-                    'return' => 3450,
+                    'total' => 9750,
+                    'additional' => 360,
+                    'return' => 3550,
 
             ],
-            'validity' => ['The estimated tour fare above is valid for the travel period of 1 June 2025 to 15 June 2025.','The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 14 persons + 1 tour leader. Surcharge applies if the number of travelers falls below the minimum group size.',
+            'validity' => ['The estimated tour fare above is valid for the travel period of <b>1 June 2025 to 15 June 2025</b>.','The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 14 persons + 1 tour leader. Surcharge applies if the number of travelers falls below the minimum group size.',
             'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'],
 
-            'payment_terms' => ['Bookings made more than 2 calendar months from the Scheduled Date of Departure
+            'payment_terms' => ['<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br>
             50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation
              (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.
-            ','Bookings made 2 calendar months or less from the Scheduled Date of Departure
+            ','<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u><br>
             100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.
             '],
             'whats_included' => ['Accommodation as stated in the itinerary or similar class.', 'Meals as stated in the itinerary.',
@@ -1739,21 +1986,60 @@ return [
             'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
             'Optional tours and activities.',
             'Personal expenses and other fees not expressly mentioned in Section B.'],
-            'price' => 9200,
-            'types' => ['Adventure','Culture'],
+            'price' => 9750,
+            'types' => ['Adventure','Culture','Central Asia','Summer'],
             'season' => ['Summer'],
 
         ],
 
-        'Ladakh, Little Tibet: Summer Scenic Circuit' => [
+        'Ladakh, Little Tibet: Summer Scenic Circuit (June)' => [
+            'index' =>'Ladakh, Little Tibet: Summer Scenic Circuit (June)',
             'id' => 9,
             'image' =>'/assets/images/summercircuit.jpg',
+            'images' => [
+                0 =>[],
+                1 => [
+                    '/assets/images/summer/1.png', '/assets/images/summer/2.png', '/assets/images/summer/3.png', '/assets/images/summer/4.png'
+                ],
+                2 => [
+                    '/assets/images/summer/5.png', '/assets/images/summer/6.png', '/assets/images/summer/7.png', '/assets/images/summer/8.png'
+                ],
+                3 => [
+                    '/assets/images/summer/9.png', '/assets/images/summer/10.png', '/assets/images/summer/11.png', '/assets/images/summer/12.png'
+                ],
+                4 => [
+                    '/assets/images/summer/13.png', '/assets/images/summer/14.png', '/assets/images/summer/15.png', '/assets/images/summer/16.png'
+                ],
+                5 => [
+                    '/assets/images/summer/17.png', '/assets/images/summer/18.png', '/assets/images/summer/19.png', '/assets/images/summer/20.png'
+                ],
+                6 => [
+                    '/assets/images/summer/21.png', '/assets/images/summer/22.png',
+                ],
+                7 => [
+                    '/assets/images/summer/23.png', '/assets/images/summer/24.png', '/assets/images/summer/25.png', '/assets/images/summer/26.png' , '/assets/images/summer/27.png'
+                ],
+                8 => [
+                    '/assets/images/summer/28.png', '/assets/images/summer/29.png', '/assets/images/summer/30.png', '/assets/images/summer/31.png'
+                ],
+                9 => [
+                    '/assets/images/summer/32.png', '/assets/images/summer/33.png', '/assets/images/summer/34.png', '/assets/images/summer/35.png'
+                ],
+                10 => [
+                    '/assets/images/summer/36.png', '/assets/images/summer/37.png',
+                ],
+                11 => [
+                    '/assets/images/summer/38.png', '/assets/images/summer/39.png', '/assets/images/summer/40.png', '/assets/images/summer/41.png'
+                ],
+                12 => [],
+                13 => [],
+            ],
             'description' => 'An exciting adventure.',
-            'name' => 'Ladakh, Little Tibet: Summer Scenic Circuit',
+            'name' => 'Ladakh, Little Tibet: Summer Scenic Circuit (June)',
             'destination_to_search' => ['east asia'],
             'destination' => 'India',
             'from_date' => '2025-06-18',
-            'to_date' => '2025-07-01',
+            'to_date' => '2025-06-30',
             'days' => 14,
             'nights' => 12,
             'minimum_pax' => 10,
@@ -1926,20 +2212,20 @@ return [
 
             'tour_fare' => [
 
-                    'total' => 8900,
-                    'additional' => 750,
+                    'total' => 9250,
+                    'additional' => 770,
                     'return' => 1800,
 
             ],
             'validity' => [
-                'The tour fare above is valid for the travel periods of 18.06.25 to 01.07.25 and 11.07.25 to 24.07.25.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with a minimum group size of 14 persons + 1 tour leader. Surcharge applies if the number of travelers falls below the minimum group size.',
+                'The tour fare above is valid for the travel periods of <b>18.06.25 to 01.07.25</b>',
+                '·The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with <b>minimum 10 persons and maximum 14 persons</b> (not including tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
             ],
 
             'payment_terms' => [
-                'Bookings made more than 2 calendar months from the Scheduled Date of Departure: 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
-                'Bookings made 2 calendar months or less from the Scheduled Date of Departure: 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+                '<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br> 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
+                '<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u><br> 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
             ],
 
             'whats_included' => [
@@ -1961,8 +2247,268 @@ return [
                 'Personal expenses and other fees not expressly mentioned in Section B.'
             ],
 
-            'price' => 8700,
-            'types' => ['Adventure','Culture'],
+            'price' => 9250,
+            'types' => ['Adventure','Culture','Summer','East Asia'],
+            'season' => ['Summer'],
+
+        ],
+        'Ladakh, Little Tibet: Summer Scenic Circuit (July)' => [
+            'index' =>'Ladakh, Little Tibet: Summer Scenic Circuit (July)',
+            'id' => 10,
+            'image' =>'/assets/images/summercircuit.jpg',
+            'images' => [
+                0 =>[],
+                1 => [
+                    '/assets/images/summer/1.png', '/assets/images/summer/2.png', '/assets/images/summer/3.png', '/assets/images/summer/4.png'
+                ],
+                2 => [
+                    '/assets/images/summer/5.png', '/assets/images/summer/6.png', '/assets/images/summer/7.png', '/assets/images/summer/8.png'
+                ],
+                3 => [
+                    '/assets/images/summer/9.png', '/assets/images/summer/10.png', '/assets/images/summer/11.png', '/assets/images/summer/12.png'
+                ],
+                4 => [
+                    '/assets/images/summer/13.png', '/assets/images/summer/14.png', '/assets/images/summer/15.png', '/assets/images/summer/16.png'
+                ],
+                5 => [
+                    '/assets/images/summer/17.png', '/assets/images/summer/18.png', '/assets/images/summer/19.png', '/assets/images/summer/20.png'
+                ],
+                6 => [
+                    '/assets/images/summer/21.png', '/assets/images/summer/22.png',
+                ],
+                7 => [
+                    '/assets/images/summer/23.png', '/assets/images/summer/24.png', '/assets/images/summer/25.png', '/assets/images/summer/26.png' , '/assets/images/summer/27.png'
+                ],
+                8 => [
+                    '/assets/images/summer/28.png', '/assets/images/summer/29.png', '/assets/images/summer/30.png', '/assets/images/summer/31.png'
+                ],
+                9 => [
+                    '/assets/images/summer/32.png', '/assets/images/summer/33.png', '/assets/images/summer/34.png', '/assets/images/summer/35.png'
+                ],
+                10 => [
+                    '/assets/images/summer/36.png', '/assets/images/summer/37.png',
+                ],
+                11 => [
+                    '/assets/images/summer/38.png', '/assets/images/summer/39.png', '/assets/images/summer/40.png', '/assets/images/summer/41.png'
+                ],
+                12 => [],
+                13 => [],
+            ],
+            'description' => 'An exciting adventure.',
+            'name' => 'Ladakh, Little Tibet: Summer Scenic Circuit (July)',
+            'destination_to_search' => ['east asia'],
+            'destination' => 'India',
+            'from_date' => '2025-07-11',
+            'to_date' => '2025-07-23',
+            'days' => 14,
+            'nights' => 12,
+            'minimum_pax' => 10,
+            'leader' => 1,
+            'tags' => ['Culture', 'Adventure','East Asia'],
+            'introduction' => ['Embark on a breathtaking summer adventure through Ladakh, starting in Leh, the cultural heart of the region. This journey takes you through stunning landscapes and hidden gems, including the ancient Alchi Monastery, famous for its intricate Buddhist art. Continue to Padum, a serene town in the Zanskar Valley, and marvel at Gonbo Rangjon, a revered mountain with a striking silhouette. Relax by Tso Moriri, a pristine high-altitude lake surrounded by snow-capped peaks. Each stop offers unique experiences, from tranquil monasteries to rich cultural encounters. This itinerary perfectly blends adventure, spirituality, and natural beauty for an immersive Himalayan experience.'],
+            'itinerary' => [
+                [
+                    'day' => 1,
+                    'range' => 0,
+                    'date' => '02/01/2025',
+                    'title' => 'KUALA LUMPUR to DELHI, INDIA',
+                    'highlights' => [
+                        'Assemble at Kuala Lumpur International Airport for departure flight to Delhi. Overnight in Delhi.'
+                    ],
+                    'accommodation' => 'Ashok Country Resort',
+                    'meal' => null
+                ],
+                [
+                    'day' => 2,
+                    'range' => 0,
+                    'date' => '03/01/2025',
+                    'title' => 'DELHI to LEH, LADAKH',
+                    'highlights' => [
+                        'Morning flight from Delhi to Leh over the majestic Himalayan range.',
+                        'Rest and acclimatize with a visit to Leh Market and Shanti Stupa, offering a panoramic view of Leh.'
+                    ],
+                    'accommodation' => 'Leh boutique hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 3,
+                    'range' => 0,
+                    'date' => '04/01/2025',
+                    'title' => 'LEH',
+                    'highlights' => [
+                        'Visit Shey Monastery with its 3-storeyed idol of Shakyamuni Buddha.',
+                        'Explore Thiksey Monastery, known as “Mini Potala.”',
+                        'Visit Matho Monastery, famous for its beautiful thangkas.'
+                    ],
+                    'accommodation' => 'Leh boutique hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 4,
+                    'range' => 0,
+                    'date' => '05/01/2025',
+                    'title' => 'LEH to ALCHI to LAMAYURU',
+                    'highlights' => [
+                        'Explore Alchi Monastery, the oldest in Ladakh, with ancient wall paintings.',
+                        'Visit Lamayuru Monastery and photo-stop at the confluence of Indus and Zanskar rivers.'
+                    ],
+                    'accommodation' => 'Lamayuru boutique hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 5,
+                    'range' => 0,
+                    'date' => '06/01/2025',
+                    'title' => 'LAMAYURU to RANGDUM',
+                    'highlights' => [
+                        'Drive to Rangdum via Suru Valley and Kargil, known for its natural beauty.',
+                        'Experience the remote village of Rangdum, surrounded by stunning landscapes.'
+                    ],
+                    'accommodation' => 'Rangdum guesthouse or tent site',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 6,
+                    'range' => 0,
+                    'date' => '07/01/2025',
+                    'title' => 'RANGDUM to PADUM, ZANSKAR',
+                    'highlights' => [
+                        'Traverse rugged landscapes to Padum.',
+                        'Visit historic Rangdum Monastery and ascend to Pensi La Pass for stunning views.'
+                    ],
+                    'accommodation' => 'Padum hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 7,
+                    'range' => 0,
+                    'date' => '08/01/2025',
+                    'title' => 'PADUM, ZANSKAR',
+                    'highlights' => [
+                        'Explore Karsha Monastery, Stongdey Monastery, and Zangla Fort.'
+                    ],
+                    'accommodation' => 'Padum hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 8,
+                    'range' => 0,
+                    'date' => '09/01/2025',
+                    'title' => 'PADUM to GONBO RANGJON',
+                    'highlights' => [
+                        'Enjoy scenic drive to Gonbo Rangjon with stops at Bardan Monastery and Muney Monastery.',
+                        'Stargazing at Gonbo Rangjon campsite.'
+                    ],
+                    'accommodation' => 'Gonbo Rangjon Campsite',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 9,
+                    'range' => 0,
+                    'date' => '10/01/2025',
+                    'title' => 'GONBO RANGJON to TSO KAR LAKE',
+                    'highlights' => [
+                        'Drive to Tso Kar Lake, ascending Shinku La Pass and Baralacha Pass for panoramic views.'
+                    ],
+                    'accommodation' => 'Tso Kar resort hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 10,
+                    'range' => 0,
+                    'date' => '11/01/2025',
+                    'title' => 'TSO KAR LAKE to TSO MORIRI LAKE',
+                    'highlights' => [
+                        'Visit Puga Hot Springs on the way to Tso Moriri Lake, known for its sacred blue hues.'
+                    ],
+                    'accommodation' => 'Tso Moriri guesthouse',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 11,
+                    'range' => 0,
+                    'date' => '12/01/2025',
+                    'title' => 'TSO MORIRI LAKE to LEH',
+                    'highlights' => [
+                        'Drive back to Leh via Chumathang and Mahey Bridge, arriving in the afternoon.'
+                    ],
+                    'accommodation' => 'Leh boutique hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 12,
+                    'range' => 0,
+                    'date' => '13/01/2025',
+                    'title' => 'LEH',
+                    'highlights' => [
+                        'Relax in Leh, enjoy local wares, and Ladakhi milk-tea at a local tearoom.'
+                    ],
+                    'accommodation' => 'Leh boutique hotel',
+                    'meal' => 'Breakfast / Dinner'
+                ],
+                [
+                    'day' => 13,
+                    'range' => 0,
+                    'date' => '14/01/2025',
+                    'title' => 'LEH to DELHI to KUALA LUMPUR',
+                    'highlights' => [
+                        'Morning flight from Leh to Delhi, then evening flight to Kuala Lumpur.'
+                    ],
+                    'accommodation' => null,
+                    'meal' => 'Breakfast'
+                ],
+                [
+                    'day' => 14,
+                    'range' => 0,
+                    'date' => '15/01/2025',
+                    'title' => 'KUALA LUMPUR',
+                    'highlights' => [
+                        'Arrive in Kuala Lumpur in the morning. End of tour.'
+                    ],
+                    'accommodation' => null,
+                    'meal' => null
+                ]
+                ],
+
+            'tour_fare' => [
+
+                    'total' => 9250,
+                    'additional' => 770,
+                    'return' => 2600,
+
+            ],
+            'validity' => [
+                'The tour fare above is valid for the travel periods of <b>18.06.25 to 01.07.25</b>',
+                '·The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with <b>minimum 10 persons and maximum 14 persons</b> (not including tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
+                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.'
+            ],
+
+            'payment_terms' => [
+                '<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br> 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
+                '<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u><br> 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+            ],
+
+            'whats_included' => [
+                'Accommodation as stated in the itinerary or similar class.',
+                'Return domestic air tickets between Delhi and Ladakh, including 1 check-in baggage (maximum 15 kg).',
+                'Meals as stated in the itinerary.',
+                'Activities, transport, and entrance fees as stated in the itinerary.',
+                '1 English-speaking local guide.',
+                'Tipping for local guide and drivers.',
+                '1 tour leader from Hummingbird for the entire travel duration.'
+            ],
+
+            'whats_excluded' => [
+                'Return international air tickets between Kuala Lumpur and Delhi.',
+                'Travel insurance.',
+                'Visa. (Visa fees are waived for Malaysians up to 30 June 2025).',
+                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
+                'Optional tours and activities.',
+                'Personal expenses and other fees not expressly mentioned in Section B.'
+            ],
+
+            'price' => 9250,
+            'types' => ['Adventure','Culture','Summer','East Asia'],
             'season' => ['Summer'],
 
         ],
