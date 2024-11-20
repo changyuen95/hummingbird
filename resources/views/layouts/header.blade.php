@@ -16,7 +16,7 @@
         </div><!-- /.container -->
     </nav><!-- /.main-nav-one -->
 
-    <nav class="main-nav-one nav-right stricky" style="position: absolute;top: 20px; right: 20px; z-index: 10; /*">
+    <nav class="main-nav-one nav-right stricky">
         <div class="container" style="padding-left:0px;padding:right:0px">
             <div class="inner-container">
                 <div class="logo-box">

@@ -40,6 +40,9 @@
                 <div class="filter-sidebar" style="display: block" id="filter-content">
                     <div class="filter-box">
                         <div class="filter-head">
+                            <span class="main-filter-title">Filter by</span>
+                        </div>
+                        <div class="filter-head">
                             <span class="filter-title">Types</span>
                         </div>
                         <ul class="filter-list inline">

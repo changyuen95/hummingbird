@@ -811,8 +811,19 @@ a:focus {
 --------------------------------------------------------------*/
 
 .nav-left {
-    position: absolute;top: 20px; left: 60px; z-index: 10;
+    position: absolute;top: 20px; left: 70px; z-index: 10;
 }
+
+.nav-right {
+    position: absolute;top: 20px; right: 80px; z-index: 10;
+}
+
+.all-tour{
+    margin-bottom:40px;
+}
+
+
+
 
 .main-nav-one .inner-container {
 	display: -webkit-box;
@@ -6554,6 +6565,9 @@ a:focus {
     transform : none !important;
 }
 
+.tour-list{
+    margin-top: 70px;
+}
 
 .main-list-dynamic {
     margin-left:65px;
@@ -6561,6 +6575,17 @@ a:focus {
     display: grid;
     grid-template-columns: 25% 75%;
     column-gap: 25px;
+}
+
+@media(min-width: 1800px) {
+    .main-list-dynamic {
+        column-gap: 5% !important;
+    }
+
+    .all-tour{
+        max-width: 410px;
+
+    }
 }
 
 .list-side {
@@ -6572,6 +6597,7 @@ a:focus {
     justify-content: space-between; /* Aligns items at both ends */
     align-items: center; /* Vertically center aligns items */
     margin-bottom: 10px; /* Space below the title container */
+    padding-left:10px;
 }
 
 .toggle-btn {
@@ -6610,12 +6636,16 @@ a:focus {
   .filter-box .main-filter-title {
     flex: 1 1;
     font-weight: 700;
+    font-size:14px;
+    font-family: Inter;
   }
 
 
   .filter-box .filter-title {
     flex: 1 1;
     font-weight: 300;
+    font-size:14px;
+    font-family: Inter;
   }
 
   .filter-box .filter-list.inline{
@@ -7224,6 +7254,10 @@ a:focus {
     display: none;
 }
 
+.tag-title {
+    margin-bottom:15px;
+}
+
 @media (max-width: 1300px) {
 
     .footer-widget p {
@@ -7282,7 +7316,11 @@ a:focus {
     }
 
     .nav-left {
-        position: absolute;top: 20px; left: 10px; z-index: 10;
+        position: absolute;top: 20px; left: 15px; z-index: 10;
+    }
+
+    .nav-right {
+        position: absolute;top: 20px; right: 15px; z-index: 10;margin-top:10px
     }
 
     .main-list-dynamic {
@@ -7404,5 +7442,20 @@ a:focus {
         /* font-family: var(--heading-font); */
     }
 
+    .main-list-dynamic {
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+    .tour-list{
+        margin-top: 0px;
+    }
+
+    .all-tour{
+        margin-bottom:0px;
+    }
+    .tag-title {
+        margin-bottom:0px;
+    }
 
 }
