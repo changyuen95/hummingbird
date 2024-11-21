@@ -90,6 +90,8 @@ $tour = config('tour.tours.'.$encoded);
                                         </li>
                                     </ul>
                                     <h3 style="font-size:32px;font-weight:300;line-height:40px">{{$tour['name']}}</h3>
+                                    <p class="detail-price">RM {{$tour['price']}}</p>
+
                                     <div class="mobile-off">
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/destination.png" style="width: 15px;height: 15px;"></div>

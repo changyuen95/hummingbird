@@ -17,13 +17,13 @@
                         <ul class="update-tags title-list inline">
                             @foreach ( $tour['types'] as $tag )
                             <li class="title-item">
-                                <div class="title-button destination" value="{{$tag}}">{{$tag}}</div>
+                                <div class="title-button destination" style="font-family: Inter;font-size:12px" value="{{$tag}}">{{$tag}}</div>
                             </li>
                             @endforeach
                         </ul>
                     </div>
 
-                    <div style="height:40px"><p class="update-name" style="font-family:Inter;font-size: 20px;font-weight: 300;line-height:20px">{{$tour['name']}}</p></div>
+                    <div style="height:40px"><p class="update-name" style="font-size: 20px;font-weight: 300;line-height:20px">{{$tour['name']}}</p></div>
                     <div>
                     <span class="update-price" style="font-family:Inter;margin-top: 10px;font-weight:700;font-size:16px;line-height:40px">{{'RM '. $tour['price']}}</span>
                     <span class="update-date" style="font-family:Inter;font-size: 14px;font-weight: 400;line-height:24px">{{ Carbon\Carbon::parse($tour['from_date'])->format('d M') .' - '.Carbon\Carbon::parse($tour['to_date'])->format('d M Y') }}</span>

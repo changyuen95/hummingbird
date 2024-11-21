@@ -874,6 +874,7 @@ return [
                         'day' => 12,
                         'date' => '24/02/25',
                         'title' => 'COPACABANA - ISLA DEL SOL',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'We’ll head to Isla del Sol, an island renowned for its archaeological sites dating back to pre-Incan cultures. We’ll hike up to the island\'s summit and explore the ancient ruins, while taking in the breathtaking views of Lake Titicaca and the surrounding landscapes.',
@@ -885,6 +886,7 @@ return [
                         'day' => 13,
                         'date' => '25/02/25',
                         'title' => 'ISLA DEL SOL',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'We’ll trek to the awe-inspiring Roca Sagrada (Sacred Rock), beginning from the tranquil beauty of Lake Titicaca, and traversing ancient paths and terraced landscapes.',
@@ -896,6 +898,7 @@ return [
                         'day' => 14,
                         'date' => '26/02/25',
                         'title' => 'ISLA DEL SOL - COPACABANA - LA PAZ',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'We’ll journey back to Copacabana. En route, we’ll stop at Isla de la Luna, home to several archaeological ruins, including a sacred temple dedicated to the moon goddess.',
@@ -907,6 +910,7 @@ return [
                         'day' => 15,
                         'date' => '27/02/25',
                         'title' => 'LA PAZ - TIWANAKU - PUMAPUNKU - LA PAZ',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'Visit the Witches Market in La Paz for a glimpse into traditional Aymara rituals.',
@@ -918,6 +922,7 @@ return [
                         'day' => 16,
                         'date' => '28/02/25',
                         'title' => 'LA PAZ - UYUNI',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'Take an immersive tour of La Paz, exploring its culture, landmarks, and the Mi Teleferico cable car.',
@@ -929,6 +934,7 @@ return [
                         'day' => 17,
                         'date' => '01/03/25',
                         'title' => 'UYUNI',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'Free time to explore Uyuni. Later, an excursion to the Uyuni Salt Flats to witness the sunset and the star-filled night sky.'
@@ -939,6 +945,7 @@ return [
                         'day' => 18,
                         'date' => '02/03/25',
                         'title' => 'UYUNI - ATACAMA (CHILE)',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'Visit the Train Cemetery, then travel to Atacama Desert in Chile.'
@@ -949,6 +956,7 @@ return [
                         'day' => 19,
                         'date' => '03/03/25',
                         'title' => 'SAN PEDRO DE ATACAMA',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'Take an orientation walk in San Pedro de Atacama, followed by an excursion to Laguna Cejar and an astronomical tour.'
@@ -959,6 +967,7 @@ return [
                         'day' => 20,
                         'date' => '04/03/25',
                         'title' => 'SAN PEDRO DE ATACAMA - CALAMA - SANTIAGO',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'Depart for Santiago via Calama, with scenic views of the Andes mountains and picturesque valleys.'
@@ -969,6 +978,7 @@ return [
                         'day' => 21,
                         'date' => '05/03/25',
                         'title' => 'SANTIAGO',
+                        'range' => 0,
                         'meal' => 'Breakfast',
                         'highlights' => [
                             'City tour of Santiago, exploring landmarks like Plaza de Armas and Santa Lucía Hill.'
@@ -979,6 +989,7 @@ return [
                         'day' => 22,
                         'date' => '06/03/25',
                         'title' => 'SANTIAGO - AMSTERDAM',
+                        'range' => 0,
                         'meal' => 'Breakfast / MOB',
                         'highlights' => [
                             'Departure flight from Santiago to Amsterdam.'
@@ -990,6 +1001,7 @@ return [
                         'day' => 23,
                         'date' => '07/03/25',
                         'title' => 'AMSTERDAM - KUALA LUMPUR',
+                        'range' => 0,
                         'meal' => 'Breakfast / MOB',
                         'highlights' => [
                             'Arrival in Kuala Lumpur, end of tour.'
