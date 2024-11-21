@@ -200,7 +200,7 @@ $tour = config('tour.tours.'.$encoded);
                                             Additional cost for single room occupancy
                                         </span>
                                         <span class="tour_fare_price">
-                                            From RM {{number_format($tour['tour_fare']['additional']) ?? 0}}
+                                            RM {{number_format($tour['tour_fare']['additional']) ?? 0}}
                                         </span>
                                     </div>
                                     <div style="display:flex;border-bottom: 1px solid black;padding-bottom:10px;margin-bottom:10px">
