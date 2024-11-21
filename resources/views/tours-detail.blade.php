@@ -148,7 +148,6 @@ $tour = config('tour.tours.'.$encoded);
 
                                         </div>
                                     </div>
-
                                     <div class="content" style="display:none" id="content{{$key}}">
 
                                         @if(count($tour['images'][$key]) > 0)

@@ -1310,15 +1310,13 @@ return [
             'image' =>'/assets/images/ayurveda_new.jpg',
             'images' => [
 
-                0 => [
-
-                ],
+                0 => [],
                 1 => [
                     '/assets/images/ayurvedic/1.png', '/assets/images/ayurvedic/2.png'
                 ],
                 2 => [
                     '/assets/images/ayurvedic/3.png', '/assets/images/ayurvedic/4.png' , '/assets/images/ayurvedic/5.png', '/assets/images/ayurvedic/6.png'
-                ],
+                ]
 
             ],
             'description' => "Join media personality and PADI Dive Ambassador Baki Zainal on an exhilarating diving adventure along Sri Lanka's southwestern coast. This exclusive itinerary is tailored for Advanced Divers eager to explore the underwater wonders of Hikkaduwa and Galle, featuring thrilling wreck dives and vibrant reef dives that showcase the Indian Ocean's rich biodiversity. Enjoy a unique tuk-tuk self-driving experience through the historic streets of Galle, adding local flair to your adventure. Conclude your journey with a delicious crab dinner in Colombo, savoring the island’s renowned seafood. Whether you're a seasoned diver or a fan of Baki Zainal, this trip promises unforgettable experiences above and below the water.",
@@ -1468,7 +1466,7 @@ return [
             'description' => "Experience the healing power of nature with a revitalizing Ayurvedic retreat in Sri Lanka. This itinerary offers a serene escape into holistic wellness, combining traditional Ayurvedic treatments with the island’s natural beauty.",
             'name' => 'Xinjiang: The Great Taklamkan',
             'destination_to_search' => ['East Asia'],
-            'destination' => 'Uzbekistan',
+            'destination' => 'Xinjiang',
             'from_date' => '2025-04-10',
             'to_date' => '2025-04-18',
             'days' => 9,
@@ -1476,7 +1474,7 @@ return [
             'minimum_pax' => 16,
             'leader' => 1,
             'tags' => ['Adventure','Culture','Spring','East Asia'],
-            'introduction' => ["Discover the enchanting beauty of Uzbekistan in spring, where history, culture, and nature blend seamlessly. This itinerary takes you through ancient Silk Road cities like Samarkand, Bukhara, and Tashkent, showcasing stunning architecture, vibrant bazaars, and intricate tilework. As spring awakens the landscape, you'll also explore hidden gems that reveal Central Asia’s rich heritage. A highlight is the remote Aral Sea, a stark reminder of significant environmental changes. From bustling city streets to the serene shores of the Aral Sea, this adventure offers a captivating mix of cultural exploration and natural wonder for curious travelers."],
+            'introduction' => ["Experience the healing power of nature with a revitalizing Ayurvedic retreat in Sri Lanka. This itinerary offers a serene escape into holistic wellness, combining traditional Ayurvedic treatments with the island’s natural beauty."],
             'itinerary' => [
                 [
                     'day' => 1,
@@ -1640,7 +1638,7 @@ return [
 
 
             'price' => 11000,
-            'types' => ['Adventure','Culture','Spring','Central Asia'],
+            'tags' => ['Adventure','Culture','Spring','East Asia'],
             'season' => ['Spring'],
 
         ],
@@ -1648,7 +1646,7 @@ return [
 
         'Uzbekistan Aral Sea (April)' => [
             'index' =>'Uzbekistan Aral Sea (April)',
-            'id' => 7,
+            'id' => 8,
             'image' =>'/assets/images/uzbekistan/26.png',
             'images' => [
 
@@ -1902,8 +1900,8 @@ return [
 
             ],
             'validity' => [
-                'The estimated tour fare above is valid for the respective travel period of (a) 20 April to 5 May 2025; and (b) 9 May to 24 May 2025.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with minimum 10 persons and maximum 15 persons (not including tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
+                'The estimated tour fare above is valid for the respective travel period of (a)<b> 20 April to 5 May 2025</b>',
+                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with minimum <b>10 persons and maximum 15 persons</b> (not including tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
                 'The air fare included in the tour fare above is only an estimate. Hummingbird has the right to charge a higher air fare based on the actual rates at the time of booking (“Actual Air Fare”).',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.',
             ],
@@ -1946,7 +1944,7 @@ return [
 
         'Uzbekistan Aral Sea (May)' => [
             'index' =>'Uzbekistan Aral Sea (May)',
-            'id' => 7,
+            'id' => 9,
             'image' =>'/assets/images/uzbekistan/26.png',
             'images' => [
 
@@ -2200,8 +2198,8 @@ return [
 
             ],
             'validity' => [
-                'The estimated tour fare above is valid for the respective travel period of (a) 20 April to 5 May 2025; and (b) 9 May to 24 May 2025.',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with minimum 10 persons and maximum 15 persons (not including tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
+                'The estimated tour fare above is valid for the respective travel period of <b> 9 May to 24 May 2025.</b>',
+                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with <b>minimum 10 persons and maximum 15 persons</b> (not including tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
                 'The air fare included in the tour fare above is only an estimate. Hummingbird has the right to charge a higher air fare based on the actual rates at the time of booking (“Actual Air Fare”).',
                 'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.',
             ],
@@ -2246,7 +2244,7 @@ return [
 
         'Upper Mustang: Nepal’s Last Forbidden Kingdom' => [
             'index' =>'Upper Mustang: Nepal’s Last Forbidden Kingdom',
-            'id' => 7,
+            'id' => 10,
             'image' =>'/assets/images/mustang.jpg',
             'images' => [
 
@@ -2256,41 +2254,41 @@ return [
                 1 => [
                     '/assets/images/upper/1.png', '/assets/images/upper/2.png', '/assets/images/upper/3.png', '/assets/images/upper/4.png'
                 ],
-                3 => [
+                2 => [
                     '/assets/images/upper/5.png', '/assets/images/upper/6.png'
                 ],
-                4 => [
+                3 => [
                     '/assets/images/upper/7.png', '/assets/images/upper/8.png'
                 ],
-                5 => [
+                4 => [
                     '/assets/images/upper/9.png', '/assets/images/upper/10.png'
                 ],
-                6 => [
+                5 => [
                     '/assets/images/upper/11.png', '/assets/images/upper/12.png'
                 ],
-                7 => [
+                6 => [
                     '/assets/images/upper/13.png', '/assets/images/upper/14.png'
                 ],
-                8 => [
+                7 => [
                     '/assets/images/upper/15.png', '/assets/images/upper/16.png'
                 ],
-                9 => [
+                8 => [
                     '/assets/images/upper/17.png', '/assets/images/upper/18.png'
                 ],
-                10 => [
+                9 => [
                     '/assets/images/upper/19.png', '/assets/images/upper/20.png'
                 ],
-                11 => [
+                10 => [
                     '/assets/images/upper/21.png', '/assets/images/upper/22.png'
                 ],
-                12 => [
+                11 => [
                     '/assets/images/upper/23.png', '/assets/images/upper/24.png'
                 ],
-                13 => [
+                12 => [
                     '/assets/images/upper/25.png', '/assets/images/upper/26.png'
                 ],
+                13 => [],
                 14 => [],
-                15 => [],
             ],
             'description' => 'An exciting adventure.',
             'name' => 'Upper Mustang: Nepal’s Last Forbidden Kingdom',
@@ -2534,7 +2532,7 @@ return [
 
         'Kazakhstan & Kyrgyzstan:Nomads and Lakes' => [
             'index' =>'Kazakhstan & Kyrgyzstan:Nomads and Lakes',
-            'id' => 8,
+            'id' => 11,
             'image' =>'/assets/images/kazakh.jpg',
             'images' => [
                 0 => [
@@ -2817,7 +2815,7 @@ return [
 
         'Ladakh, Little Tibet: Summer Scenic Circuit (June)' => [
             'index' =>'Ladakh, Little Tibet: Summer Scenic Circuit (June)',
-            'id' => 9,
+            'id' => 12,
             'image' =>'/assets/images/summercircuit.jpg',
             'images' => [
                 0 =>[],
@@ -3077,7 +3075,7 @@ return [
         ],
         'Ladakh, Little Tibet: Summer Scenic Circuit (July)' => [
             'index' =>'Ladakh, Little Tibet: Summer Scenic Circuit (July)',
-            'id' => 10,
+            'id' => 13,
             'image' =>'/assets/images/summercircuit.jpg',
             'images' => [
                 0 =>[],
