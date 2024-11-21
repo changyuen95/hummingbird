@@ -40,8 +40,8 @@
     <link rel="stylesheet" href="/assets/css/hover-min.css">
     <link rel="stylesheet" href="/assets/css/muzex-icons.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=3.4">
-    <link rel="stylesheet" href="/assets/css/responsive.css?v=1.1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=3.5">
+    <link rel="stylesheet" href="/assets/css/responsive.css?v=1.2">
     <link rel="stylesheet" href="/assets/css/customs.css">
 
         @stack('styles')
