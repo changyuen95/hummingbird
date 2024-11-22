@@ -1638,7 +1638,7 @@ return [
 
 
             'price' => 11000,
-            'tags' => ['Adventure','Culture','Spring','East Asia'],
+            'types' => ['Adventure','Culture','Spring','East Asia'],
             'season' => ['Spring'],
 
         ],
