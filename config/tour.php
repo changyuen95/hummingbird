@@ -2000,7 +2000,7 @@ return [
 
             ],
             'description' => "Discover the enchanting beauty of Uzbekistan in spring, where history, culture, and nature blend seamlessly. This itinerary takes you through ancient Silk Road cities like Samarkand, Bukhara, and Tashkent, showcasing stunning architecture, vibrant bazaars, and intricate tilework. As spring awakens the landscape, you'll also explore hidden gems that reveal Central Asia’s rich heritage. A highlight is the remote Aral Sea, a stark reminder of significant environmental changes. From bustling city streets to the serene shores of the Aral Sea, this adventure offers a captivating mix of cultural exploration and natural wonder for curious travelers.",
-            'name' => 'Uzbekistan Aral Sea (April)',
+            'name' => 'Uzbekistan Aral Sea (May)',
             'destination_to_search' => ['central asia'],
             'destination' => 'Uzbekistan',
             'from_date' => '2025-05-09',
