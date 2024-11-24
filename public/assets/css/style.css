@@ -7107,8 +7107,8 @@ a:focus {
 
     }
     .logo-res {
-        width: 198px;
-        height: 50px;
+        width: 100%;
+        height: 100%
     }
     .icon {
         text-align: center;
