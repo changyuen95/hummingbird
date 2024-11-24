@@ -25,7 +25,8 @@
    @endpush
 
    @push('logo')
-        <img class="logo-res" src="/assets/images/humming-bird-white.png" alt="">
+        <img class="logo-res desktop-only" src="/assets/images/humming-bird-white.png" alt="">
+        <img class="logo-res mobile-only" src="/assets/images/logo_mobile.png" alt="">
    @endpush
 
    @push('menu')
@@ -88,7 +89,7 @@
                 <img class="about-us-image" src="/assets/images/about-us/exploration.png" alt="Left Image">
             </div>
             <div class="about-us-col-right" style="align-content:center">
-                <p class="abt-content-title2">Exchange and Explorotion</p>
+                <p class="abt-content-title2">Exchanges and Exploration</p>
                 <p class="abt-content-word2">Traveling to engage in meaningful exchanges with people from all walks of life and exploring uncharted territories.</p>
             </div>
         </div>
@@ -96,7 +97,7 @@
 
         <div class="about-us-row mobile-only">
             <div class="about-us-col-left">
-                <p class="abt-content-title2">Exchange and Explorotion</p>
+                <p class="abt-content-title2">Exchanges and Exploration</p>
                 <p class="abt-content-word2">Traveling to engage in meaningful exchanges with people from all walks of life and exploring uncharted territories.</p>
             </div>
             <div class="about-us-col-right" style="align-content:center">

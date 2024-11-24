@@ -46,7 +46,7 @@
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p> --}}
                         <p class="footer-title">Quick Links</p>
                         <p class="footer-wording"><a href="/">Home</a></p>
-                        <p class="footer-wording"><a href="/about-us">About</a></p>
+                        <p class="footer-wording"><a href="/about-us">About Us</a></p>
                         <p class="footer-wording"><a href="contact-us">Contact Us</a></p>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
@@ -56,7 +56,7 @@
                         {{-- <p class="footer-wording">Wisma Huazong, Lot 15285, <br>
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p> --}}
                         <p class="footer-title">Services & Tours</p>
-                        <p class="footer-wording">Our Services</p>
+                        <p class="footer-wording"><a href="/our-services">Our Services</a></p>
                         <p class="footer-wording"><a href="/tours-by-type">Tours by Type</a></p>
                         <p class="footer-wording"><a href="/private-tour">Private Tours</a></p>
                     </div><!-- /.footer-widget -->

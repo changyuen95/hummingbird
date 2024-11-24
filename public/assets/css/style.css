@@ -7056,7 +7056,7 @@ a:focus {
     height: 66px;
 }
 
-.logo-res {
+.logo-res desktop-only {
     width: 250px;
     height: 60px;
 }
@@ -7106,7 +7106,7 @@ a:focus {
         position: fixed;
 
     }
-    .logo-res {
+    .logo-res desktop-only {
         width: 198px;
         height: 50px;
     }

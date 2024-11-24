@@ -6,7 +6,9 @@
 @section('content')
 <!-- Banner Section -->
 @push('logo')
-        <img class="logo-res" src="/assets/images/humming-bird.png" alt="">
+        <img class="logo-res desktop-only" src="/assets/images/humming-bird.png" alt="">
+        <img class="logo-res mobile-only" src="/assets/images/logo_mobile.png" alt="">
+
    @endpush
 
    @push('menu')

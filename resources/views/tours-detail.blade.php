@@ -25,7 +25,7 @@ $tour = config('tour.tours.'.$encoded);
     </div>
 @endpush
 @push('logo')
-        <img class="logo-res" src="/assets/images/humming-bird-white.png" alt="">
+        <img class="logo-res desktop-only" src="/assets/images/humming-bird-white.png" alt="">
    @endpush
    @push('menu')
     <a href="#" style="color:white" class="side-menu__toggler"><i class="muzex-icon-menu"></i></a>

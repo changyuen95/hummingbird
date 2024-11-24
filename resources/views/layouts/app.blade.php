@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="/assets/css/hover-min.css">
     <link rel="stylesheet" href="/assets/css/muzex-icons.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=3.5">
+    <link rel="stylesheet" href="/assets/css/style.css?v=3.6">
     <link rel="stylesheet" href="/assets/css/responsive.css?v=1.2">
     <link rel="stylesheet" href="/assets/css/customs.css">
 
@@ -127,7 +127,9 @@
 
         <div class="side-menu__block-inner res-sidewidth">
 
-            <a href="/" class="side-menu__logo "><img class="logo-res logo-margin" src="/assets/images/humming-bird-white.png" alt=""></a>
+            <a href="/" class="side-menu__logo "><img class="logo-res desktop-only logo-margin" src="/assets/images/humming-bird-white.png" alt=""></a>
+            <a href="/" class="side-menu__logo "><img class="logo-res mobile-only logo-margin" src="/assets/images/logo-mobile.png" alt=""></a>
+
 
             <div style="display:block">
                 <div class="menu-res">
@@ -145,8 +147,7 @@
                             <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px;text-decoration:underline;">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;display: grid;font-size: 12px;text-align: -webkit-left;margin-top: 20px;">
                         </div>
                             <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px">Tel: +60123019260</span>
-                            <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px">enquiry@hummingbird.my</span>
-                            <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px">KPL No. 0218</span>
+                            <span style="font-weight: 400 !important;font-family: Inter;margin-bottom:-8px;font-size:14px">Email: enquiry@hummingbird.my</span>
                     </div>
                 </div>
             </div>
