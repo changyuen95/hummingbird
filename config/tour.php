@@ -1424,7 +1424,7 @@ return [
 
 
 
-            'price' => 5880,
+            'price' => 6100,
             'types' => ['Spring','Wellness','East Asia'],
             'season' => ['Winter'],
 
