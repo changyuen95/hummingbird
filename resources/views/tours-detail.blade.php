@@ -104,7 +104,7 @@ $tour = config('tour.tours.'.$encoded);
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/pax.png" style="width: 15px;height: 15px;"></div>
                                             <div class="col-11 res-padding" ><p style="font-family:Inter">Group Size: Minimum {{$tour['minimum_pax'] ?? 0}} pax
-                                            (Maximum {{$tourp['max_pax'] ?? 0}} pax)</p></div>
+                                            (Maximum {{$tour['maximum_pax'] ?? 0}} pax)</p></div>
                                         </div>
                                     </div>
 

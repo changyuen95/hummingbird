@@ -251,7 +251,8 @@
                     tour_html.find('.update-destination').text(tour['destination'] ?? null) // Replace country
                     tour_html.find('.update-price').text('RM '+ (tour['price'] ?? null)) // Replace country
                     tour_html.find('.update-name').text(tour['name'] ?? null) // Replace country
-                    tour_html.find('.all-tour').attr('onclick', "redirectTour('" + tour['index'] + "')");
+                    // tour_html.find('.all-tour').attr('onclick', "redirectTour('" + tour['index'] + "')");
+                    tour_html.attr('data-index', tour['index'] ?? null);
 
 
 

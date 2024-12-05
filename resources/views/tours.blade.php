@@ -2,7 +2,7 @@
 
 @foreach ( config('tour.tours') as $tour)
 
-        <div class="all-tour col-lg-4 col-md-4" onclick="redirectTour('{{$tour['index']}}')">
+        <div class="all-tour col-lg-4 col-md-4" data-index="{{$tour['index']}}" onclick="redirectTour()">
             <div class="event-three__single">
                 <div class="event-three__image">
                     <img class="update-image" style="height:100%" src="{{ $tour['image'] }}" alt="">
@@ -62,12 +62,12 @@
     var click = 0;
 
 
-        function redirectTour(name) {
+        function redirectTour() {
 
 
             console.log(click);
             $('.preloader').fadeIn('slow');
-            window.location.href = '/tours-by-type/' + name;
+            window.location.href = '/tours-by-type/' + $(this).data('index');
             $('.preloader').fadeOut('slow');
 
 
