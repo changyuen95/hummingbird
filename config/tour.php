@@ -997,7 +997,7 @@ return [
         ],
 
         'Xinjiang: The Great Taklamakan' => [
-            'index' =>'Xinjiang: The Great Taklamkan',
+            'index' =>'Xinjiang: The Great Taklamakan',
             'id' => 7,
             'image' =>'/assets/images/xinjiang/12.png',
             'images' => [
