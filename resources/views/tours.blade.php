@@ -62,12 +62,12 @@
     var click = 0;
 
 
-        function redirectTour() {
+        function redirectTour(element) {
 
 
             console.log(click);
             $('.preloader').fadeIn('slow');
-            window.location.href = '/tours-by-type/' + $(this).data('index');
+            window.location.href = '/tours-by-type/' + $(element).data('index');
             $('.preloader').fadeOut('slow');
 
 
