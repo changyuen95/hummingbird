@@ -1637,7 +1637,7 @@ return [
 
 
 
-            'price' => 11000,
+            'price' => 5300,
             'types' => ['Adventure','Culture','Spring','East Asia'],
             'season' => ['Spring'],
 
