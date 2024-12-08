@@ -2099,6 +2099,197 @@ return [
 
         ],
 
+        'Jeju Olle Trail and Hallasan Hiking' => [
+            'index' =>'Jeju Olle Trail and Hallasan Hiking',
+            'id' => 14,
+            'image' =>'/assets/images/korea/main.jpeg',
+            'images' => [
+                0 =>[],
+                1 => [
+                    '/assets/images/korea/1.png', '/assets/images/korea/2.png',
+                ],
+                2 => [
+                    '/assets/images/korea/3.png', '/assets/images/korea/4.png',
+                ],
+                3 => [
+                    '/assets/images/korea/5.png', '/assets/images/korea/6.png',
+                ],
+                4 => [
+                    '/assets/images/korea/7.png', '/assets/images/korea/8.png',
+                ],
+                5 => [
+                    '/assets/images/korea/9.png', '/assets/images/korea/10.png',
+                ],
+                6 => [
+                    '/assets/images/korea/11.png', '/assets/images/korea/12.png',
+                ],
+                7 => [],
+
+            ],
+            'description' => "Discover the natural beauty of Jeju Island this spring with an unforgettable trekking adventure. This itinerary takes you through some of the island's most scenic trails, offering a perfect blend of coastal views, lush landscapes, and volcanic wonders. Begin with  Olle Trail 18, where you'll walk along dramatic cliffs and serene beaches. Then, explore Olle Trail 8, known for its tranquil forests and charming rural vistas. Next, challenge yourself with a hike up Hallasan, Jeju's towering volcano, and be rewarded with breathtaking panoramic views. Finally, top off your adventure with a short trip to Seongsan Ilchulbong, a UNESCO-listed crater offering stunning sunrise vistas. Embrace the beauty of Jeju in spring and experience the island's diverse landscapes up close.",
+            'name' => 'Jeju Olle Trail and Hallasan Hiking',
+            'destination_to_search' => ['east asia'],
+            'destination' => 'Korea',
+            'from_date' => '2025-05-23',
+            'to_date' => '2025-05-30',
+            'days' => 8,
+            'nights' => 6,
+            'minimum_pax' => 12,
+            'maximum_pax' => 16,
+            'leader' => 1,
+            'tags' => ['Culture', 'Adventure','East Asia','Spring'],
+            'introduction' => ["Discover the natural beauty of Jeju Island this spring with an unforgettable trekking adventure. This itinerary takes you through some of the island's most scenic trails, offering a perfect blend of coastal views, lush landscapes, and volcanic wonders. Begin with  Olle Trail 18, where you'll walk along dramatic cliffs and serene beaches. Then, explore Olle Trail 8, known for its tranquil forests and charming rural vistas. Next, challenge yourself with a hike up Hallasan, Jeju's towering volcano, and be rewarded with breathtaking panoramic views. Finally, top off your adventure with a short trip to Seongsan Ilchulbong, a UNESCO-listed crater offering stunning sunrise vistas. Embrace the beauty of Jeju in spring and experience the island's diverse landscapes up close."],
+            'itinerary' => [
+                [
+                    'day' => 1,
+                    'range' => 0,
+                    'date' => '23/05/2025',
+                    'title' => 'KUALA LUMPUR ✈ SEOUL',
+                    'highlights' => [
+                        'Assemble at Kuala Lumpur International for overnight flight to Incheon International Airport, Seoul.'
+                    ],
+                    'accommodation' => null,
+                    'meal' => null,
+                ],
+                [
+                    'day' => 2,
+                    'range' => 0,
+                    'date' => '24/05/2025',
+                    'title' => 'SEOUL ✈ JEJU',
+                    'highlights' => [
+                        'Arrive in Seoul in the early morning. Train transfer to Gimpo International Airport for flight to Jeju.',
+                        'Arrive in Jeju in the afternoon. Head for lunch before hotel check-in.',
+                        'Free and easy. Rest early for an early start tomorrow.',
+                    ],
+                    'accommodation' => 'Jeju 4 stars hotel',
+                    'meal' => 'Lunch',
+                ],
+                [
+                    'day' => 3,
+                    'range' => 0,
+                    'date' => '25/05/2025',
+                    'title' => 'JEJU',
+                    'highlights' => [
+                        'Olle Route 18: Start in the city, escape to nature.',
+                        'Approximate distance: 19.8 km | Total time: 6~8 hours | Difficulty: Medium | Terrain: Coastal paths, farmland, and scenic overlooks.',
+                        'Olle Route 18 is a captivating segment of the Jeju Olle Trail, known for its stunning coastal views and unique landscapes.',
+                    ],
+                    'accommodation' => 'Jeju 4 stars hotel',
+                    'meal' => 'Breakfast / Lunch / Dinner',
+                ],
+                [
+                    'day' => 4,
+                    'range' => 0,
+                    'date' => '26/05/2025',
+                    'title' => 'JEJU',
+                    'highlights' => [
+                        'Olle Route 8: Scenic seaside walk with the grand Jusangjeolli Cliffs.',
+                        'Approximate distance: 19.6 km | Total time: 5~6 hours | Difficulty: Medium | Terrain: Coastal paths, forested areas, and open fields.',
+                        'The trail begins at Wolpyeong Port and ends at Daepyeong Port, providing a scenic journey along the southern coast of Jeju Island.',
+                    ],
+                    'accommodation' => 'Jeju 3 stars hotel',
+                    'meal' => 'Breakfast / Lunch / Dinner',
+                ],
+                [
+                    'day' => 5,
+                    'range' => 0,
+                    'date' => '27/05/2025',
+                    'title' => 'JEJU',
+                    'highlights' => [
+                        'Olle Route 10-1: Green barley trail on South Korea’s lowest island.',
+                        'Approximate distance: 4.2 km | Total time: 1~2 hours | Difficulty: Easy | Terrain: Gentle terrain along the coastline and passing through barley fields in spring.',
+                        'After lunch, transfer back to Jeju downtown. Free and easy for the rest of the day.',
+                    ],
+                    'accommodation' => 'Jeju 4 stars hotel',
+                    'meal' => 'Breakfast',
+                ],
+                [
+                    'day' => 6,
+                    'range' => 0,
+                    'date' => '28/05/2025',
+                    'title' => 'JEJU',
+                    'highlights' => [
+                        'Hallasan Trek: Ascent to South Korea’s highest point.',
+                        'Gwaneumsa trail approximate distance: 8.7 km | Total time: 4~5 hours | Difficulty: Challenging.',
+                        'Seongpanak trail approximate distance: 9.7 km | Total time: 3~4.5 hours | Difficulty: Moderate.',
+                    ],
+                    'accommodation' => 'Jeju 4 stars hotel',
+                    'meal' => 'Breakfast / Lunch / Dinner',
+                ],
+                [
+                    'day' => 7,
+                    'range' => 0,
+                    'date' => '29/05/2025',
+                    'title' => 'JEJU',
+                    'highlights' => [
+                        '0.8 km hike up Seongsan Ilchulbong (Sunrise Peak).',
+                        'Witness a traditional Haenyeo show featuring unique diving techniques.',
+                        'Free and easy for the rest of the day.',
+                    ],
+                    'accommodation' => 'Jeju 4 stars hotel',
+                    'meal' => 'Breakfast / Lunch',
+                ],
+                [
+                    'day' => 8,
+                    'range' => 0,
+                    'date' => '30/05/2025',
+                    'title' => 'JEJU ✈ SEOUL ✈ KUALA LUMPUR',
+                    'highlights' => [
+                        'Transfer to Jeju airport for flight to Gimpo International Airport.',
+                        'Train transfer from Gimpo to Incheon International Airport.',
+                        'Arrive in Kuala Lumpur in the afternoon. End of tour.',
+                    ],
+                    'accommodation' => null,
+                    'meal' => 'Breakfast',
+                ],
+                ],
+
+            'tour_fare' => [
+
+                    'total' => 7450,
+                    'additional' => 7700,
+                    'return' => 3190,
+
+            ],
+            'validity' => [
+                'The estimated tour fare above is valid for the travel period of <b>23 May 2025 to 30 May 2025.</b>',
+                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with <b>minimum 12 persons and maximum 16 persons</b> (not including tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
+                'The air fare included in the tour fare above is only an estimate. Hummingbird has the right to charge a higher air fare based on the actual rates at the time of booking (“Actual Air Fare”).',
+                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.',
+
+            ],
+
+            'payment_terms' => [
+                '<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br> 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
+                '<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u><br> 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
+            ],
+
+            'whats_included' => [
+                '1 tour manager and 1 photographer-cum-tour leader from Hummingbird.',
+                '1 local trekking guide.',
+                'Train tickets between Incheon and Gimpo international airports.',
+                'Meals and accommodation as stated in the itinerary.',
+                'Tipping for local guide and driver.',
+                'Activities as specified in the itinerary.',
+                'Return ferry tickets to and from Gapa-do Island, sightseeing & entrance fees.',
+
+            ],
+
+            'whats_excluded' => [
+                'International and domestic return flights and relevant airport taxes',
+                'Travel insurance',
+                'Visa application fees (if applicable)',
+                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
+                'Optional tours and activities.',
+                'Personal expenses and other fees not expressly mentioned in Section B.',
+            ],
+
+            'price' => 7450,
+            'types' => ['Adventure','Culture','Spring','East Asia'],
+            'season' => ['Spring'],
+
+        ],
+
         'Kazakhstan & Kyrgyzstan:Nomads and Lakes' => [
             'index' =>'Kazakhstan & Kyrgyzstan:Nomads and Lakes',
             'id' => 11,
@@ -2906,196 +3097,7 @@ return [
 
         ],
 
-        'Jeju Olle Trail and Hallasan Hiking' => [
-            'index' =>'Jeju Olle Trail and Hallasan Hiking',
-            'id' => 14,
-            'image' =>'/assets/images/korea/main.jpg',
-            'images' => [
-                0 =>[],
-                1 => [
-                    '/assets/images/korea/1.png', '/assets/images/korea/2.png',
-                ],
-                2 => [
-                    '/assets/images/korea/3.png', '/assets/images/korea/4.png',
-                ],
-                3 => [
-                    '/assets/images/korea/5.png', '/assets/images/korea/6.png',
-                ],
-                4 => [
-                    '/assets/images/korea/7.png', '/assets/images/korea/8.png',
-                ],
-                5 => [
-                    '/assets/images/korea/9.png', '/assets/images/korea/10.png',
-                ],
-                6 => [
-                    '/assets/images/korea/11.png', '/assets/images/korea/12.png',
-                ],
-                7 => [],
 
-            ],
-            'description' => "Discover the natural beauty of Jeju Island this spring with an unforgettable trekking adventure. This itinerary takes you through some of the island's most scenic trails, offering a perfect blend of coastal views, lush landscapes, and volcanic wonders. Begin with  Olle Trail 18, where you'll walk along dramatic cliffs and serene beaches. Then, explore Olle Trail 8, known for its tranquil forests and charming rural vistas. Next, challenge yourself with a hike up Hallasan, Jeju's towering volcano, and be rewarded with breathtaking panoramic views. Finally, top off your adventure with a short trip to Seongsan Ilchulbong, a UNESCO-listed crater offering stunning sunrise vistas. Embrace the beauty of Jeju in spring and experience the island's diverse landscapes up close.",
-            'name' => 'Jeju Olle Trail and Hallasan Hiking',
-            'destination_to_search' => ['east asia'],
-            'destination' => 'Korea',
-            'from_date' => '2025-05-23',
-            'to_date' => '2025-05-30',
-            'days' => 8,
-            'nights' => 6,
-            'minimum_pax' => 12,
-            'maximum_pax' => 16,
-            'leader' => 1,
-            'tags' => ['Culture', 'Adventure','East Asia','Spring'],
-            'introduction' => ["Discover the natural beauty of Jeju Island this spring with an unforgettable trekking adventure. This itinerary takes you through some of the island's most scenic trails, offering a perfect blend of coastal views, lush landscapes, and volcanic wonders. Begin with  Olle Trail 18, where you'll walk along dramatic cliffs and serene beaches. Then, explore Olle Trail 8, known for its tranquil forests and charming rural vistas. Next, challenge yourself with a hike up Hallasan, Jeju's towering volcano, and be rewarded with breathtaking panoramic views. Finally, top off your adventure with a short trip to Seongsan Ilchulbong, a UNESCO-listed crater offering stunning sunrise vistas. Embrace the beauty of Jeju in spring and experience the island's diverse landscapes up close."],
-            'itinerary' => [
-                [
-                    'day' => 1,
-                    'range' => 0,
-                    'date' => '23/05/2025',
-                    'title' => 'KUALA LUMPUR ✈ SEOUL',
-                    'highlights' => [
-                        'Assemble at Kuala Lumpur International for overnight flight to Incheon International Airport, Seoul.'
-                    ],
-                    'accommodation' => null,
-                    'meal' => null,
-                ],
-                [
-                    'day' => 2,
-                    'range' => 0,
-                    'date' => '24/05/2025',
-                    'title' => 'SEOUL ✈ JEJU',
-                    'highlights' => [
-                        'Arrive in Seoul in the early morning. Train transfer to Gimpo International Airport for flight to Jeju.',
-                        'Arrive in Jeju in the afternoon. Head for lunch before hotel check-in.',
-                        'Free and easy. Rest early for an early start tomorrow.',
-                    ],
-                    'accommodation' => 'Jeju 4 stars hotel',
-                    'meal' => 'Lunch',
-                ],
-                [
-                    'day' => 3,
-                    'range' => 0,
-                    'date' => '25/05/2025',
-                    'title' => 'JEJU',
-                    'highlights' => [
-                        'Olle Route 18: Start in the city, escape to nature.',
-                        'Approximate distance: 19.8 km | Total time: 6~8 hours | Difficulty: Medium | Terrain: Coastal paths, farmland, and scenic overlooks.',
-                        'Olle Route 18 is a captivating segment of the Jeju Olle Trail, known for its stunning coastal views and unique landscapes.',
-                    ],
-                    'accommodation' => 'Jeju 4 stars hotel',
-                    'meal' => 'Breakfast / Lunch / Dinner',
-                ],
-                [
-                    'day' => 4,
-                    'range' => 0,
-                    'date' => '26/05/2025',
-                    'title' => 'JEJU',
-                    'highlights' => [
-                        'Olle Route 8: Scenic seaside walk with the grand Jusangjeolli Cliffs.',
-                        'Approximate distance: 19.6 km | Total time: 5~6 hours | Difficulty: Medium | Terrain: Coastal paths, forested areas, and open fields.',
-                        'The trail begins at Wolpyeong Port and ends at Daepyeong Port, providing a scenic journey along the southern coast of Jeju Island.',
-                    ],
-                    'accommodation' => 'Jeju 3 stars hotel',
-                    'meal' => 'Breakfast / Lunch / Dinner',
-                ],
-                [
-                    'day' => 5,
-                    'range' => 0,
-                    'date' => '27/05/2025',
-                    'title' => 'JEJU',
-                    'highlights' => [
-                        'Olle Route 10-1: Green barley trail on South Korea’s lowest island.',
-                        'Approximate distance: 4.2 km | Total time: 1~2 hours | Difficulty: Easy | Terrain: Gentle terrain along the coastline and passing through barley fields in spring.',
-                        'After lunch, transfer back to Jeju downtown. Free and easy for the rest of the day.',
-                    ],
-                    'accommodation' => 'Jeju 4 stars hotel',
-                    'meal' => 'Breakfast',
-                ],
-                [
-                    'day' => 6,
-                    'range' => 0,
-                    'date' => '28/05/2025',
-                    'title' => 'JEJU',
-                    'highlights' => [
-                        'Hallasan Trek: Ascent to South Korea’s highest point.',
-                        'Gwaneumsa trail approximate distance: 8.7 km | Total time: 4~5 hours | Difficulty: Challenging.',
-                        'Seongpanak trail approximate distance: 9.7 km | Total time: 3~4.5 hours | Difficulty: Moderate.',
-                    ],
-                    'accommodation' => 'Jeju 4 stars hotel',
-                    'meal' => 'Breakfast / Lunch / Dinner',
-                ],
-                [
-                    'day' => 7,
-                    'range' => 0,
-                    'date' => '29/05/2025',
-                    'title' => 'JEJU',
-                    'highlights' => [
-                        '0.8 km hike up Seongsan Ilchulbong (Sunrise Peak).',
-                        'Witness a traditional Haenyeo show featuring unique diving techniques.',
-                        'Free and easy for the rest of the day.',
-                    ],
-                    'accommodation' => 'Jeju 4 stars hotel',
-                    'meal' => 'Breakfast / Lunch',
-                ],
-                [
-                    'day' => 8,
-                    'range' => 0,
-                    'date' => '30/05/2025',
-                    'title' => 'JEJU ✈ SEOUL ✈ KUALA LUMPUR',
-                    'highlights' => [
-                        'Transfer to Jeju airport for flight to Gimpo International Airport.',
-                        'Train transfer from Gimpo to Incheon International Airport.',
-                        'Arrive in Kuala Lumpur in the afternoon. End of tour.',
-                    ],
-                    'accommodation' => null,
-                    'meal' => 'Breakfast',
-                ],
-                ],
-
-            'tour_fare' => [
-
-                    'total' => 7450,
-                    'additional' => 7700,
-                    'return' => 3190,
-
-            ],
-            'validity' => [
-                'The estimated tour fare above is valid for the travel period of <b>23 May 2025 to 30 May 2025.</b>',
-                'The tour fare for the ground arrangement (“Ground Fare”) is based on twin-sharing, with <b>minimum 12 persons and maximum 16 persons</b> (not including tour leader). Surcharge applies if the number of travelers falls below the minimum group size.',
-                'The air fare included in the tour fare above is only an estimate. Hummingbird has the right to charge a higher air fare based on the actual rates at the time of booking (“Actual Air Fare”).',
-                'All quoted prices are subject to change without prior notice due to foreign exchange rate fluctuations, tax imposition, or otherwise.',
-
-            ],
-
-            'payment_terms' => [
-                '<u>Bookings made more than 2 calendar months from the Scheduled Date of Departure</u><br> 50% of the Ground Fare as Deposit is payable at the time of booking. The remaining 50% balance (“Balance”) shall be paid no later than 7 days from the date of Tour Confirmation (“Balance Deadline”). If the Balance is not paid by the Balance Deadline, you shall be deemed to have withdrawn and cancelled your booking on the day after the Balance Deadline.',
-                '<u>Bookings made 2 calendar months or less from the Scheduled Date of Departure</u><br> 100% of the Ground Fare is payable at the time of booking, 50% of which constitutes the Deposit.'
-            ],
-
-            'whats_included' => [
-                '1 tour manager and 1 photographer-cum-tour leader from Hummingbird.',
-                '1 local trekking guide.',
-                'Train tickets between Incheon and Gimpo international airports.',
-                'Meals and accommodation as stated in the itinerary.',
-                'Tipping for local guide and driver.',
-                'Activities as specified in the itinerary.',
-                'Return ferry tickets to and from Gapa-do Island, sightseeing & entrance fees.',
-
-            ],
-
-            'whats_excluded' => [
-                'International and domestic return flights and relevant airport taxes',
-                'Travel insurance',
-                'Visa application fees (if applicable)',
-                'Early check-in and late check-out charges, hotel porterage, tips to hotel porters, fees for laundry services, excess baggage charges, beverages, room service, and other miscellaneous fees chargeable by hoteliers.',
-                'Optional tours and activities.',
-                'Personal expenses and other fees not expressly mentioned in Section B.',
-            ],
-
-            'price' => 7450,
-            'types' => ['Adventure','Culture','Spring','East Asia'],
-            'season' => ['Spring'],
-
-        ],
 
 
     ],
