@@ -1,11 +1,10 @@
 <div class="main-tour-list"> <div class="row tour-list"  id="tour-list">
+@foreach ( $tours as $tour)
 
-@foreach ( config('tour.tours') as $tour)
-
-        <div class="all-tour col-lg-4 col-md-4" data-index="{{$tour['index']}}" onclick="redirectTour(this)">
+        <div class="all-tour col-lg-4 col-md-4" data-index="{{$tour['name']}}" onclick="redirectTour(this)">
             <div class="event-three__single">
                 <div class="event-three__image">
-                    <img class="update-image" style="height:100%" src="{{ $tour['image'] }}" alt="">
+                    <img class="update-image" style="height:100%" src="{{ isset($tour['image']) ? 'https://admin.hummingbird.my'.$tour['image'] : null  }}" alt="">
                     <!-- <a class="event-three__date" href="event-details.html">
                         <i class="far fa-calendar-alt"></i>
                         Oct 25, 2020
@@ -15,7 +14,7 @@
 
                     <div class="tag-title" style="height:60px">
                         <ul class="update-tags title-list inline">
-                            @foreach ( $tour['types'] as $tag )
+                            @foreach ( $tour['tags'] as $tag )
                             <li class="title-item">
                                 <div class="title-button destination" style="font-family: Inter;font-size:12px" value="{{$tag}}">{{$tag}}</div>
                             </li>
@@ -27,7 +26,7 @@
                     <div>
                     <span class="update-price" style="font-family:Inter;margin-top: 10px;font-weight:700;font-size:16px;line-height:40px">{{'RM '. $tour['price']}}</span>
                     <span class="update-date" style="font-family:Inter;font-size: 14px;font-weight: 400;line-height:24px">{{ Carbon\Carbon::parse($tour['from_date'])->format('d M') .' - '.Carbon\Carbon::parse($tour['to_date'])->format('d M Y') }}</span>
-                    <span class="update-days" style="font-family:Inter;font-size: 14px;font-weight: 400;line-height:24px">{{$tour['days'] . ' Days ' . $tour['days'] - 1 . ' Nights'}}</span>
+                    <span class="update-days" style="font-family:Inter;font-size: 14px;font-weight: 400;line-height:24px">{{$tour['days'] . ' Days ' . $tour['nights'] . ' Nights'}}</span>
                     <span class="update-destination" style="font-family:Inter;font-size: 14px;font-weight: 400;line-height:24px">{{$tour['destination']}}</span>
 
 

@@ -238,8 +238,8 @@
                     tour = tours[i]
                     tour_html = tour_html_temp
 
-                    tour_html.find('.popup-gallery').prop('href', tour['tour_detail_link']) // Replace link
-                    tour_html.find('.update-image').prop('src', tour['image']) // Replace image
+                    tour_html.find('.popup-gallery').prop('href', tour['name']) // Replace link
+                    tour_html.find('.update-image').prop('src', 'https://admin.hummingbird.my'+tour['image']) // Replace image
                     let fromDate = new Date(tour['from_date']);
                     let toDate = new Date(tour['to_date']);
 
@@ -252,7 +252,7 @@
                     tour_html.find('.update-price').text('RM '+ (tour['price'] ?? null)) // Replace country
                     tour_html.find('.update-name').text(tour['name'] ?? null) // Replace country
                     // tour_html.find('.all-tour').attr('onclick', "redirectTour('" + tour['index'] + "')");
-                    tour_html.attr('data-index', tour['index'] ?? null);
+                    tour_html.attr('data-index', tour['name'] ?? null);
 
 
 
@@ -261,11 +261,11 @@
                     tour_html.find('.update-tags').html('');
 
 
-                    if(tour['types']){
+                    if(tour['tags']){
 
                         // tour_html.find('.update-tags').append(`<ul class="title-list inline">`);
 
-                        tour['types'].forEach(element => {
+                        tour['tags'].forEach(element => {
 
                             tour_html.find('.update-tags').append(`<li class="title-item"><div class="title-button destination" value="`+element+`">`+element+`</div></li>`);
 
@@ -289,147 +289,73 @@
 
             }
 
-            function filter_update() {
-                var types = $(".types.active").map(function() {
-                    return this.getAttribute('value');
-                }).get();
-
-                var destination = $(".destination.active").map(function() {
-                    return this.getAttribute('value');
-                }).get();
-
-                var season = $(".season.active").map(function() {
-                    return this.getAttribute('value');
-                }).get();
-
-                var date = $(".date.active").map(function() {
-                    return this.getAttribute('value');
-                }).get();
-
-                    data = {}
-                    data['destinations'] = destination;
-                    data['types'] = types;
-                    data['season'] = season;
-                    data['date'] = date;
-
-                var url = `/get-tours/`;
-                // if (URL_QUERY != null) {
-                //     url = `{{ config("app.url") }}/get-tours/${ TOUR_LIST_TYPE }/${ page_id }` + URL_QUERY
-                // }
-
-                $.ajax({
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                    },
-                    data: data,
-                    url: url,
-                    method: 'GET',
-                    success: function(res) {
-                        // pagination
-
-                        // content
-                        if (res.tours.length > 0) {
-                            updateTours(res.tours)
-                            // $('.hotel-list-data').css('display','block');
-                            $('.tour-list').show() // Show all content
-                            // $('.tour_list__container #no_result_message').remove()
-                        } else {
-                            $('.tour-list').hide() // Hide all content
-                            // Append no content msg
-                        }
-
-                        // Scroll to top of content
-
-                        seamlessScroll(document.getElementById('#tour-list'), {
-                            scrollBehavior: 'smooth'
-                        });
-                    },
-                    error: function(err) {
-                        $('.system_error__container').show()
-                        // Scroll to top of content
-                        seamlessScroll(document.getElementById('#tour-list'), {
-                            scrollBehavior: 'smooth'
-                        });
-                    },
-                }).always(() => {
-                    waiting_for_pagination_response = false
-                    $('#fullscreen_loader_modal__container').removeClass('show_fullscreen_loader_modal show_modal') // Remove loader
-                })
-            }
-
-            $(document).on('click', '.filter-button', function() {
-
-                $(this).toggleClass('active');
-                var types = $(".types.active").map(function() {
-                    return this.getAttribute('value');
-                }).get();
-
-                var destination = $(".destination.active").map(function() {
-                    return this.getAttribute('value');
-                }).get();
-
-                var season = $(".season.active").map(function() {
-                    return this.getAttribute('value');
-                }).get();
-
-                var date = $(".date.active").map(function() {
-                    return this.getAttribute('value');
-                }).get();
-
-                    data = {}
-                    data['destinations'] = destination;
-                    data['date'] = date;
-                    data['types'] = types;
-                    data['season'] = season;
-
-                    var url = `/get-tours/`;
-
-                $.ajax({
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                    },
-                    data: data,
-                    url: url,
-                    method: 'GET',
-                    success: function(res) {
-                        // pagination
-
-                        // content
-                        if (res.tours.length > 0) {
-
-                            updateTours(res.tours)
-                            $('.tour-list').css('display','flex');
-
-                            $('.tour-list').show() // Show all content
-                            // $('#fullscreen_loader_modal__container').removeClass('show_fullscreen_loader_modal show_modal') // Remove loader
-
-                            // $('.tour_list__container #no_result_message').remove()
-                        } else {
-
-                            $('.tour-list').hide() // Hide all content
-                            // Append no content msg
 
 
+        $(document).on('click', '.filter-button', function() {
+            $(this).toggleClass('active');
 
-                        }
-                        // Scroll to top of content
-                        seamlessScroll(document.getElementById('#tour-list'), {
-                            scrollBehavior: 'smooth'
-                        });
-                    },
-                    error: function(err) {
-                        // $('.system_error__container').show()
-                        // Scroll to top of content
-                        seamlessScroll(document.getElementById('#tour-list'), {
-                            scrollBehavior: 'smooth'
-                        });
-                    },
-                }).always(() => {
-                    waiting_for_pagination_response = false
-                    // $('#fullscreen_loader_modal__container').removeClass('show_fullscreen_loader_modal show_modal') // Remove loader
-                })
+            // Collect filter data
+            var types = $(".types.active").map(function() {
+                return this.getAttribute('value');
+            }).get();
 
+            var destination = $(".destination.active").map(function() {
+                return this.getAttribute('value');
+            }).get();
+
+            var season = $(".season.active").map(function() {
+                return this.getAttribute('value');
+            }).get();
+
+            var date = $(".date.active").map(function() {
+                return this.getAttribute('value');
+            }).get();
+
+            // Prepare the data object
+            var data = {
+                destinations: destination,
+                date: date,
+                types: types,
+                season: season,
+                tour: @json($tours), // Ensure tour is properly serialized from PHP
+            };
+
+            var url = `/get-tours/`;
+
+            $.ajax({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'), // Laravel CSRF token
+                    'Accept': 'application/json', // Ensure the API accepts JSON
+                },
+                url: url, // API endpoint
+                method: 'POST', // Use POST method
+                contentType: 'application/json', // Send data as JSON
+                data: JSON.stringify(data), // Convert data to JSON string
+                success: function(res) {
+                    // Handle successful response
+                    if (res.tours && res.tours.length > 0) {
+                        updateTours(res.tours);
+                        $('.tour-list').css('display', 'flex');
+                        $('.tour-list').show(); // Show all content
+                    } else {
+                        $('.tour-list').hide(); // Hide all content
+                    }
+
+                    // Scroll to top of content
+                    seamlessScroll(document.getElementById('#tour-list'), {
+                        scrollBehavior: 'smooth',
+                    });
+                },
+                error: function(err) {
+                    console.error('Error:', err);
+                    // Optionally display error message
+                },
+            }).always(() => {
+                waiting_for_pagination_response = false;
+                // Remove loader or perform additional cleanup
             });
+        });
+
 
 
 

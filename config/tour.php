@@ -2102,7 +2102,7 @@ return [
         'Jeju Olle Trail and Hallasan Hiking' => [
             'index' =>'Jeju Olle Trail and Hallasan Hiking',
             'id' => 14,
-            'image' =>'/assets/images/korea/main.jpeg',
+            'image' =>'/assets/images/korea/main.jpg',
             'images' => [
                 0 =>[],
                 1 => [

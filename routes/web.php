@@ -18,14 +18,12 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::post('/get-tours', [TourController::class, 'getToursAjax'])->name('get-tour');
 
-Route::get('/tours-by-type', function () {
-    return view('tours-by-type');
-});
+Route::get('/tours-by-type', [TourController::class, 'getTours'])->name('tours-by-type');
 
-Route::get('/tours-by-type/{name}', function () {
-    return view('tours-detail');
-});
+Route::get('/tours-by-type/{name}', [TourController::class, 'getDetail'])->name('get-tour');
+
 
 Route::get('/our-services', function () {
     return view('our-services');
@@ -53,5 +51,4 @@ Route::get('/privacy', function () {
 
 Route::post('/enquiry-form', [TourController::class, 'enquiryForm'])->name('enquiry-form');
 
-Route::get('/get-tours', [TourController::class, 'getToursAjax'])->name('get-tour');
 
