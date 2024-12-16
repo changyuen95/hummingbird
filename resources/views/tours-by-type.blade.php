@@ -312,13 +312,13 @@
             }).get();
 
             // Prepare the data object
-            var data = {
-                destinations: destination,
-                date: date,
-                types: types,
-                season: season,
-                tour: @json($tours), // Ensure tour is properly serialized from PHP
-            };
+            // var data = {
+            //     destinations: destination,
+            //     date: date,
+            //     types: types,
+            //     season: season,
+            //     tour: @json($tours), // Ensure tour is properly serialized from PHP
+            // };
 
             var url = `/get-tours/`;
 
@@ -330,8 +330,13 @@
                 url: url, // API endpoint
                 method: 'POST', // Use POST method
                 contentType: 'application/json', // Send data as JSON
-                data: JSON.stringify(data), // Convert data to JSON string
-                success: function(res) {
+                data: JSON.stringify({
+                    destinations: $(".destination.active").map(function() { return this.getAttribute('value'); }).get(),
+                    date: $(".date.active").map(function() { return this.getAttribute('value'); }).get(),
+                    types: $(".types.active").map(function() { return this.getAttribute('value'); }).get(),
+                    season: $(".season.active").map(function() { return this.getAttribute('value'); }).get(),
+                    tour: @json($tours) // Serialized PHP data
+                }),                success: function(res) {
                     // Handle successful response
                     if (res.tours && res.tours.length > 0) {
                         updateTours(res.tours);
