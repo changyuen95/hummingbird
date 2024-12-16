@@ -291,75 +291,42 @@
 
 
 
-        $(document).on('click', '.filter-button', function() {
-            $(this).toggleClass('active');
+            $(document).on('click', '.filter-button', function() {
+                $(this).toggleClass('active');
 
-            // Collect filter data
-            var types = $(".types.active").map(function() {
-                return this.getAttribute('value');
-            }).get();
+                // Collect filter data
+                var types = $(".types.active").map(function() { return this.getAttribute('value'); }).get();
+                var destination = $(".destination.active").map(function() { return this.getAttribute('value'); }).get();
+                var season = $(".season.active").map(function() { return this.getAttribute('value'); }).get();
+                var date = $(".date.active").map(function() { return this.getAttribute('value'); }).get();
 
-            var destination = $(".destination.active").map(function() {
-                return this.getAttribute('value');
-            }).get();
+                // Prepare the data object
+                var data = {
+                    destinations: destination,
+                    date: date,
+                    types: types,
+                    season: season,
+                };
 
-            var season = $(".season.active").map(function() {
-                return this.getAttribute('value');
-            }).get();
-
-            var date = $(".date.active").map(function() {
-                return this.getAttribute('value');
-            }).get();
-
-            // Prepare the data object
-            // var data = {
-            //     destinations: destination,
-            //     date: date,
-            //     types: types,
-            //     season: season,
-            //     tour: @json($tours), // Ensure tour is properly serialized from PHP
-            // };
-
-            var url = `/get-tours/`;
-
-            $.ajax({
-                headers: {
-                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'), // Laravel CSRF token
-                    'Accept': 'application/json', // Ensure the API accepts JSON
-                },
-                url: url, // API endpoint
-                method: 'POST', // Use POST method
-                contentType: 'application/json', // Send data as JSON
-                data: JSON.stringify({
-                    destinations: $(".destination.active").map(function() { return this.getAttribute('value'); }).get(),
-                    date: $(".date.active").map(function() { return this.getAttribute('value'); }).get(),
-                    types: $(".types.active").map(function() { return this.getAttribute('value'); }).get(),
-                    season: $(".season.active").map(function() { return this.getAttribute('value'); }).get(),
-                    tour: @json($tours) // Serialized PHP data
-                }),                success: function(res) {
-                    // Handle successful response
-                    if (res.tours && res.tours.length > 0) {
-                        updateTours(res.tours);
-                        $('.tour-list').css('display', 'flex');
-                        $('.tour-list').show(); // Show all content
-                    } else {
-                        $('.tour-list').hide(); // Hide all content
-                    }
-
-                    // Scroll to top of content
-                    seamlessScroll(document.getElementById('#tour-list'), {
-                        scrollBehavior: 'smooth',
-                    });
-                },
-                error: function(err) {
-                    console.error('Error:', err);
-                    // Optionally display error message
-                },
-            }).always(() => {
-                waiting_for_pagination_response = false;
-                // Remove loader or perform additional cleanup
+                // Call the new API endpoint using GET method
+                $.ajax({
+                    url: '/get-tours', // Updated URL
+                    method: 'GET', // Changed to GET method
+                    data: data, // Data sent as query parameters
+                    success: function(res) {
+                        if (res.tours && res.tours.length > 0) {
+                            updateTours(res.tours);
+                            $('.tour-list').css('display', 'flex').show();
+                        } else {
+                            $('.tour-list').hide();
+                        }
+                    },
+                    error: function(err) {
+                        console.error('Error:', err);
+                    },
+                });
             });
-        });
+
 
 
 

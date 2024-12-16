@@ -22,72 +22,40 @@ class TourController extends Controller
 {
     public function getToursAjax(Request $request) {
 
-        $filter_params['date'] = $request->get('date');
-        $filter_params['destinations'] = $request->get('destinations');
-        $filter_params['types'] = $request->get('types');
-        $filter_params['season'] = $request->get('season');
-    // $tours = collect(config('tour.tours'));
-        $tours = $request->get('tour');
-        $filteredTours = Collect($tours);
+        try {
+            $client = new Client();
 
-    if ($filter_params['types'] && (!in_array('All', $filter_params['types']))) {
+            // Make the API request
+            $response = $client->request('GET', "https://admin.hummingbird.my/api/get-tours", [
+                'headers' => [
+                    'Accept' => 'application/json',
+                ],
+                'query' => $request->all(), // Pass any filters as query parameters
+            ]);
 
-        // log::info(implode(",",$filter_params['types']));
-        $filteredTours = $filteredTours->filter(function ($tour) use ($filter_params) {
-            return !empty(array_intersect($tour['tags'], $filter_params['types']));
-        });
-    }
+            // Parse the API response
+            $data = json_decode($response->getBody(), true);
 
-    if ($filter_params['season'] && (!in_array('All', $filter_params['season']))) {
+            // Check for the 'tours' key in the response
+            $tours = $data['tours'] ?? [];
 
-        $filteredTours = $filteredTours->filter(function ($tour) use ($filter_params) {
-            return !empty(array_intersect($tour['tags'], $filter_params['season']));
-        });
-    }
+            // Log the response for debugging
+            Log::info('Tours fetched:', $tours);
 
-    if ($filter_params['destinations'] && (!in_array('All', $filter_params['destinations'])) ) {
+            // Return JSON response
+            return response()->json([
+                'status' => true,
+                'tours' => $tours,
+            ], 200);
+        } catch (\Exception $e) {
+            // Handle exceptions and log the error
+            Log::error('Error fetching tours: ' . $e->getMessage());
 
-        $filteredTours = $filteredTours->filter(function ($tour) use ($filter_params) {
-            return !empty(array_intersect($tour['tags'], $filter_params['destinations']));
-        });
-
-    }
-
-
-
-    if ($filter_params['date'] && (!in_array('All', $filter_params['date'])) ) {
-
-        $filteredTours = $filteredTours->filter(function ($tour) use ($filter_params) {
-
-
-            foreach ($filter_params['date'] as $month) {
-                $months[] = $month;
-                $months[] = $month+1;
-                $months[] = $month+2;
-            }
-
-            // Parse the tour start and end dates
-            $tourStartDate = Carbon::parse($tour['from_date']);
-            $tourEndDate = Carbon::parse($tour['to_date']);
-
-            // Extract the month for each date
-            $tourStartMonth = $tourStartDate->month;
-            $tourEndMonth = $tourEndDate->month;
-
-            // Check if either the start month or end month is in the filter months array
-            return in_array($tourStartMonth, $months) || in_array($tourEndMonth, $months);
-        });
-
-
-    }
-
-
-    $final_tours = $filteredTours->values()->all();
-    log::info($final_tours);
-    return Response::json([
-        'status' => true,
-        'tours' => $final_tours,
-    ], 200);
+            return response()->json([
+                'status' => false,
+                'error' => $e->getMessage(),
+            ], 500);
+        }
 
 }
 

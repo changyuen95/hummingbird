@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::post('/get-tours', [TourController::class, 'getToursAjax'])->name('get-tour');
+Route::get('/get-tours', [TourController::class, 'getToursAjax'])->name('get-tour');
 
 Route::get('/tours-by-type', [TourController::class, 'getTours'])->name('tours-by-type');
 
