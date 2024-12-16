@@ -156,7 +156,7 @@
         <div style="
     text-align-last: center;
     padding-bottom: 2rem;
-"><a href="https://wa.me/60123019260?text=private tour" target="_blank"><button class="center-button book-now-desktop" style="width:188px;height:53px">
+"><a href="https://wa.me/60123019260?text=private tour" target="_blank">
 <button class="center-button book-now-desktop">Talk to Us</button>
 </a></div>
     </div>
