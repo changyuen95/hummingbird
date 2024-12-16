@@ -27,7 +27,6 @@
                 <div class="main-nav__main-navigation">
                     <ul class="main-nav__navigation-box">
 
-                   <li><a href="/">Home</a></li>
                    <li><a href="/about-us">About Us</a></li>
                    <li><a href="/our-services">Our Services</a></li>
                    <li><a href="/tours-by-type">Tours By Type</a></li>

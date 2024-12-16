@@ -90,8 +90,8 @@
 
     <div class="slider-container thm__owl-carousel owl-theme owl-carousel" style="z-index:9999">
         <div><img class="desktop-padding-img" src="{{asset('assets/images/bespoke/tour1.png')}}" alt="Image 1"></div>
-        <div><img class="desktop-padding-img" src="{{asset('assets/images/bespoke/tour2.png')}}" alt="Image 2"></div>
-        <div><img class="desktop-padding-img" src="{{asset('assets/images/bespoke/tour3.png')}}" alt="Image 3"></div>
+        <div><img class="desktop-padding-img" src="{{asset('assets/images/bespoke/tour5.png')}}" alt="Image 2"></div>
+        <div><img class="desktop-padding-img" src="{{asset('assets/images/bespoke/tour6.png')}}" alt="Image 3"></div>
         <!-- Add more images here -->
     </div>
 
@@ -156,7 +156,9 @@
         <div style="
     text-align-last: center;
     padding-bottom: 2rem;
-"><button class="center-button book-now-desktop">Talk to Us</button></div>
+"><a href="https://wa.me/60123019260?text=private tour" target="_blank"><button class="center-button book-now-desktop" style="width:188px;height:53px">
+<button class="center-button book-now-desktop">Talk to Us</button>
+</a></div>
     </div>
 
 
@@ -210,7 +212,9 @@
                 <p style="font-weight:300;font-size:12px;line-height:20px;padding-left:10%;padding-right:10%">What type of tour is your group interested in?</p>
             </div>
         </div>
+        <a href="https://wa.me/60123019260?text=private tour" target="_blank"><button class="center-button book-now-desktop" style="width:188px;height:53px">
         <button class="center-button book-now-desktop">Talk to Us</button>
+        </a>
 
     </div>
 

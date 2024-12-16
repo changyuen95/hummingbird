@@ -54,7 +54,12 @@
                             <li><a href="#included" class="index-link">What's Included</a></li>
                             <li><a href="#excluded" class="index-link">What's Not Included</a></li>
                             <li><a href="#tnc" class="index-link">Terms & Conditions</a></li>
-                            <li style="margin-top:50px"><button class="book-now-desktop">Book Now</button></li>
+                            <li style="margin-top:50px">
+
+                                <a class="desktop-only-contents" href="https://wa.me/60123019260?text={{$tour['name']}}" target="_blank">
+                                <button class="book-now-desktop">Book Now</button>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -247,7 +252,7 @@
                                             </ul>
                                         </div>
 
-                                        <div id="excluded" class="col-lg-6" style="margin-top:50px">
+                                        <div id="excluded" class="col-lg-6" >
                                             <h3>What's Not Included</h3>
                                             <ul>
                                                 @foreach ($tour['exclusions'] as $whats_excluded)
@@ -261,7 +266,7 @@
 
 
                                     </div>
-                                    <div>
+                                    <div style="margin-top:10px">
                                         <a class="desktop-only-contents" href="https://wa.me/60123019260?text={{$tour['name']}}" target="_blank">
                                             <button class="book-now-desktop" >Book Now</button>
                                         </a>
@@ -355,31 +360,6 @@
     </div><!-- /.side-content__block-inner -->
 </div><!-- /.side-content__block -->
 
-<div class="side-menu__block">
-
-    @stack('menu')
-        <!-- /.fa fa-close --></a>
-
-    <div class="side-menu__block-overlay custom-cursor__overlay">
-        <div class="cursor"></div>
-        <div class="cursor-follower"></div>
-    </div><!-- /.side-menu__block-overlay -->
-    <div class="side-menu__block-inner ">
-
-        <a href="/" class="side-menu__logo"><img src="assets/images/logo-light-1-1.png" alt="" width="143"></a>
-        <nav class="mobile-nav__container">
-            <!-- content is loading via js -->
-        </nav>
-        <p class="side-menu__block__copy">(c) 2020 <a href="#">Muzex</a> - All rights reserved.</p>
-        <div class="side-menu__social">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-google-plus"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-        </div>
-    </div><!-- /.side-menu__block-inner -->
-</div><!-- /.side-menu__block -->
 
 <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 @endsection
