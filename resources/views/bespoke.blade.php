@@ -212,7 +212,7 @@
                 <p style="font-weight:300;font-size:12px;line-height:20px;padding-left:10%;padding-right:10%">What type of tour is your group interested in?</p>
             </div>
         </div>
-        <a href="https://wa.me/60123019260?text=private tour" target="_blank"><button class="center-button book-now-desktop" style="width:188px;height:53px">
+        <a href="https://wa.me/60123019260?text=private tour" target="_blank">
         <button class="center-button book-now-desktop">Talk to Us</button>
         </a>
 
