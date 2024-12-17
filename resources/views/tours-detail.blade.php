@@ -96,7 +96,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/clock.png" style="width: 15px;height: 15px;"></div>
-                                            <div class="col-11 res-padding" ><p style="font-family:Inter">From {{ Carbon\Carbon::parse($tour['from_date'])->format('d M Y') }} to {{Carbon\Carbon::parse($tour['to_date'])->format('d M Y')}} | {{$tour['days'] ?? 0}} days {{($tour['days'] ?? 0) - 1}} nights </p></div>
+                                            <div class="col-11 res-padding" ><p style="font-family:Inter">From {{ Carbon\Carbon::parse($tour['from_date'])->format('d M Y') }} to {{Carbon\Carbon::parse($tour['to_date'])->format('d M Y')}} | {{$tour['days'] ?? 0}} days {{($tour['nights'] ?? 0) }} nights </p></div>
                                         </div>
                                         <div class="row">
                                             <div class="col-1"><img src="/assets/images/pax.png" style="width: 15px;height: 15px;"></div>
