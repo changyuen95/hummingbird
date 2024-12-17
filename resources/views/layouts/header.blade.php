@@ -40,7 +40,7 @@
 
 
                         <div style="margin: 0px;display: grid;">
-                            <div style="cursor: pointer;display:contents;" id="re-address">
+                            <div style="cursor: pointer;display:contents;" class="re-address">
                                 <span style="font-weight: 400 !important;font-family: Inter;font-size:14px;text-decoration:underline">Wisma Parlo, No 72, Jalan Kampong Attap</span>
                                 <span style="font-weight: 400 !important;font-family: Inter;font-size:14px;text-decoration:underline">50460 Kuala Lumpur , Malaysia</span></div><div style="margin: 0px;margin-top: 30px;display: grid;">
                             </div>
