@@ -30,7 +30,7 @@
                    <li><a href="/about-us">About Us</a></li>
                    <li><a href="/our-services">Our Services</a></li>
                    <li><a href="/tours-by-type">Tours By Type</a></li>
-                   <li><a href="/private-tour">Private Tours</a></li>
+                   <li><a href="/private-tour">Private Tour</a></li>
                    <li><a href="/contact-us">Contact Us</a></li>
 
 
