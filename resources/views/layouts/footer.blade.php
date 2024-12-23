@@ -106,12 +106,12 @@
     </div><!-- /.site-footer__upper -->
 
       <!-- Line Separator -->
-    <div class="container" style="max-width: 92%; margin: 20px auto;color:black">
+    <div class="container" style="max-width: 92%; margin: 20px auto;color:black;position: relative;">
         <hr style="border-top:1px solid black">
     </div>
 
     <!-- Copyright Section -->
-    <div class="container" style="max-width: 90%; padding: 10px 0;">
+    <div class="container" style="max-width: 90%; padding: 10px 0;position:relative">
         <p style="text-align: left;font-size: 12px;color: #000000;font-family:Inter;font-weight:400">
             Copyright &copy; 2024 Hummingbird. All rights reserved.
         </p>
