@@ -14,7 +14,7 @@
 
     @push('logo')
     <img class="logo-res desktop-only" src="/assets/images/humming-bird.png" alt="">
-    <img class="logo-res mobile-only" src="/assets/images/logo_mobile.png" alt="">
+    <img class="logo-res mobile-only" src="/assets/images/logo_mobile_black.png" alt="">
 
 @endpush
 

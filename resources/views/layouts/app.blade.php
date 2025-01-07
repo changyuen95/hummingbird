@@ -128,7 +128,7 @@
         <div class="side-menu__block-inner res-sidewidth">
 
             <a href="/" class="side-menu__logo "><img class="logo-res desktop-only logo-margin" src="/assets/images/humming-bird-white.png" alt=""></a>
-            <a href="/" class="side-menu__logo "><img class="logo-res mobile-only logo-margin" src="/assets/images/logo_mobile.png" alt=""></a>
+            <a href="/" class="side-menu__logo "><img class="logo-res mobile-only logo-margin" style="width:fit-content" src="/assets/images/logo_mobile.png" alt=""></a>
 
 
             <div style="display:block">
