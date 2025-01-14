@@ -57,7 +57,7 @@
         </div>
 
         <!-- Second Row: Left Image, Right Text -->
-        <div class="about-us-row">
+        {{-- <div class="about-us-row">
             <div class="about-us-col-left">
                 <img class="about-us-image" src="/assets/images/about-us/map.png" alt="Left Image">
             </div>
@@ -67,7 +67,7 @@
                 <p class="abt-content-word">Kae’s innovative and creative spirit inspires him to combine the discovery of soul-enriching destinations with the art of travel photography.</p>
                 <p class="abt-content-word">Hummingbird is his personal project designed to share his extensive travel knowledge with others. Through Hummingbird, Kae aims to craft unforgettable experiences that go beyond typical trips, blending travel photography with deep cultural insights.</p>
             </div>
-        </div>
+        </div> --}}
         <div>
             <p style="text-align:center;margin-bottom:40px;font-size:32px;line-height:48px" >Travelling with Hummingbird means:</p>
         </div>
