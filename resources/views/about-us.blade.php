@@ -52,9 +52,9 @@
             <img class="about-us-full-width-image" src="/assets/images/about-us/top.png" alt="Full Width Image">
         </div>
 
-        <div class="about-us-row mobile-only">
+        {{-- <div class="about-us-row mobile-only">
             <img class="about-us-full-width-image" src="/assets/images/about-us/top-mobile.png" alt="Full Width Image">
-        </div>
+        </div> --}}
 
         <!-- Second Row: Left Image, Right Text -->
         {{-- <div class="about-us-row">
