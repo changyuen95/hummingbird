@@ -48,9 +48,9 @@
 
     <div class="about-us-container">
         <!-- First Row: Full Width Image -->
-        <div class="about-us-row desktop-only">
+        {{-- <div class="about-us-row desktop-only">
             <img class="about-us-full-width-image" src="/assets/images/about-us/top.png" alt="Full Width Image">
-        </div>
+        </div> --}}
 
         {{-- <div class="about-us-row mobile-only">
             <img class="about-us-full-width-image" src="/assets/images/about-us/top-mobile.png" alt="Full Width Image">
